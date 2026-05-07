@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu (fileName = "NewCharacterInfo", menuName ="CharacterInfo")]
 public class CharacterInfo : ScriptableObject
 {
-    [Header ("General Info")]
+    [Header("General Info")]
+    public int CharacterID;
     public string CharacterName;
     public int CharacterAge;
 

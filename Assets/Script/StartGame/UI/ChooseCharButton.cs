@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ChooseCharButton : MonoBehaviour
@@ -16,8 +17,15 @@ public class ChooseCharButton : MonoBehaviour
     private void SetCharacter()
     {
         CharacterControl.instance.SetCharacterInfo(info);
-        Debug.Log(info.CharacterName);
-        // thực hiện animation cho màu mè
+        SaveSomethingBeforeGame();
+        SceneManager.LoadScene("LoadingScene");
+    }
+
+    private void SaveSomethingBeforeGame()
+    {
+        // Default Conversation 
+        PlayerPrefs.SetInt("0", info.CharacterID);
+        PlayerPrefs.Save();
     }
 
 }

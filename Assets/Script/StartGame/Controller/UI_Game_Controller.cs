@@ -32,6 +32,7 @@ public class UI_Game_Controller : MonoBehaviour
     #region Panel
     public GameObject ChoosePanel;
     public GameObject Circle;
+    public GameObject UITBack;
     #endregion
 
     #endregion
@@ -51,5 +52,16 @@ public class UI_Game_Controller : MonoBehaviour
     {
         Circle.GetComponent<Animator>().SetTrigger("Trans");
     }
+
+    public void ShowUITBack(bool state)
+    {
+        UITBack.SetActive(state);
+    }
+
+    public void UITBackMoveOut()
+    {
+        UITBack.GetComponent<Animator>().SetTrigger("Trans");
+    }
+
     #endregion
 }

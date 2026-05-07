@@ -5,12 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     #region Declare 
-    [Header ("Property")]
-    public float PlayerSpeed;
     [Header("Self Defined")]
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 Direction;
+    private float PlayerSpeed;
     private float lastX, lastY;
     #endregion
 
@@ -19,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        PlayerSpeed = CharacterControl.instance.info.CharacterSpeed;
     }
 
     private void Start()
@@ -41,11 +41,13 @@ public class PlayerMovement : MonoBehaviour
     #region Function
     private void Move()
     {
+        if (StateControl.instance.IsGamePause) return;
         rb.velocity = PlayerSpeed * Direction;  
     }
 
     private void GetDirection()
     {
+        if (StateControl.instance.IsGamePause) return;
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         if (x != 0 || y != 0)
