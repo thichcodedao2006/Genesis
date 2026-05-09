@@ -9,18 +9,18 @@ public class NPCControl : MonoBehaviour, IInteractable
 
     [Header("Self Defined")]
     private bool istyping = false, isDialogActive = false;
-    private int CurrentDialog = 0;
-    private int CurrentDialogIndex = 0;
-    private List<string> InsideCurrentDialog = new List<string>(); 
+    protected int CurrentDialog = 0;
+    protected int CurrentDialogIndex = 0;
+    private List<string> InsideCurrentDialog = new List<string>();
     private List<bool> SentenceCanBeAutoPass = new List<bool>();
     public void Interact() // work as a click function
     {
-        if (DialogContent == null || (StateControl.instance.IsGamePause &&  !isDialogActive) || isDialogActive)
+        if (DialogContent == null || (StateControl.instance.IsGamePause && !isDialogActive) || isDialogActive)
         {
             return;
         }
         StartDialog();
-        
+
     }
 
     public bool CanInteract()
@@ -53,7 +53,7 @@ public class NPCControl : MonoBehaviour, IInteractable
             Debug.Log(SentenceCanBeAutoPass[CurrentDialogIndex]);
             StateControl.instance.IsGamePause = true;
             UI_Outside_Controller.instance.AddClickForButton(0, NextLine);
-            UI_Outside_Controller.instance.AddClickForButton(1, EndDialog);
+            UI_Outside_Controller.instance.AddClickForButton(1, ExitDialog);
             StartCoroutine(TypingContent());
         }
         else
@@ -80,7 +80,7 @@ public class NPCControl : MonoBehaviour, IInteractable
             UI_Outside_Controller.instance.SetDialogText(txt);
             yield return new WaitForSeconds(DialogContent.TypingSpeed);
         }
-        istyping =false;
+        istyping = false;
 
         if (CurrentDialogIndex < SentenceCanBeAutoPass.Count && SentenceCanBeAutoPass[CurrentDialogIndex])
         {
@@ -99,34 +99,39 @@ public class NPCControl : MonoBehaviour, IInteractable
             StopAllCoroutines();
             istyping = false;
             UI_Outside_Controller.instance.SetDialogText(InsideCurrentDialog[CurrentDialogIndex]);
-        } else // ngược lại thì chuyển qua câu tiếp theo
+        } else
         {
             if (++CurrentDialogIndex < InsideCurrentDialog.Count)
             {
                 StartCoroutine(TypingContent());
-            } else
+            }
+            else
             {
                 EndDialog();
             }
         }
     }
 
-    private void EndDialog()
+    public void ExitDialog()
+    {
+        Common();
+    }    
+    public virtual void EndDialog()
+    {
+        Common();
+        CurrentDialog++;
+        CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
+        SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+    }
+
+    public void Common()
     {
         StopAllCoroutines();
         isDialogActive = false;
-        if (DialogContent.NPCid == 0 && CurrentDialog == 0)
-        {
-            CurrentDialog += 2;
-        }
-        else CurrentDialog++;
-        CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
-        SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
         StateControl.instance.IsGamePause = false;
         UI_Outside_Controller.instance.SetDialogText("");
         UI_Outside_Controller.instance.ShowDialogPanel(false);
     }
-
     public void OnMouseDown()
     {
         if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1f)
@@ -141,6 +146,20 @@ public class NPCControl : MonoBehaviour, IInteractable
         }
     }
 
+    public void GiveReward(int id)
+    {
+        Object obj = ObjectDictionary.instance.GetObject(id);
+        if (obj != null)
+        {
+            // Show UI
+            UI_Outside_Controller.instance.ShowReceiveObjectPanel(true);
+            UI_Outside_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
 
+            // Store in inventory system
+            InventorySystem.instance.AddInventory(obj.IDobject);
 
+            // Truyền thẳng ID mới vào UI để vẽ lên ô trống đầu tiên
+            LoadingData.instance.AddNewItemToUI(obj.IDobject);
+        }
+    }
 }

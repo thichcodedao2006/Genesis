@@ -40,4 +40,19 @@ public class SavingSystem : MonoBehaviour
         }
         return -1;
     }
+
+    public void SaveCurrentState(string state, int val)
+    {
+        PlayerPrefs.SetInt(state, val);
+        PlayerPrefs.Save();
+    }
+
+    public int GetCurrentState(string state)
+    {
+        if (PlayerPrefs.HasKey(state))
+        {
+            return PlayerPrefs.GetInt(state);
+        }
+        return -1;
+    }
 }

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: StaffC
+  m_EditorClassIdentifier: 
+  NPCid: 3
+  NPCname: "Ch\xFA b\xE9 t\xEA li\u1EC7t"
+  NPCAva: {fileID: 2111733015, guid: 3d7c181e06b65e84383a0c5fa38a56a0, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "Ch\u1EC9 nh\u1EEFng k\u1EBB \u0111\u1EE7 b\u1EA3n l\u0129nh m\u1EDBi d\xE1m
+      \u0111i \u0111\u01B0\u1EDDng gi\u1EEFa. Ch\u1EC9 c\xF3 nh\u1EEFng chi\u1EBFc
+      ch\xECa kh\xF3a m\u1EDBi m\u1EDF ra nh\u1EEFng c\xE1nh c\u1EEDa c\u1EA7n \u0111\u1EBFn."
+    autoProgress: 00
+  - DialogID: 1
+    SentenceList:
+    - "Em \u0111\xE3 ch\u1EE9ng t\u1ECF b\u1EA3n th\xE2n m\xECnh x\u1EE9ng \u0111\xE1ng."
+    autoProgress: 00
+  TypingSpeed: 0.02
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

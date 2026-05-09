@@ -35,10 +35,29 @@ public class GameOutsideController : MonoBehaviour
     #endregion
     private void Start()
     {
-
+        StateControl.instance.IsGamePause = false;
+        GameObject spawnposition = GameObject.Find(SceneTransitionManager.TargetSpawn);
         GameObject player = Instantiate(CharacterControl.instance.info.CharacterPrefab);
-        player.transform.position = spawnpoint.transform.position;
+        player.transform.position = spawnposition.transform.position;
         followCamera.Follow = player.transform;
     }
 
+    #region Function 
+    public void InventoryClick()
+    {
+        UI_Outside_Controller.instance.ShowInventoryPanel(true);
+        StateControl.instance.IsGamePause = true;
+    }
+
+    public void InventoryClose()
+    {
+        UI_Outside_Controller.instance.ShowInventoryPanel(false);
+        StateControl.instance.IsGamePause = false;
+    }
+
+    public void CloseDetail()
+    {
+        UI_Outside_Controller.instance.ShowDetailPanel(false);
+    }
+    #endregion
 }
