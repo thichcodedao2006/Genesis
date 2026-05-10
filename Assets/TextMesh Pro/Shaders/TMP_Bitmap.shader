@@ -54,6 +54,7 @@ SubShader{
 
 
 		#include "UnityCG.cginc"
+		#include "UnityUI.cginc"
 
 		struct appdata_t {
 			float4 vertex		: POSITION;
@@ -100,6 +101,10 @@ SubShader{
 
 			float4 vPosition = UnityPixelSnap(UnityObjectToClipPos(vert));
 
+            if (_UIVertexColorAlwaysGammaSpace && !IsGammaSpace())
+            {
+                v.color.rgb = UIGammaToLinear(v.color.rgb);
+            }
 			fixed4 faceColor = v.color;
 			faceColor *= _FaceColor;
 

@@ -25,6 +25,7 @@ public class HorizontalPhone : MonoBehaviour
         {
             instance = this;
         }
+
     }
 
     public void ShowFragmentCode()

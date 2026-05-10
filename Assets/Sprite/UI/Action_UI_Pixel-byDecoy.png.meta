@@ -1,0 +1,2815 @@
+fileFormatVersion: 2
+guid: 99a4122376edc7040acc4bb98fd424b7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 844
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fec6d6792c31f449a7142efa5283624
+      internalID: 1760406942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 845
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13302adafe10e8479f7463de25b52e6
+      internalID: 1624609597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 844
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdd8de0c2937454cbb8948f1131a366
+      internalID: -679723484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 796
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bd17c14ca703949ac15379bdc00a9f
+      internalID: -97787499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 796
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd178c3012feabd4ca1af0569dc3469c
+      internalID: 167679640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 796
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8145ed33dcc040b44bb39e90b2f5059e
+      internalID: 199473450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 822
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172877eb2dc078649b7593f2feab0be5
+      internalID: 1135232701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 822
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c514eac1c42b444086b8635fa53091a
+      internalID: -91787778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 822
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bf77932cf02df4baef3f457c41dad8
+      internalID: 1865473080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 822
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc5e8bbec304c343a1b174cc8edfb2f
+      internalID: 1634680104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 833
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4972172890b4b6c4bb097c0388433434
+      internalID: 1302516834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 816
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9f379c5b61690428b783870984b327
+      internalID: -1924869694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 795
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f836ede7420a1f64da3bf307eb8db564
+      internalID: 1019012384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 812
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838fd238ef2184a49a28be1f2b10e621
+      internalID: 1747854249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 813
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bec9a07430537747bc733bdacda8ac5
+      internalID: 1335929093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 812
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae91375eca676b4c8171c075a33b85b
+      internalID: 2027587865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 797
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ef8d89170bbc445beb9f5223ea64c3
+      internalID: 66662688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 797
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5470795567e141b5b0360116578ec
+      internalID: 1403284388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_18
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 797
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449b5a482128f704a978d90d041de632
+      internalID: -324918940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_19
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 797
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a54aa4b1d6df4091a1d538ddeffb2
+      internalID: -602928840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 781
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93458c4a89634e445814ea523aef5daa
+      internalID: 1787935375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_21
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 808
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2961701b541e04c44b74201451995541
+      internalID: 1416350206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 748
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d761b3b1c2024aaccc73425a3ffea
+      internalID: 1044246932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 780
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de03345eeaec0824e97c497101838e61
+      internalID: 1667961137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 749
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a0ef8cb1fdeba4a9b848acf7d79d56
+      internalID: 1590043523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 781
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3751ba2fdcab640a7cb16259f09971
+      internalID: 1854729796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 748
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227c613e2fb73ec45ad0512989996336
+      internalID: 1664385969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 780
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba818af3137a1904bb76d24d3f0c42f6
+      internalID: -1573872278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_28
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 718
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035fe6a6927fbc74a84880f2592739fd
+      internalID: -1830902442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_29
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 718
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a36779bd6b13844b6e61504fa68b88
+      internalID: 1110478033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_30
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 718
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa5e4cceecaa4747b0153464d663068
+      internalID: 379050749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 772
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0a1ac40f57b99469031e76847fbf0b
+      internalID: 1079006103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_32
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 772
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2f37964a82dc4fae9ccaa496b768f
+      internalID: -1916776585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_33
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 772
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ae5ecb994774941af89cfebd23ca98
+      internalID: -373144855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 772
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcf6c41fd236e345b2b42e5d4513230
+      internalID: 98132054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_35
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 744
+        width: 156
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cf39b6f4a69484c8991794ba30ce2e
+      internalID: -1928542567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_36
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 766
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73230bf40a98a4eb0319261e46fd08
+      internalID: -176719169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_37
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 766
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e54c518a19e674d8afcd75624231ad
+      internalID: -920895285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 715
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244b2a02b32de6442a4afb936e55c459
+      internalID: -966543643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 716
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d401d28cc517e4baca42cb1f08fba8
+      internalID: 322381522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 716
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664b2272e0d69864991bf23d8d07e5a7
+      internalID: -1298150979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 684
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2a397b0679d60409b3717890013c29
+      internalID: 226465018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 684
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b04692177e7f5847ad344dd3bb82f44
+      internalID: -1743162919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 684
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e62801c90a45f4f9f0f69a46c4290e
+      internalID: 871174181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 684
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38679edf9bb71564eb441a2409f65637
+      internalID: -864390200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 684
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31b67ac5eff20c44b61fe5256b1f132
+      internalID: 205165448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 684
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9322764d53dd05f40a07b2fe9ff83d1c
+      internalID: 1158274057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 684
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f8baccbdbb8614db1ceb82d6d1a70b
+      internalID: -621503513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_48
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 682
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93df2966a83561d43b9ee1eebecf0535
+      internalID: -1665129157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 681
+        width: 4
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493663d4b672b74abaf7d3bf66f6cb1
+      internalID: -945097820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_50
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 682
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112785d7caab78a4ba35231c2fd51dfb
+      internalID: -1320929300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 681
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c1380cb4deadc4b99f11a8d83318f2
+      internalID: 1043969580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 641
+        width: 219
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8678c4727aeb24daa784a2a68b560d
+      internalID: 1377651308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 556
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8595f67b1bf3246854cb3013e70304
+      internalID: -1801159726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_54
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 556
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ce10709fd8cf84e90046ca6950ae74
+      internalID: -407464516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 556
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817a6eeb961c257459137ca5fcd43a5f
+      internalID: 1308059303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_56
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 620
+        width: 184
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27795336a27dbb248b58e3941d410809
+      internalID: -1453650903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_57
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 604
+        width: 184
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725ad4b4734fb224d94d806c649faf42
+      internalID: -200862837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 560
+        width: 221
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37e63fcfdc206b48864c38adede10f6
+      internalID: 691477726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ea2c3f3a8a9fa4f936d0e11ccad81e
+      internalID: -411194216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_60
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 419
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ada08eb50437947a4cb484340e9f1f
+      internalID: -1188412472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 380
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1ad8940be1d0841862e6f61da356f1
+      internalID: -1356555720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 381
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e360aed74f5aa946a6c0177655ce55a
+      internalID: 491979393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 380
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f71b45e4d88cf0449728bdbfdc07266
+      internalID: -1362984686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 380
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e99a98679509f498f41d6a1a6081bf
+      internalID: 399847675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_65
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 381
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419f6afdec80f84abcdc5c10e496370
+      internalID: 725874809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 380
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0cbf024f0bf7948a07e59a534235cb
+      internalID: 1330211402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 380
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132dde8cd08faf947a80ae2bbc0042f2
+      internalID: 2075851744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_68
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 381
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487b97d4dd20a8247991e083d47baaa5
+      internalID: -448086249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 380
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b29865475699b74c86d5f2e71a094c9
+      internalID: -1212440103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 348
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8293fe87313a3354ba6dd68631bbea9d
+      internalID: -802972169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 349
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48d195da591a67468c20bfc5ed4cc8c
+      internalID: 479344194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 348
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4de068760d8a64bbea7db23a4f85cd
+      internalID: 1935549698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d32147e9a04e64082b709e8ec0a2ac
+      internalID: 1826538597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 349
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa542129f6e3a4f81dc75fd7cb4995
+      internalID: -1906122251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_75
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 348
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace7512d615bb2449cfea67a520ea73
+      internalID: -1919054562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_76
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 348
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08504a8983ecb554db39993499eddb73
+      internalID: -1051889992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_77
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 349
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf2243a177cd0647a7bc89bf60832a6
+      internalID: -410341990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_78
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 348
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf60c2326d5e9043b9ffbd506e55216
+      internalID: 1047604262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 316
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb8c8ffef8fec48b1921f48d0233e1
+      internalID: 49269098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 317
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d48137c61af7545a871a886b011fbb
+      internalID: -1894689515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14430d4d742ae2b44b52d46c89b7f380
+      internalID: 2116036774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 316
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387842395ccc9154cbb6943ae4f8f789
+      internalID: -866226880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 317
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd7090cb736a34ebe141b876690f29
+      internalID: 687648682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_84
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 316
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7e92706749eb84391ffe1a23483e42
+      internalID: 1765508510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 316
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7f501f0690ae1449bf3c59c0c1e281
+      internalID: 713881329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_86
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 317
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2210b98ee80d5c4896b498603b5abce
+      internalID: 1007936225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_87
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 316
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839e9768dac52cb4e90572f075aca581
+      internalID: -906622732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 284
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6942ecab082bd6a41b61c0c46c5aa163
+      internalID: -365086067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 285
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8467d5f13be26040a3d45f5e029a95a
+      internalID: 612355269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 284
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e883251d1b6e27f40b7804cf2ed5abce
+      internalID: 308667789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 284
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185f58408266aba45b1b75c1bd6190a9
+      internalID: 1210677023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 285
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd61eab846d05dc43b191a6e3d8c34d7
+      internalID: 1698115275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_93
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 284
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fad231243296f4eb3834035d4a6ee6
+      internalID: -74355837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_94
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 284
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0378702b769d7db4795f98affc1bd934
+      internalID: 854630083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_95
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 285
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df39a8adb169ba04faa4879f805b1914
+      internalID: -276722183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_96
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 284
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f610293f993b3f418c169185ab25b06
+      internalID: 1014186852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 251
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2a0b901dd8974d9091fe251e170e4
+      internalID: 1493650504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d68cd6d0dd23747859bd50cb96f93e
+      internalID: 1496039007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 252
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c191d0d3d337c446a7b550849ccf992
+      internalID: 990090164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 251
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fca52329e515444d97fed3523c689b9
+      internalID: 1975574282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_101
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c79efd7987b8f84ca63ab89e009a0cd
+      internalID: -638160053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 252
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d163d4d63893fc468e3d30a8e74c142
+      internalID: -68506255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 251
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabe78097661481459a3eba38e6e0e54
+      internalID: -1194476768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_104
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 252
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b6eaef017fcb2409593a959fe24898
+      internalID: 1618022547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 252
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a54f3568e2ecb41aaeb436073c193a
+      internalID: 455913604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 220
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa383cbb7c2134b82d40916cdf0cd7
+      internalID: -1688161760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_107
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 220
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df3d51a9d9a6904c8cea75a480fdd1c
+      internalID: 313102236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46bd85810754c4488a657f92c06edf1
+      internalID: 1259797156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62056ac89d060604bbf252a8e404dc2f
+      internalID: 763014270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f86486072855b43b4667a74af85d46
+      internalID: 1291488673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_111
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 220
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12220e0040767b941bac274aa9e8435b
+      internalID: 1489913934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_112
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 220
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e2a3da50ba2c24caa87e964fad805b
+      internalID: 1206336214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_113
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 220
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a4c72e9caa8134a81e059d06e7255d
+      internalID: 881465842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_114
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 220
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b073b5201e8804f9b39ae7bf1252ee
+      internalID: -228058038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_115
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 141
+        width: 240
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e46a2f11c05384aa224ca028290e84
+      internalID: 815174407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_116
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195260d4f40a0a84ab133a124e2cafea
+      internalID: -1436292492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_117
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a2988c39553a045947db810029825b
+      internalID: 1788754964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_118
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658891111e7045549b37dc0b827f1bbf
+      internalID: -730919894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_119
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca64b8c59a8014409f350955d762d42
+      internalID: -1099612674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Action_UI_Pixel-byDecoy_120
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 100
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad37cdaaf9b5dc4f9cb428d9e735783
+      internalID: 652768220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Action_UI_Pixel-byDecoy_0: 1760406942
+      Action_UI_Pixel-byDecoy_1: 1624609597
+      Action_UI_Pixel-byDecoy_10: 1302516834
+      Action_UI_Pixel-byDecoy_100: 1975574282
+      Action_UI_Pixel-byDecoy_101: -638160053
+      Action_UI_Pixel-byDecoy_102: -68506255
+      Action_UI_Pixel-byDecoy_103: -1194476768
+      Action_UI_Pixel-byDecoy_104: 1618022547
+      Action_UI_Pixel-byDecoy_105: 455913604
+      Action_UI_Pixel-byDecoy_106: -1688161760
+      Action_UI_Pixel-byDecoy_107: 313102236
+      Action_UI_Pixel-byDecoy_108: 1259797156
+      Action_UI_Pixel-byDecoy_109: 763014270
+      Action_UI_Pixel-byDecoy_11: -1924869694
+      Action_UI_Pixel-byDecoy_110: 1291488673
+      Action_UI_Pixel-byDecoy_111: 1489913934
+      Action_UI_Pixel-byDecoy_112: 1206336214
+      Action_UI_Pixel-byDecoy_113: 881465842
+      Action_UI_Pixel-byDecoy_114: -228058038
+      Action_UI_Pixel-byDecoy_115: 815174407
+      Action_UI_Pixel-byDecoy_116: -1436292492
+      Action_UI_Pixel-byDecoy_117: 1788754964
+      Action_UI_Pixel-byDecoy_118: -730919894
+      Action_UI_Pixel-byDecoy_119: -1099612674
+      Action_UI_Pixel-byDecoy_12: 1019012384
+      Action_UI_Pixel-byDecoy_120: 652768220
+      Action_UI_Pixel-byDecoy_13: 1747854249
+      Action_UI_Pixel-byDecoy_14: 1335929093
+      Action_UI_Pixel-byDecoy_15: 2027587865
+      Action_UI_Pixel-byDecoy_16: 66662688
+      Action_UI_Pixel-byDecoy_17: 1403284388
+      Action_UI_Pixel-byDecoy_18: -324918940
+      Action_UI_Pixel-byDecoy_19: -602928840
+      Action_UI_Pixel-byDecoy_2: -679723484
+      Action_UI_Pixel-byDecoy_20: 1787935375
+      Action_UI_Pixel-byDecoy_21: 1416350206
+      Action_UI_Pixel-byDecoy_22: 1044246932
+      Action_UI_Pixel-byDecoy_23: 1667961137
+      Action_UI_Pixel-byDecoy_24: 1590043523
+      Action_UI_Pixel-byDecoy_25: 1854729796
+      Action_UI_Pixel-byDecoy_26: 1664385969
+      Action_UI_Pixel-byDecoy_27: -1573872278
+      Action_UI_Pixel-byDecoy_28: -1830902442
+      Action_UI_Pixel-byDecoy_29: 1110478033
+      Action_UI_Pixel-byDecoy_3: -97787499
+      Action_UI_Pixel-byDecoy_30: 379050749
+      Action_UI_Pixel-byDecoy_31: 1079006103
+      Action_UI_Pixel-byDecoy_32: -1916776585
+      Action_UI_Pixel-byDecoy_33: -373144855
+      Action_UI_Pixel-byDecoy_34: 98132054
+      Action_UI_Pixel-byDecoy_35: -1928542567
+      Action_UI_Pixel-byDecoy_36: -176719169
+      Action_UI_Pixel-byDecoy_37: -920895285
+      Action_UI_Pixel-byDecoy_38: -966543643
+      Action_UI_Pixel-byDecoy_39: 322381522
+      Action_UI_Pixel-byDecoy_4: 167679640
+      Action_UI_Pixel-byDecoy_40: -1298150979
+      Action_UI_Pixel-byDecoy_41: 226465018
+      Action_UI_Pixel-byDecoy_42: -1743162919
+      Action_UI_Pixel-byDecoy_43: 871174181
+      Action_UI_Pixel-byDecoy_44: -864390200
+      Action_UI_Pixel-byDecoy_45: 205165448
+      Action_UI_Pixel-byDecoy_46: 1158274057
+      Action_UI_Pixel-byDecoy_47: -621503513
+      Action_UI_Pixel-byDecoy_48: -1665129157
+      Action_UI_Pixel-byDecoy_49: -945097820
+      Action_UI_Pixel-byDecoy_5: 199473450
+      Action_UI_Pixel-byDecoy_50: -1320929300
+      Action_UI_Pixel-byDecoy_51: 1043969580
+      Action_UI_Pixel-byDecoy_52: 1377651308
+      Action_UI_Pixel-byDecoy_53: -1801159726
+      Action_UI_Pixel-byDecoy_54: -407464516
+      Action_UI_Pixel-byDecoy_55: 1308059303
+      Action_UI_Pixel-byDecoy_56: -1453650903
+      Action_UI_Pixel-byDecoy_57: -200862837
+      Action_UI_Pixel-byDecoy_58: 691477726
+      Action_UI_Pixel-byDecoy_59: -411194216
+      Action_UI_Pixel-byDecoy_6: 1135232701
+      Action_UI_Pixel-byDecoy_60: -1188412472
+      Action_UI_Pixel-byDecoy_61: -1356555720
+      Action_UI_Pixel-byDecoy_62: 491979393
+      Action_UI_Pixel-byDecoy_63: -1362984686
+      Action_UI_Pixel-byDecoy_64: 399847675
+      Action_UI_Pixel-byDecoy_65: 725874809
+      Action_UI_Pixel-byDecoy_66: 1330211402
+      Action_UI_Pixel-byDecoy_67: 2075851744
+      Action_UI_Pixel-byDecoy_68: -448086249
+      Action_UI_Pixel-byDecoy_69: -1212440103
+      Action_UI_Pixel-byDecoy_7: -91787778
+      Action_UI_Pixel-byDecoy_70: -802972169
+      Action_UI_Pixel-byDecoy_71: 479344194
+      Action_UI_Pixel-byDecoy_72: 1935549698
+      Action_UI_Pixel-byDecoy_73: 1826538597
+      Action_UI_Pixel-byDecoy_74: -1906122251
+      Action_UI_Pixel-byDecoy_75: -1919054562
+      Action_UI_Pixel-byDecoy_76: -1051889992
+      Action_UI_Pixel-byDecoy_77: -410341990
+      Action_UI_Pixel-byDecoy_78: 1047604262
+      Action_UI_Pixel-byDecoy_79: 49269098
+      Action_UI_Pixel-byDecoy_8: 1865473080
+      Action_UI_Pixel-byDecoy_80: -1894689515
+      Action_UI_Pixel-byDecoy_81: 2116036774
+      Action_UI_Pixel-byDecoy_82: -866226880
+      Action_UI_Pixel-byDecoy_83: 687648682
+      Action_UI_Pixel-byDecoy_84: 1765508510
+      Action_UI_Pixel-byDecoy_85: 713881329
+      Action_UI_Pixel-byDecoy_86: 1007936225
+      Action_UI_Pixel-byDecoy_87: -906622732
+      Action_UI_Pixel-byDecoy_88: -365086067
+      Action_UI_Pixel-byDecoy_89: 612355269
+      Action_UI_Pixel-byDecoy_9: 1634680104
+      Action_UI_Pixel-byDecoy_90: 308667789
+      Action_UI_Pixel-byDecoy_91: 1210677023
+      Action_UI_Pixel-byDecoy_92: 1698115275
+      Action_UI_Pixel-byDecoy_93: -74355837
+      Action_UI_Pixel-byDecoy_94: 854630083
+      Action_UI_Pixel-byDecoy_95: -276722183
+      Action_UI_Pixel-byDecoy_96: 1014186852
+      Action_UI_Pixel-byDecoy_97: 1493650504
+      Action_UI_Pixel-byDecoy_98: 1496039007
+      Action_UI_Pixel-byDecoy_99: 990090164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

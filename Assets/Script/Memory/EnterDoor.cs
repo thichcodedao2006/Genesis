@@ -8,10 +8,9 @@ public class EnterDoor : MonoBehaviour
 
     [SerializeField] GameObject newPosition;
     [SerializeField] PolygonCollider2D newConfiner;
-    [SerializeField] CinemachineConfiner2D cinemachineConfiner; 
-
-
-
+    [SerializeField] CinemachineConfiner2D cinemachineConfiner;
+    [SerializeField] bool isEntering = true;
+    [SerializeField] string enteringText;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -26,6 +25,9 @@ public class EnterDoor : MonoBehaviour
     private IEnumerator Teleport(GameObject player) 
     {
         player.transform.position = newPosition.transform.position;
-        yield return null;  
+        yield return E_Hall_Controller.Instance.StartCoroutine(
+                 E_Hall_Controller.Instance.Announce(enteringText)
+         );
+
     }
 }
