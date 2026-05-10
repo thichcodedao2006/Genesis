@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,7 +24,9 @@ public class LogicGateGameController : MonoBehaviour
     [SerializeField] private GameObject gamePanel;
     [SerializeField] TypeWriterTMP title;
     [SerializeField] TypeWriterTMP description;
-    public LogicGateGameController Instance
+
+    public bool canPlay = false;    
+    static public LogicGateGameController Instance
     {
         get { return instance; }
     }
@@ -53,8 +55,8 @@ public class LogicGateGameController : MonoBehaviour
         {
             game.onWin += () =>
             {
-                title.ShowText("Congratulations!");
-                description.ShowText("You have completed the Logic Gate Game!");
+                title.ShowText("Chúc mừng!");
+                description.ShowText("Bạn đã hoàn thành thử thách");
             };
 
         }
@@ -83,6 +85,7 @@ public class LogicGateGameController : MonoBehaviour
     // Attach to    Advanced button 
     public void openLogicGateGame()
     {
+        if (!canPlay) return;
         SetActiveCircuit(CircuitType.LogicGateGame, true);
         var game = circuitList[(int)CircuitType.LogicGateGame].gameObject.GetComponent<AdvanceLogicGame>();
         if (game != null && !game.getWin())

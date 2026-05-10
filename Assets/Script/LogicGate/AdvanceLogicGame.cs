@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AdvanceLogicGame : MonoBehaviour
+public class    AdvanceLogicGame : MonoBehaviour
 {
 
     public string title;

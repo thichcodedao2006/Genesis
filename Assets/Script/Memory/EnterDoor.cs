@@ -1,4 +1,4 @@
-using Cinemachine;
+﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,20 +14,24 @@ public class EnterDoor : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {
-           StartCoroutine(Teleport(collision.gameObject));
-            var confiner = cinemachineConfiner;
-            confiner.m_BoundingShape2D = newConfiner;
-            confiner.InvalidateCache();
-        }
+            StartCoroutine(Teleport(collision.gameObject));
     }
 
-    private IEnumerator Teleport(GameObject player) 
+    private IEnumerator Teleport(GameObject player)
     {
         player.transform.position = newPosition.transform.position;
-        yield return E_Hall_Controller.Instance.StartCoroutine(
-                 E_Hall_Controller.Instance.Announce(enteringText)
-         );
 
+        if (cinemachineConfiner != null)
+        {
+            cinemachineConfiner.m_BoundingShape2D = newConfiner;
+            cinemachineConfiner.InvalidateCache();
+        }
+
+        if (E_Hall_Controller.Instance != null && !string.IsNullOrEmpty(enteringText))
+            yield return E_Hall_Controller.Instance.StartCoroutine(
+                E_Hall_Controller.Instance.Announce(enteringText)
+            );
+        else
+            yield return null;
     }
 }
