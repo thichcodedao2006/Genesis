@@ -32,18 +32,41 @@ public class UI_Outside_Controller : MonoBehaviour
     [Header("Text")]
     public TextMeshProUGUI DialogText;
     public TextMeshProUGUI DialogName;
+    public TextMeshProUGUI ObjectName;
+    public TextMeshProUGUI ObjectDescription;
+    public TextMeshProUGUI ReceiveObjectContent;
 
     [Header("Panel")]
     public GameObject DialogPanel;
+    public GameObject InventoryPanel;
+    public GameObject DetailPanel;
 
     [Header("Image")]
     public Image DialogAvatar;
+    public Image ObjectAvatar;
+    public Image ReceiveObject;
+    public Image DetailImage;
 
     [Header("Button")]
     public Button NextButton;
     public Button ExitButton;
+    public Button DetailButton;
+
+    [Header("Other")]
+    private Object currentObj;
     #endregion
 
+
+
+    private void OnEnable()
+    {
+        ChooseObject.ClickButton += ShowDataObject;
+    }
+
+    private void OnDisable()
+    {
+        ChooseObject.ClickButton -= ShowDataObject;
+    }
     public void SetDialogText(string txt)
     {
         DialogText.text = txt;
@@ -82,5 +105,56 @@ public class UI_Outside_Controller : MonoBehaviour
             ExitButton.onClick.AddListener(Function);
         } 
             
+    }
+
+    public void ShowInventoryPanel(bool state)
+    {
+        ResetObjectPanel();
+        InventoryPanel.SetActive(state);
+        StateControl.instance.IsGamePause = state;
+    }
+
+    public void ShowDataObject(Object obj)
+    {
+        currentObj = obj;
+        ObjectName.text = obj.NameObject;
+        ObjectDescription.text = obj.ObjectDescription;
+        ObjectAvatar.sprite = obj.ObjectAva;
+        ObjectAvatar.gameObject.SetActive(true);
+        DetailButton.gameObject.SetActive(obj.HaveDetail);
+        DetailButton.onClick.RemoveAllListeners();
+        DetailButton.onClick.AddListener(ClickDetail);
+    }
+
+    public void ShowDetailPanel(bool state)
+    {
+        DetailPanel.SetActive(state);
+    }
+
+
+
+
+    public void ClickDetail()
+    {
+        ShowDetailPanel(true);
+        DetailImage.sprite = currentObj.DetailImage;
+        
+    }
+    public void ResetObjectPanel()
+    {
+        ObjectName.text = "";
+        ObjectDescription.text = "";
+        ObjectAvatar.gameObject.SetActive(false);
+        DetailButton.gameObject.SetActive(false);
+    }
+
+    public void SetReceiveObject(string txt)
+    {
+        ReceiveObjectContent.text = txt;
+    }    
+
+    public void ShowReceiveObjectPanel(bool state)
+    {
+        ReceiveObject.gameObject.SetActive(state);
     }
 }

@@ -1,0 +1,7897 @@
+fileFormatVersion: 2
+guid: a63776ef75fab9247af06b7ba876054d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Librarian_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3392
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44b3ffaddc193d44a17ed0b80aff66c
+      internalID: 349655559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3392
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64084beeeb316174d99ddd5ed22a250a
+      internalID: -1177804380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3392
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102977568d14f8f4a97bb38975ba7cfd
+      internalID: -1906576104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 3392
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403560e93ba529c4bb7d31a3b5a9d370
+      internalID: 1835622459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3392
+        width: 50
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79cd565922d475409dcb2571b345917
+      internalID: -945656526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3392
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dede3cb575312d54cae13506ed7d7e64
+      internalID: -1647495108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3392
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01efab4cc6e84148bd424d9ba910ba8
+      internalID: -490812835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3328
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4d33bce3f45048bedd8b1c1d3707e
+      internalID: 2126096248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3328
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6c6a27dfeeaa541b921bdc614c26a6
+      internalID: -920736156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3328
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526f25754c040f4883d0c427fde0fee
+      internalID: -155298318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3328
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92031d6aa9a6178499efe7eea951acee
+      internalID: 626431368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3328
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3614062597db744bbb786bd57708f6
+      internalID: -541393674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3328
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b72eb46ccec94db630956b9d537da
+      internalID: -1757783218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3328
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d8e1984b821a04688d95e9dd9b4079
+      internalID: -686996057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3264
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ec4e243ee8e849abde92efe193030
+      internalID: 1206894748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3264
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb32ca1109af554b8c2d77f9f2cf1d8
+      internalID: -155595820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3264
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7fa47fb1c5ffd4487dc965b685d973
+      internalID: 1979645169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 3264
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbc8ad70a2288748a12a54aced8d93e
+      internalID: 839071900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3264
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6254af1e982d88440aa20fa02c5056a2
+      internalID: 1681877533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3264
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db96740a2faca841b012b8e174be9ca
+      internalID: 791921859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3264
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606af4df067ce6241b3015d7e088a8dd
+      internalID: 33980981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3200
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae279da9129ef324fbe1cc2384d653a1
+      internalID: 1106190000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3200
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a444878e6aab59f44b07f905f7264cba
+      internalID: 557195615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3200
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd635b5a94f213419da98ff36c34918
+      internalID: 1664204479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3200
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177a6ba44dbf3944cafee830cb6d59f1
+      internalID: -202374759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3200
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f21b9feede10e4cb76f9e0106dffab
+      internalID: -558800436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3200
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e193fc430dda68b4a9217781bcc7a46e
+      internalID: 989620287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3200
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc86f1e2ee7ccb43b7ff938dd1b04c4
+      internalID: -1536252476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3136
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb11ba0ca372d641976790c85103c4f
+      internalID: -2134725373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3136
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34eee5060fdecc4ea9da25d011c06e5
+      internalID: -82767572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3136
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb427d3d79fb947b661b80ca7fd2be
+      internalID: -2038026039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3136
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2896605a6f110cf4383b3bf600dc52cd
+      internalID: 549444979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3136
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27523a6b759399f4aa71d09c96be0f6b
+      internalID: 1650370654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3136
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44074e6dfac7da144ac767e3c5a28322
+      internalID: 1487497507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3136
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40a04dc540fa1549b83e07b6c288950
+      internalID: -1523390963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3136
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5727e1b231af1c141aca3bfc32dcfe81
+      internalID: -892814276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3072
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5341d097bc1e4c4da402c5b21f68b40
+      internalID: -584349577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3072
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd24f12e9f08b084ea48f2537e9c5864
+      internalID: 1050215527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3072
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f8f3f981ee1cf4dab01969e3c2da4e
+      internalID: -144079088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3072
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3beb6c4151d408468053efb4f845112
+      internalID: -176894664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3072
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d20b9a568caaa49b1f61c4669c4545
+      internalID: 1075152715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3072
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddef309dff38bd64b998133d18eb1f08
+      internalID: 1963950096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3072
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891cf8071fe790a4a87815bbadb17487
+      internalID: -1756537879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3072
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38937b5278c23a948b6ae82351d190d2
+      internalID: 120314029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3008
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdc66bbd46c43a4292aea4e4a6b2d43
+      internalID: -1728497710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3008
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24d3015d5c6da429ad6ad7b97c4cc6
+      internalID: -54902164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3008
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e430d8a3733b2514d808e3ff5a1f4ceb
+      internalID: -768535195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3009
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2b640dbd66b7c43a0ea6febd56d169
+      internalID: -518314432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3009
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90d69aefdf654b4499cfeaa84f2c8b7
+      internalID: -521898475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3008
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1189038151fdd4cba8a44e7b7ccdef
+      internalID: -1759645046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3009
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d9be34073ed7d409fff4afeeafb088
+      internalID: 848944429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 3009
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7ffb10eff85454cbd41e8dfaab8554
+      internalID: -788077807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2944
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff36ba7b5d24054387db0bac8ced629
+      internalID: 1246444528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2944
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbde85472a4a47a4da46fd00c6c4483b
+      internalID: 16275014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2944
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c08ec9ac4b57745893f7e369367601
+      internalID: 1830886434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2944
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3637eb8144248484d986dcca8cfc745b
+      internalID: 868375674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2944
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0797499f9c8ebe0438b84498247a8d88
+      internalID: 954011564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2944
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcdf799614d9a842a08066311c83d9a
+      internalID: -1370735589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2944
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56d63348582ba44901acd102730d2e
+      internalID: -2002601046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2944
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a447d7e97cbf146abae2ead7847e1a
+      internalID: 2072497117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019701168ba10d46b10fca423c4da99
+      internalID: 1811248658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028f685efdba3ef46bcee0d8d26255c6
+      internalID: -1753763028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7125f8e2cc2bec44387d5595e4066611
+      internalID: -773015658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2880
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ead34e3cf1d00c4e9992575cb940400
+      internalID: -958731166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb27cc13ea8c70409f462808b080a5f
+      internalID: -984716107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1023891608f474487572caf7a0c81d
+      internalID: 1989689317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f23151038e41b145802ea4794b9fb50
+      internalID: 1086959654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2880
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b5220150795d54bb96b8286951564b
+      internalID: -1777326876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2880
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ec2593956d9a4a99dbd4f8ef4451b
+      internalID: 2053544366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2816
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c6ae7f8c6f62842b728c2d3122e800
+      internalID: -258383172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2816
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc595d5cb4357b419a86967a97e1868
+      internalID: 720044741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2816
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e64a85c41ad2f44948ff3daaae4a2a
+      internalID: 1288145865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2816
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8743e43cf7e5e46b6b4773d858d51f
+      internalID: 1475118876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2816
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeef4516362fb94782ed6604500978f
+      internalID: 556714453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2816
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c24c2485982c844b76ed665d12fb79
+      internalID: -392165429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2816
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29232f9d0250aa7468e8e6751f22a4a0
+      internalID: -1319814011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2816
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c73bca9aa47664fb23eea292e48dce
+      internalID: 835536772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2816
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb82d38b0ab94654ebb799f34fcc5223
+      internalID: 2146357629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f6f3a238f6f7b4cb7429bbc1da6bd4
+      internalID: -168378876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d08ffaa216730439ead637994b62e2
+      internalID: -1005100395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394e1cc1d13d72479489625bf6072bb
+      internalID: 408325174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2752
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc449e17261bfe4cb8e25e5056bee58
+      internalID: -1106256440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e87ff3e1a7eab4c9d2d3be98c94419
+      internalID: -1557705523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5989b960aac52c643a96159d68b58584
+      internalID: 202776618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b1291b3c84d3f4ca470fdc36460820
+      internalID: -51579693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2752
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d529a15bb35b46a928a2e14d135a1
+      internalID: -786718451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2752
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b07abeda3dabd6488971d215cf48e3a
+      internalID: -1686295564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2688
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa9a27df0bf18468d28e050d131cf7
+      internalID: -187598199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2688
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97251c5e42a699a47b434bd3f67d8628
+      internalID: 1281393693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2688
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c0efd0123ef1840b72c01176a591a2
+      internalID: -1083717604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2688
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc886d4271982564e9e789e8db16b653
+      internalID: -1683269467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2688
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c820cd6c47efe14a925695566273aae
+      internalID: 1103528616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2688
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883aa09a0d0784442b2f5221e165e6d3
+      internalID: -1022754948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2688
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7154d6bf1594ef7469c5d3e15abee3e8
+      internalID: -752800655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2688
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec311ef772e2d4a8f23db9818c930f
+      internalID: 1618745538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2688
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7fddd950f0304fb976d6d815f15fe
+      internalID: 1601381057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2624
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf570f3bd340a149a558605d9b20915
+      internalID: -1909586108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2624
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eba5baf589c2147b9322c797e78a19
+      internalID: -269925170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2624
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aafd843eec7614d80f2ecb80780565
+      internalID: -1421355769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2624
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b43ea69f15d9984dae0dd992ac192ff
+      internalID: 1388005961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2624
+        width: 37
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e116bfbff567b342b18a974470b42bd
+      internalID: 751512484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2624
+        width: 41
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7745716e33356f458ed8e0242ceef33
+      internalID: -1590007939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2560
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a3514bef199c488f1436e0e63a7c0
+      internalID: 2014317194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2560
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c29e41fd5dac0e4f88dc74d31facde0
+      internalID: -1617861420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2560
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e715d91f99182b940aac299c9d075819
+      internalID: 662381038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2560
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f38998c76df46d41ac801d00cd92a89
+      internalID: 1792019412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2560
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55cb09e2314be43bd6a2378ddab330
+      internalID: -1422894204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2560
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bf3da46ed68f34c96a6a2aafcec521
+      internalID: 109688970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2496
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba591e73daa10948af173ced947197f
+      internalID: 1379540642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2496
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7f0682632bb8d44948a70ddcafb5a9
+      internalID: -1230934679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2496
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9bd97414ac474982d7088eb2cbcd0
+      internalID: 881958565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2496
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07823c062edd9ec45b011512b3415797
+      internalID: 2080339368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_112
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2496
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aabed2ee3cb054b888b9062396e8b4
+      internalID: 767006968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2496
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ee7fe420c474409869b97b5f63e6e
+      internalID: 367366593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2432
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5764061d5245084faca176e11cd4544
+      internalID: 989279200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2432
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a6a63727b0a649beb5533419fa786
+      internalID: -1023477675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_116
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2432
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f130f2847c2a40856d58086ee097e
+      internalID: -1679957943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2432
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf5a51881a2c9041a0e9c734549f0e7
+      internalID: -616538910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2432
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22887bdb649fbf14db92a23e37afaec0
+      internalID: -1168826546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2432
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ce3a5c38fe28c41b0115ea41971a80
+      internalID: -98991002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2368
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f633df67c9b21ae4da816c75d1a9af3d
+      internalID: 37562139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2368
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1594e8406dd7b3e4da30872581bb3df9
+      internalID: 1817573730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2368
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e7537cd78d06744b4e010386fc249b
+      internalID: 735589069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2368
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b6d446bef870d4ab9a87a95d439907
+      internalID: -724905398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_124
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2368
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077b7519e9a98749936f21e6d7f57ca
+      internalID: 175726484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_125
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2368
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39820896f3d2fda448a0e0262b94f0c5
+      internalID: -1311618802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2368
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5c138d11ffa94daa0b67a3d9dcf99
+      internalID: 780032348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2368
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5afdc23f519274291a648e587aabc5
+      internalID: -978389609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2368
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a00d451f3074334b914556b2cda852b
+      internalID: 2042368101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_129
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2368
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960034bf27c0604d94ff263bd9b45d4
+      internalID: -1918972550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2368
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be0baf9601e90f44b124717dfec07a9
+      internalID: 556646273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2368
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b017c5a611ca347bb7b6c79d368be5
+      internalID: 1729775517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2368
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ce34361458884fad17e239e796a8c
+      internalID: -600474399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2304
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b801820f231e5b49ae428b857c41c51
+      internalID: -1532453396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2304
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae88462e8f95034ba1458f86ca14425
+      internalID: -950107387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_135
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2304
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff935b64a94e80140a4581c689d56c4d
+      internalID: 987086185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_136
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2304
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fab1d990b44594293cf618bfce77ed
+      internalID: -1882015811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2304
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65045ae9b22ab446acd287c71e0ae34
+      internalID: -100821175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2304
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292aac776315004587733f7b705dae3
+      internalID: -831540616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2304
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c004a6c0346ba4e98185fab1ca4353
+      internalID: -1024698963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_140
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2304
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64974b9bb5828140b1ba022da18b32d
+      internalID: 1443850463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2304
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b20b43a459f464695fd10cf1940b9f
+      internalID: -1656329781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2304
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9104dff46a581d349be4450d3d71416a
+      internalID: 1545495029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 2304
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e7d1a1facd3a246ba25acca3ca8aa9
+      internalID: -949736559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2304
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c8748668a5eb2488e703a06c7eff52
+      internalID: -1295624269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_145
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2304
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55e7a10eff9264992ed5fd5dbe8cf6
+      internalID: 404678045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2240
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af8c0ee5c4db24e9094b52090cc681
+      internalID: 807513940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2240
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c754dd8160e4bb642969938126ce94a7
+      internalID: -286478478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2240
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c764372ee24bb4c4b8b412cee839ff6e
+      internalID: -1278321997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2240
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb16c7d48d2043498f4616a613d6924
+      internalID: -1523706095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9745740580946044f89e2825e083ca17
+      internalID: -1892040192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f0bfc6a8a12f540b1b15327e1c3741
+      internalID: 1427796779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f10a02977578041b0ea007a8db7cb0
+      internalID: 504857184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_153
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f1875ac9b231d4ba382a73283dec43
+      internalID: 523735840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_154
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8a4793b334e54f8115b180b5d52eb
+      internalID: 2108635853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5184ca978af9d7a428317b103f98d1c6
+      internalID: 1371209672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_156
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2240
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38eb55021c2be441a20cad55316c5bc
+      internalID: 1702431657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_157
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2240
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a2e2e801608e84eb63b306ed029dc6
+      internalID: -502706844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_158
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2240
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873495059ee48d04f847ac65b446a8bd
+      internalID: 2126556609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2176
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55a3d310cb07ee4e80d28ec6919bddf
+      internalID: 1051629619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2176
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32eaa0b767ad28438fb6a4009c85367
+      internalID: -2090484369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_161
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2176
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84baa23d2d7df174ab456786480bf8cf
+      internalID: 1359409260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2176
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab15abef678b241b964bd2bec0b24e
+      internalID: -1277651329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_163
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2176
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d7ccf036b8dae4eb276fccc417f402
+      internalID: 512607747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2176
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c457b711ba444ebea1f678f9d6ec8
+      internalID: -1378244876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2176
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1a6481996a1fe468341c090496c062
+      internalID: 1609987356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_166
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2176
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf55e0de1ea01945afaf88649a08073
+      internalID: -564181890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_167
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2176
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec31938ad700245b6be96f63e5b69e
+      internalID: 800961448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_168
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2176
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2f17492a43e4f49979640c48747622
+      internalID: 1701827460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_169
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2176
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d78a5c623d9fa84eb4313b34ccd943a
+      internalID: -890731874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_170
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2176
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f5f67bff3c3a648bfe6147d1555be4
+      internalID: 1534855798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_171
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 2176
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dbe4d45167ec043b249214c26e1115
+      internalID: 139139995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2112
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f789ff6387c77064495f65fa21bd672d
+      internalID: 83638477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2112
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f07043b3cdbe2a48b1b530daa98a15e
+      internalID: 1825690705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2112
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101edf8c2c18ce14684c35b07d67d805
+      internalID: -1937147370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_175
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2112
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d5b56c5eb29464dbc03df758bb36ad
+      internalID: 1883614982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2113
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c8471f70f4b534faa1f761cfcf83d2
+      internalID: 1760197733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2112
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d45963d8ca47c840afa03a78ec205fc
+      internalID: 1915551455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_178
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2051
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6c30776cefd814b86fb2624738a6fa
+      internalID: -351545095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_179
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2050
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb5632ef6eb50478ab14b0ef30256f
+      internalID: -1818052579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_180
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2054
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b676854dd17082745a5059bc74b717e6
+      internalID: 1971046116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_181
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2051
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2e16a77e816db4993db62691f02890
+      internalID: -9863465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_182
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2050
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702859da5bb9a53469e99b4fff96d72e
+      internalID: 19926783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_183
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2054
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f316675808480418ed58b3de12bbed
+      internalID: -1958018864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_184
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1986
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a3e885e6958f44b93751f1814eb3ef
+      internalID: -1924745486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_185
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1986
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3176ce0bd37cd4e4e87341736704c350
+      internalID: -581288022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_186
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1922
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05602ca105a021498889eac99a21f56
+      internalID: 1995281321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_187
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1922
+        width: 21
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c7aa5da66f9f94d905f9382d995775
+      internalID: -1185861961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_188
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1858
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb91d3e51c28be4b8c063d09aa85b39
+      internalID: -1447733543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_189
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1858
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9626ba52b0681a49a72c5cb4fb23d36
+      internalID: 1036425431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_190
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1794
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72609506c1e87374d9e4ec0978c65eb5
+      internalID: 640802665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_191
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1794
+        width: 21
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4a83d12852e104982c385dd0803326
+      internalID: 1085755621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_192
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1730
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177773c28c3bc594798d893f2bab5f0b
+      internalID: 1501174940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1730
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ec643cb3b62d34c95dddfc8175f77f
+      internalID: -1186517489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_194
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1731
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f832c77283eac49a9311d188a1ef21
+      internalID: 160587544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_195
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1738
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5af8751cc5e344eb5e595675aa44d3
+      internalID: -26267860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_196
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1734
+        width: 44
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824906284f513844fa64b0ec9748670d
+      internalID: 1760682238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_197
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1666
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f847c03ddc3753f4fb8b21499d3a8279
+      internalID: -757683412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_198
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1666
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a28f76aa41a7847a56312358ba78e1
+      internalID: 813778522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_199
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1668
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f1c5fbc587914d8f9e77bf030bacc
+      internalID: 379856541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_200
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1669
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c11f12e18080644a424253da8ccc6d
+      internalID: 748783619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_201
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1666
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20600b00fe2e42b48ae2fca0ec5f8aba
+      internalID: -673684533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_202
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1602
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e17f76497eb0647b6648382a4d81fc
+      internalID: 892076806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_203
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1602
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c5d4f43ffb3c45aa2cbfb1da09591
+      internalID: -1262971655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_204
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1604
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d09dd1e5861524e95ccc3b42e040f7
+      internalID: -211164793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_205
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1608
+        width: 31
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075946566569eac42b5ff6de8ff671bf
+      internalID: -1309204588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_206
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1605
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bbe2c1b046c9e47ada4e1ab156a4f0
+      internalID: 751709948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_207
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1538
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9305338a5fbd04048a0a3e5edbf30813
+      internalID: -1667014363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_208
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1538
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d64309a99f24b4293d0928fc996b2d
+      internalID: -1099443532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_209
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1540
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2041a9076472b46499b3d7bf314598af
+      internalID: -1389578462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_210
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1541
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ffb5a046efff44b8d896e82280b1ff
+      internalID: -326706621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_211
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1538
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6770e36cf6c841f4e985c81a72fd575b
+      internalID: 731360192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_212
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1474
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2a364677eb04f4f9bdbad744c6b7d1
+      internalID: 13023820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_213
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1474
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd999909231d9409fb7700ed8b2591
+      internalID: 707648366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_214
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1484
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15dc958a8b98c447876482e9dc598b6
+      internalID: -768185209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_215
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1411
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aab07a905c5c543b7b88ed0fa24940
+      internalID: -503426344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_216
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1410
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04753680538f6ab42bcf2da1d1a436cb
+      internalID: -240436358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_217
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1412
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f058c9d8e70ab41b17c0ddcd8df8d8
+      internalID: 838916452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_218
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1346
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf87ad99c5af74ea46e9379091b4f5
+      internalID: 1772187550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_219
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1346
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5277cdda91da50e4fa8776333f56e4b3
+      internalID: -37403848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_220
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1346
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9958e47b52a050e469ba17fe76238215
+      internalID: 411840409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_221
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1283
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa2887f57d76c7419954fd06189a22d
+      internalID: -2006244565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_222
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1282
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0399d91393e8a84ea5188a79ce7dfb8
+      internalID: -1008742171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_223
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1284
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16a6b90e5afdb4fa4d46f27f78269a
+      internalID: -1027545318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_224
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1218
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879120b2bb74f634c8ee7634af5989c1
+      internalID: 1208284085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_225
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1218
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83845cc14be212f479172489c1632349
+      internalID: 1410714739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_226
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1218
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e95bda68983e41922aac21bc71c0f
+      internalID: 126353216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_227
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1154
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86eabe562ce34545bee656615704a09
+      internalID: -781708587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_228
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1154
+        width: 20
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08f4b6814ef63541ae7f19a260b330e
+      internalID: -1632916937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_229
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1154
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba02094d9a2b9a84b8439613753a2da7
+      internalID: -351429034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_230
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1090
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e7073377439b34ca69648a67ad7aca
+      internalID: 87943872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_231
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1090
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e0e0a5f1a7b9044bb391623641694b
+      internalID: 1193364417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_232
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1090
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1295499f2a89b64193c0631b157a60e
+      internalID: 1174199990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_233
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1026
+        width: 21
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f8434210f1bfa42ade1f7192e7c5bf
+      internalID: 1962455466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_234
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1026
+        width: 20
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c52363b050c8e4b89a762bafe0762a
+      internalID: 1880311488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_235
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1026
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fd021091e41b44b84b3fb3b4b821b4
+      internalID: 910656792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_236
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 963
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c711172971d099942a916ebddfaf7b1b
+      internalID: -1755487260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_237
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 960
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a29e0d85a80a439a9802d26b191e7
+      internalID: 975968844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_238
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 960
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4877731ced7a73e4bb868b3caf9ff435
+      internalID: -244046465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_239
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 960
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745689f49b6a817438df37d9341f8c5b
+      internalID: 1256150694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_240
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 963
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f66e65c820dfb4a99b4ccf28e07079
+      internalID: -1812808339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_241
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 960
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14e879c8fa60b4789b9c3126b7fa75
+      internalID: 259635534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_242
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 960
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0b16866985b11438b197c6a291bd54
+      internalID: 1640416568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_243
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 960
+        width: 25
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21e2b43037c4a14ca16adfbf045b9d4
+      internalID: 1778883969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_244
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 898
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620256d952e50d4ba7e83c274255058
+      internalID: 1304642650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_245
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 897
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92000ac53a94cf74982ff24506ab1b3d
+      internalID: 1994958379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_246
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 897
+        width: 20
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8555c3c518d435f4296980b6b321ad89
+      internalID: -804849168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_247
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 901
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea57a19402bda4747b28af7088617d3e
+      internalID: 1238660413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_248
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 898
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30772fafc4a620a42bf643def4559b59
+      internalID: -1932098058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_249
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 897
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f107af91221d14397ffe0268f75dca
+      internalID: -1870842712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_250
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 897
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0444e0e845ca6e449f6b5c818de0d9e
+      internalID: -1850882238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_251
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 899
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b25876297dc65146b33db6c807e6399
+      internalID: -1581512920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_252
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63830ff29f00a984086a5905eeaa3b85
+      internalID: -1887156815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_253
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 832
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64852b5adff8ddc42a739169a52efca0
+      internalID: -1013580885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_254
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 833
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d584f402e41f434e9562482a5e55b8b
+      internalID: -1417697105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_255
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 836
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d781f9d1fbd11947baeebd214eed363
+      internalID: 1610390729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_256
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 832
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaadcad4f12a8844932d9c2a6c29540
+      internalID: 1500861517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_257
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 832
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5514a57d4d16408709aff71d91f0b
+      internalID: -1422122676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_258
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 833
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c151c0e08f594cb4b88ce4acf0c24489
+      internalID: 1249250636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_259
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 836
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dd53561b4b5c449a02dbe5f3ead1a0
+      internalID: 369699413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_260
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 770
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f2518095949b64a8e890a98c8214cf
+      internalID: -680961696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_261
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 769
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c1c1d58027bdf498c12f40a546f7d8
+      internalID: -21870373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_262
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 769
+        width: 20
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46469187bdca3574181f7583e8b69ee3
+      internalID: -106961644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_263
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 773
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b994923a567f42972bfe91bbf67b3
+      internalID: 1465128420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_264
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 770
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d0ad9a6bab12b4d8e536e225b16a9c
+      internalID: -1400383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_265
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 769
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f01f5afc35bb574182c9b2954902cd0
+      internalID: 1085552945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_266
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 769
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b5055468d777d41bfddd7cbabdca0a
+      internalID: 1007467401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_267
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 771
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb88ee3a721d0044bff4fac86de3a28
+      internalID: 1479435872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_268
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 706
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6038465c189eb143aacc1e618114a56
+      internalID: 632746342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_269
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 706
+        width: 25
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cc3abc8e3cb214d95658aafed0ab28
+      internalID: -989369837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_270
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 642
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9611cba70858be4b914cdb16abf9cec
+      internalID: 1525238709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_271
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 642
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd323bdb534de64dbf2f2c42723c6ec
+      internalID: -874835226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_272
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 577
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf99b77afd5b140b7ab263c654275f
+      internalID: -257342654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_273
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 577
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55a2c1564d3f64189390ce3d65bd93
+      internalID: 2078098838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_274
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 514
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a935dd179e6e14cbf5b614e6547f3d
+      internalID: -826587299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_275
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 514
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f692436890e9ad742a73486018750b43
+      internalID: -757376511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_276
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 449
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1b050c4189aed4aafdaca8d86eb246
+      internalID: 1264288829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_277
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 450
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aa030b0b500c446b1ec33c3799b0ce
+      internalID: 814446065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_278
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 450
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f53c96ba736f18468b6ca189217c989
+      internalID: 514118442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_279
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 450
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa70ab3e405eef43967ee061f350b54
+      internalID: 1300069622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_280
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 450
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b8a8fa2e0f3244686d5b729a3fe38e
+      internalID: 433122073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_281
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 450
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3421e7b20d72439116f28de87ac06
+      internalID: 1142388429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_282
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 450
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1cd0c48eb6bda4d8af5e9b04d75835
+      internalID: -499751179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_283
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 450
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e8a76099d2c2a47999a3c825a3fc72
+      internalID: -1743985228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_284
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 450
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e08bf1bf9fee54c9967b5dedd4ee37
+      internalID: -1578448936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_285
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 450
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2a6e1c25ce6634aa28b96d36880983
+      internalID: -1805119263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_286
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 450
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab73ca0cec18a742ac34a2c916dd63e
+      internalID: -810584170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_287
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 450
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46cf7b552eb8d04bb18b43a7ce5818f
+      internalID: -1029131961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_288
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 450
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9776b11a98d8a4e961a240c9c104da
+      internalID: 2068775318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_289
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 386
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f254c58545bbc4d49ac6747c24fade9c
+      internalID: -1535958088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_290
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 386
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b1ec682d028cd4998f0cfbacd84f43
+      internalID: -560299189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_291
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 386
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca877c61a000da46bcbc1c8aaf03b0a
+      internalID: -233905248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_292
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 386
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33ca5dcd73e5da41b6d56e9e0c01da4
+      internalID: 614756975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_293
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 386
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d24cba4a368cd4cbd9abf21cc65ae4
+      internalID: 2098791974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_294
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 386
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90209a8cbb4f3834ba9553d02c991d9b
+      internalID: 1235523579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_295
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 386
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176dd6ea0a464840a378aeba059c671
+      internalID: 659006585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_296
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 386
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89960758d714394eb87e4ad96e125e0
+      internalID: -1092021576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_297
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 386
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd82ee636b5ce64e8adb8baa81853e0
+      internalID: -1188780508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_298
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 386
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed770095a5f6a1949baf925b70e6effa
+      internalID: -26931882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_299
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 386
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c609d90c49012e42a20bdda7ac807de
+      internalID: -2123979243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_300
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 386
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770d9f10668e8c34197e3f918ca62a48
+      internalID: 69273584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_301
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 386
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa992cbc2dad0747a3bbc67288302b3
+      internalID: 1429746142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_302
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 321
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb71a410c3f4d458aa8a8232b6accb
+      internalID: 1108782359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_303
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 321
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acee3cc7a24768a4a8b47b28435dbd80
+      internalID: 117755630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_304
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 321
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62212cb851b733b48951349decb20931
+      internalID: -1777549259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_305
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 321
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad83e3e43679ad4dafd45ae5802c64b
+      internalID: -1220990630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_306
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 321
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f5874907edb184fb701064e3e2288f
+      internalID: -466020161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_307
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 321
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d40b1554ae81a4bb943c7911b08413
+      internalID: 2095367284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_308
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 321
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fd39ff1e30c57419861cf65d59e8c1
+      internalID: -845033942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_309
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 321
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aa86583c899d54780eb302e8c00c83
+      internalID: -707342630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_310
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 321
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d27c7ddb8cca5d4682cd7172268ea2d
+      internalID: 1015982051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_311
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 321
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acebc8857d6597144bad2ee1abdd3a2d
+      internalID: -275640229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_312
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 321
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b1970a4b5a708498ac4bc68996d4e8
+      internalID: 878876900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_313
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 321
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f566baeb8cd449acb50d69bfec5dd
+      internalID: 1882020036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_314
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 321
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5e30c7f5e4b2e45b2b48fdb609ad98
+      internalID: -609968425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_315
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 258
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721e6cdfd93c37a4c973fa0c09d3fbb1
+      internalID: -2063485158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_316
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 258
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7306ee3e43fb399439de3ef1460ca6f9
+      internalID: 1506182020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_317
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a19247f2a9044dbe2d35bdb745f50
+      internalID: 858027718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_318
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 258
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8c5ca55471b354eb533e3f29de3350
+      internalID: -1951008875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_319
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 258
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2745f12060b6fa7479a1c7817170f579
+      internalID: -805073704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_320
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 258
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667936367ff3dfd47a47710dc3230b7c
+      internalID: 1853461638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_321
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 258
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d243c0c4dbc53734890fc53fd73a8221
+      internalID: 507438897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_322
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 258
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f41d8711ad62e48b0b5527cc9d77a4
+      internalID: 540195982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_323
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 258
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee8dabb4b4173e49a2c5128a4f8c35d
+      internalID: -370970306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_324
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 258
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6236c167e54a9cf469c028f765d9a0b2
+      internalID: -756143496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_325
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 258
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac64e00a344145c458b51cc6125fca4a
+      internalID: -574855607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_326
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 258
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a2525517090dd448d23a1cb31d83c2
+      internalID: 1151822676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_327
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 258
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980739a40c4ea6a42b4a634e06e30375
+      internalID: -1001091385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_328
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 193
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf3ff69738c50b4d94fbc18f67688c4
+      internalID: 485499120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_329
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 194
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be1300a8f4ad6408ae0747f3cbe6b6
+      internalID: -1446142763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_330
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 195
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff48c1ba31f89b4ea9a1a2551d92170
+      internalID: -1547880049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_331
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 196
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1175fa8478f26ed439c954639c6b5916
+      internalID: 1515333316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_332
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 196
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8ba20949688e4daebd3f4c251f61b
+      internalID: 710950169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_333
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 194
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ebb4088154a3d459e656bc8364a6d4
+      internalID: -1617579179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_334
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a28ad50a502f545be1e2de98279f9d
+      internalID: 234089353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_335
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdd4caac65a5fc4f9a775bbc5ab69c1
+      internalID: -849835128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_336
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 130
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe1841b014e6f439b8d4c75238c9d9
+      internalID: 940487123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_337
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 130
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3285e85df4b16c4a9e8aaeb9003c959
+      internalID: -1712073102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_338
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 130
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68af079acfc68e4ab8c4754faa80831
+      internalID: -1975056362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_339
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 130
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d0106e0b7f73e4894e24329653f7a0
+      internalID: 537437813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_340
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 65
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3847bc72607cd24684c4473279842e5
+      internalID: 385429549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_341
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bbd4484df6a264c9b037339ea7a8df
+      internalID: 973715997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_342
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 65
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9531df6395ebefa429c009ac5cfcc523
+      internalID: 641435363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_343
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 65
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c53046861e064f4391afa87bf103abc
+      internalID: 2005405887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_344
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 65
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ea0327a6daa544bc8da0dada3bd22
+      internalID: -510898924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_345
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd81e86709c1d4409bdca0b36184038
+      internalID: -641582671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_346
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0faa7b1051ef9348be387f04226461a
+      internalID: 1748629799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_347
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5e31f6a3300d47aefe2d2eb678eed
+      internalID: 1423526976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_348
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccb5b414e758f34d90ea50b4b4fa018
+      internalID: 965073995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_349
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dc54c83c8d8b24c8f35c0a71460228
+      internalID: 1204178608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_350
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c8e7973fec7147b3fe732ce5d162d
+      internalID: -1709543510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Librarian_351
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b8abb9be0b4e84c870ae6bcbcceec9
+      internalID: -139409045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Librarian_0: 349655559
+      Librarian_1: -1177804380
+      Librarian_10: 626431368
+      Librarian_100: 751512484
+      Librarian_101: -1590007939
+      Librarian_102: 2014317194
+      Librarian_103: -1617861420
+      Librarian_104: 662381038
+      Librarian_105: 1792019412
+      Librarian_106: -1422894204
+      Librarian_107: 109688970
+      Librarian_108: 1379540642
+      Librarian_109: -1230934679
+      Librarian_11: -541393674
+      Librarian_110: 881958565
+      Librarian_111: 2080339368
+      Librarian_112: 767006968
+      Librarian_113: 367366593
+      Librarian_114: 989279200
+      Librarian_115: -1023477675
+      Librarian_116: -1679957943
+      Librarian_117: -616538910
+      Librarian_118: -1168826546
+      Librarian_119: -98991002
+      Librarian_12: -1757783218
+      Librarian_120: 37562139
+      Librarian_121: 1817573730
+      Librarian_122: 735589069
+      Librarian_123: -724905398
+      Librarian_124: 175726484
+      Librarian_125: -1311618802
+      Librarian_126: 780032348
+      Librarian_127: -978389609
+      Librarian_128: 2042368101
+      Librarian_129: -1918972550
+      Librarian_13: -686996057
+      Librarian_130: 556646273
+      Librarian_131: 1729775517
+      Librarian_132: -600474399
+      Librarian_133: -1532453396
+      Librarian_134: -950107387
+      Librarian_135: 987086185
+      Librarian_136: -1882015811
+      Librarian_137: -100821175
+      Librarian_138: -831540616
+      Librarian_139: -1024698963
+      Librarian_14: 1206894748
+      Librarian_140: 1443850463
+      Librarian_141: -1656329781
+      Librarian_142: 1545495029
+      Librarian_143: -949736559
+      Librarian_144: -1295624269
+      Librarian_145: 404678045
+      Librarian_146: 807513940
+      Librarian_147: -286478478
+      Librarian_148: -1278321997
+      Librarian_149: -1523706095
+      Librarian_15: -155595820
+      Librarian_150: -1892040192
+      Librarian_151: 1427796779
+      Librarian_152: 504857184
+      Librarian_153: 523735840
+      Librarian_154: 2108635853
+      Librarian_155: 1371209672
+      Librarian_156: 1702431657
+      Librarian_157: -502706844
+      Librarian_158: 2126556609
+      Librarian_159: 1051629619
+      Librarian_16: 1979645169
+      Librarian_160: -2090484369
+      Librarian_161: 1359409260
+      Librarian_162: -1277651329
+      Librarian_163: 512607747
+      Librarian_164: -1378244876
+      Librarian_165: 1609987356
+      Librarian_166: -564181890
+      Librarian_167: 800961448
+      Librarian_168: 1701827460
+      Librarian_169: -890731874
+      Librarian_17: 839071900
+      Librarian_170: 1534855798
+      Librarian_171: 139139995
+      Librarian_172: 83638477
+      Librarian_173: 1825690705
+      Librarian_174: -1937147370
+      Librarian_175: 1883614982
+      Librarian_176: 1760197733
+      Librarian_177: 1915551455
+      Librarian_178: -351545095
+      Librarian_179: -1818052579
+      Librarian_18: 1681877533
+      Librarian_180: 1971046116
+      Librarian_181: -9863465
+      Librarian_182: 19926783
+      Librarian_183: -1958018864
+      Librarian_184: -1924745486
+      Librarian_185: -581288022
+      Librarian_186: 1995281321
+      Librarian_187: -1185861961
+      Librarian_188: -1447733543
+      Librarian_189: 1036425431
+      Librarian_19: 791921859
+      Librarian_190: 640802665
+      Librarian_191: 1085755621
+      Librarian_192: 1501174940
+      Librarian_193: -1186517489
+      Librarian_194: 160587544
+      Librarian_195: -26267860
+      Librarian_196: 1760682238
+      Librarian_197: -757683412
+      Librarian_198: 813778522
+      Librarian_199: 379856541
+      Librarian_2: -1906576104
+      Librarian_20: 33980981
+      Librarian_200: 748783619
+      Librarian_201: -673684533
+      Librarian_202: 892076806
+      Librarian_203: -1262971655
+      Librarian_204: -211164793
+      Librarian_205: -1309204588
+      Librarian_206: 751709948
+      Librarian_207: -1667014363
+      Librarian_208: -1099443532
+      Librarian_209: -1389578462
+      Librarian_21: 1106190000
+      Librarian_210: -326706621
+      Librarian_211: 731360192
+      Librarian_212: 13023820
+      Librarian_213: 707648366
+      Librarian_214: -768185209
+      Librarian_215: -503426344
+      Librarian_216: -240436358
+      Librarian_217: 838916452
+      Librarian_218: 1772187550
+      Librarian_219: -37403848
+      Librarian_22: 557195615
+      Librarian_220: 411840409
+      Librarian_221: -2006244565
+      Librarian_222: -1008742171
+      Librarian_223: -1027545318
+      Librarian_224: 1208284085
+      Librarian_225: 1410714739
+      Librarian_226: 126353216
+      Librarian_227: -781708587
+      Librarian_228: -1632916937
+      Librarian_229: -351429034
+      Librarian_23: 1664204479
+      Librarian_230: 87943872
+      Librarian_231: 1193364417
+      Librarian_232: 1174199990
+      Librarian_233: 1962455466
+      Librarian_234: 1880311488
+      Librarian_235: 910656792
+      Librarian_236: -1755487260
+      Librarian_237: 975968844
+      Librarian_238: -244046465
+      Librarian_239: 1256150694
+      Librarian_24: -202374759
+      Librarian_240: -1812808339
+      Librarian_241: 259635534
+      Librarian_242: 1640416568
+      Librarian_243: 1778883969
+      Librarian_244: 1304642650
+      Librarian_245: 1994958379
+      Librarian_246: -804849168
+      Librarian_247: 1238660413
+      Librarian_248: -1932098058
+      Librarian_249: -1870842712
+      Librarian_25: -558800436
+      Librarian_250: -1850882238
+      Librarian_251: -1581512920
+      Librarian_252: -1887156815
+      Librarian_253: -1013580885
+      Librarian_254: -1417697105
+      Librarian_255: 1610390729
+      Librarian_256: 1500861517
+      Librarian_257: -1422122676
+      Librarian_258: 1249250636
+      Librarian_259: 369699413
+      Librarian_26: 989620287
+      Librarian_260: -680961696
+      Librarian_261: -21870373
+      Librarian_262: -106961644
+      Librarian_263: 1465128420
+      Librarian_264: -1400383386
+      Librarian_265: 1085552945
+      Librarian_266: 1007467401
+      Librarian_267: 1479435872
+      Librarian_268: 632746342
+      Librarian_269: -989369837
+      Librarian_27: -1536252476
+      Librarian_270: 1525238709
+      Librarian_271: -874835226
+      Librarian_272: -257342654
+      Librarian_273: 2078098838
+      Librarian_274: -826587299
+      Librarian_275: -757376511
+      Librarian_276: 1264288829
+      Librarian_277: 814446065
+      Librarian_278: 514118442
+      Librarian_279: 1300069622
+      Librarian_28: -2134725373
+      Librarian_280: 433122073
+      Librarian_281: 1142388429
+      Librarian_282: -499751179
+      Librarian_283: -1743985228
+      Librarian_284: -1578448936
+      Librarian_285: -1805119263
+      Librarian_286: -810584170
+      Librarian_287: -1029131961
+      Librarian_288: 2068775318
+      Librarian_289: -1535958088
+      Librarian_29: -82767572
+      Librarian_290: -560299189
+      Librarian_291: -233905248
+      Librarian_292: 614756975
+      Librarian_293: 2098791974
+      Librarian_294: 1235523579
+      Librarian_295: 659006585
+      Librarian_296: -1092021576
+      Librarian_297: -1188780508
+      Librarian_298: -26931882
+      Librarian_299: -2123979243
+      Librarian_3: 1835622459
+      Librarian_30: -2038026039
+      Librarian_300: 69273584
+      Librarian_301: 1429746142
+      Librarian_302: 1108782359
+      Librarian_303: 117755630
+      Librarian_304: -1777549259
+      Librarian_305: -1220990630
+      Librarian_306: -466020161
+      Librarian_307: 2095367284
+      Librarian_308: -845033942
+      Librarian_309: -707342630
+      Librarian_31: 549444979
+      Librarian_310: 1015982051
+      Librarian_311: -275640229
+      Librarian_312: 878876900
+      Librarian_313: 1882020036
+      Librarian_314: -609968425
+      Librarian_315: -2063485158
+      Librarian_316: 1506182020
+      Librarian_317: 858027718
+      Librarian_318: -1951008875
+      Librarian_319: -805073704
+      Librarian_32: 1650370654
+      Librarian_320: 1853461638
+      Librarian_321: 507438897
+      Librarian_322: 540195982
+      Librarian_323: -370970306
+      Librarian_324: -756143496
+      Librarian_325: -574855607
+      Librarian_326: 1151822676
+      Librarian_327: -1001091385
+      Librarian_328: 485499120
+      Librarian_329: -1446142763
+      Librarian_33: 1487497507
+      Librarian_330: -1547880049
+      Librarian_331: 1515333316
+      Librarian_332: 710950169
+      Librarian_333: -1617579179
+      Librarian_334: 234089353
+      Librarian_335: -849835128
+      Librarian_336: 940487123
+      Librarian_337: -1712073102
+      Librarian_338: -1975056362
+      Librarian_339: 537437813
+      Librarian_34: -1523390963
+      Librarian_340: 385429549
+      Librarian_341: 973715997
+      Librarian_342: 641435363
+      Librarian_343: 2005405887
+      Librarian_344: -510898924
+      Librarian_345: -641582671
+      Librarian_346: 1748629799
+      Librarian_347: 1423526976
+      Librarian_348: 965073995
+      Librarian_349: 1204178608
+      Librarian_35: -892814276
+      Librarian_350: -1709543510
+      Librarian_351: -139409045
+      Librarian_36: -584349577
+      Librarian_37: 1050215527
+      Librarian_38: -144079088
+      Librarian_39: -176894664
+      Librarian_4: -945656526
+      Librarian_40: 1075152715
+      Librarian_41: 1963950096
+      Librarian_42: -1756537879
+      Librarian_43: 120314029
+      Librarian_44: -1728497710
+      Librarian_45: -54902164
+      Librarian_46: -768535195
+      Librarian_47: -518314432
+      Librarian_48: -521898475
+      Librarian_49: -1759645046
+      Librarian_5: -1647495108
+      Librarian_50: 848944429
+      Librarian_51: -788077807
+      Librarian_52: 1246444528
+      Librarian_53: 16275014
+      Librarian_54: 1830886434
+      Librarian_55: 868375674
+      Librarian_56: 954011564
+      Librarian_57: -1370735589
+      Librarian_58: -2002601046
+      Librarian_59: 2072497117
+      Librarian_6: -490812835
+      Librarian_60: 1811248658
+      Librarian_61: -1753763028
+      Librarian_62: -773015658
+      Librarian_63: -958731166
+      Librarian_64: -984716107
+      Librarian_65: 1989689317
+      Librarian_66: 1086959654
+      Librarian_67: -1777326876
+      Librarian_68: 2053544366
+      Librarian_69: -258383172
+      Librarian_7: 2126096248
+      Librarian_70: 720044741
+      Librarian_71: 1288145865
+      Librarian_72: 1475118876
+      Librarian_73: 556714453
+      Librarian_74: -392165429
+      Librarian_75: -1319814011
+      Librarian_76: 835536772
+      Librarian_77: 2146357629
+      Librarian_78: -168378876
+      Librarian_79: -1005100395
+      Librarian_8: -920736156
+      Librarian_80: 408325174
+      Librarian_81: -1106256440
+      Librarian_82: -1557705523
+      Librarian_83: 202776618
+      Librarian_84: -51579693
+      Librarian_85: -786718451
+      Librarian_86: -1686295564
+      Librarian_87: -187598199
+      Librarian_88: 1281393693
+      Librarian_89: -1083717604
+      Librarian_9: -155298318
+      Librarian_90: -1683269467
+      Librarian_91: 1103528616
+      Librarian_92: -1022754948
+      Librarian_93: -752800655
+      Librarian_94: 1618745538
+      Librarian_95: 1601381057
+      Librarian_96: -1909586108
+      Librarian_97: -269925170
+      Librarian_98: -1421355769
+      Librarian_99: 1388005961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: Librarian
+  m_EditorClassIdentifier: 
+  NPCid: 4
+  NPCname: "Ng\u01B0\u1EDDi n\u1EAFm gi\u1EEF tri th\u1EE9c nh\xE2n lo\u1EA1i"
+  NPCAva: {fileID: 1206894748, guid: a63776ef75fab9247af06b7ba876054d, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "Em ch\u1EAFc h\u1EB3n l\xE0 sinh vi\xEAn m\u1EDBi chu\u1EA9n b\u1ECB nh\u1EADp
+      h\u1ECDc v\xE0o \u0111\xE2y \u0111\xFAng kh\xF4ng? N\u1EBFu v\u1EADy th\xEC
+      ph\u1EA3i gi\xFAp ta chuy\u1EC7n n\xE0y."
+    - "Th\u01B0 vi\u1EC7n tr\u01B0\u1EDDng l\xE0 m\u1ED9t h\u1EC7 th\u1ED1ng hi\u1EC7n
+      \u0111\u1EA1i v\xE0 t\xE2n ti\u1EBFn b\u1EADc nh\u1EA5t khu v\u1EF1c. Nh\u01B0ng
+      ch\xEDnh v\xEC s\u1EF1 t\xE2n ti\u1EBFn \u0111\xF3 m\xE0 ng\u01B0\u1EDDi nh\u01B0
+      ta c\u0169ng kh\xF4ng th\u1EC3 hi\u1EC3u n\u1ED5i c\u01A1 ch\u1EBF ho\u1EA1t
+      \u0111\u1ED9ng c\u1EE7a th\u1EE9 n\xE0y."
+    - "Tr\u01B0\u1EDBc m\u1EB7t em l\xE0 m\u1ED9t h\u1EC7 th\u1ED1ng m\xE1y t\xEDnh
+      \u0111\u01B0\u1EE3c c\xE1c th\u1EA7y c\xF3 chuy\xEAn m\xF4n cao x\xE2y d\u1EF1ng
+      \u0111\u1EC3 b\u1EA3o v\u1EC7 m\u1EADt m\xE3 c\u1EE7a chi\u1EBFc t\u1EE7 s\u1EAFt
+      \u1EDF cu\u1ED1i c\u0103n ph\xF2ng."
+    - "\u0110\u1EC3 l\u1EA5y \u0111\u01B0\u1EE3c m\u1EADt m\xE3 em ph\u1EA3i th\u1EF1c
+      hi\u1EC7n nhi\u1EC7m v\u1EE5 sau: M\u1ED7i m\xE1y t\xEDnh \u1EDF \u0111\xE2y
+      \u0111\xF3ng vai tr\xF2 chuy\u1EC3n ti\u1EBFp d\u1EEF li\u1EC7u v\u1EDBi nhau.
+      M\u1ED9t m\xE1y t\xEDnh c\xF3 th\u1EC3 chuy\u1EBFn d\u1EEF li\u1EC7u \u0111\u1EBFn
+      m\xE1y kia n\u1EBFu gi\u1EEFa 2 m\xE1y c\xF3 1 \u0111\u01B0\u1EDDng n\u1ED1i."
+    - "\u1EDE gi\u1EEFa c\xE1c con \u0111\u01B0\u1EDDng n\u1ED1i \u1EA5y c\xF3 m\u1ED9t
+      con s\u1ED1 \u0111\u01B0\u1EE3c s\u01A1n l\xEAn nh\u1EB1m bi\u1EC3u th\u1ECB
+      th\u1EDDi gian truy\u1EC1n gi\u1EEFa ch\xFAng theo 1 ph\u1EA7n 1 tri\u1EC7u
+      gi\xE2y."
+    - "Chi\u1EBFc t\u1EE7 s\u1EAFt ch\u1EC9 c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c m\u1EDF
+      khi th\u1ECFa m\xE3n 2 \u0111i\u1EC1u ki\u1EC7n. M\u1ED9t l\xE0 t\u1EA5t c\u1EA3
+      m\xE1y t\xEDnh ph\u1EA3i \u0111\u01B0\u1EE3c m\u1EDF l\xEAn. Hai l\xE0 th\u1EDDi
+      gian truy\u1EC1n d\u1EEF li\u1EC7u ph\u1EA3i \u0111\u1EA1t gi\xE1 tr\u1ECB
+      nh\u1ECF nh\u1EA5t."
+    - "Th\u1EDDi gian truy\u1EC1n d\u1EEF li\u1EC7u l\xE0 t\u1ED5ng th\u1EDDi gian
+      c\u1EE7a t\u1EA5t c\u1EA3 c\xE1c l\u1EA7n truy\u1EC1n. V\xED d\u1EE5 em b\u1EADt
+      m\xE1y A \u0111\u1EBFn m\xE1y B \u0111\u1EBFn m\xE1y C th\xEC th\u1EDDi gian
+      s\u1EBD l\xE0 th\u1EDDi gian t\u1EEB A \u0111\u1EBFn B c\u1ED9ng v\u1EDBi th\u1EDDi
+      gian t\u1EEB B \u0111\u1EBFn C."
+    - "Do v\u1EA5n \u0111\u1EC1 ni\xEAm phong gi\u1EEFa c\xE1c m\xE1y n\xEAn khi
+      em b\u1EADt m\u1ED9t m\xE1y l\xEAn b\u1EA3n th\xE2n ta s\u1EBD d\u1EAFt em
+      \u0111\u1EBFn c\xE1c m\xE1y c\xF3 \u0111\u01B0\u1EDDng n\u1ED1i v\u1EDBi m\xE1y
+      \u0111\xF3."
+    - "M\u1ED9t v\u1EA5n \u0111\u1EC1 n\u1EEFa l\xE0 do khu v\u1EF1c kh\xE1 r\u1ED9ng
+      n\xEAn ta s\u1EBD \u0111\u01B0a em m\u1ED9t t\u1EA5m h\xECnh ch\u1EE5p t\u1EEB
+      tr\xEAn cao xu\u1ED1ng c\u1EE7a c\u0103n ph\xF2ng cho ti\u1EC7n quan s\xE1t.
+      Khi n\xE0o s\u1EB5n s\xE0ng h\xE3y n\xF3i v\u1EDBi ta."
+    autoProgress: 010000000000000000
+  - DialogID: 1
+    SentenceList:
+    - "\u0110\u01B0\u1EE3c r\u1ED3i ta b\u1EAFt \u0111\u1EA7u th\xF4i."
+    autoProgress: 00
+  - DialogID: 2
+    SentenceList:
+    - "Ta v\u1EEBa ch\xFAc em r\u1ED3i ta kh\xF4ng ch\xFAc l\u1EA1i \u0111\xE2u."
+    autoProgress: 00
+  - DialogID: 3
+    SentenceList:
+    - "Fantasti... wonderful... significant... magnificent... outstanding... class
+      of titans, \u0111\xE2y ch\u1EAFc ch\u1EAFn l\xE0 world class. Qu\u1EA3 l\xE0
+      sinh vi\xEAn UIT - danh b\u1EA5t h\u01B0 truy\u1EC1n."
+    autoProgress: 00
+  TypingSpeed: 0.02
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

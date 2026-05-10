@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class KeyData
+public class KeyDataFM
 {
     public int key;
     public string value;
@@ -18,5 +18,5 @@ public class FragmentMemory : ScriptableObject
 
     public string[] Content = new string[4];
 
-    public List<KeyData> Keys = new List<KeyData>();
+    public List<KeyDataFM> Keys = new List<KeyDataFM>();
 }

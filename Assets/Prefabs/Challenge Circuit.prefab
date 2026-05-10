@@ -734,7 +734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.1, y: -4.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &315083752876599708
@@ -767,8 +767,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 15
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2033,7 +2033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.2, y: -0.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8674718675489422927
@@ -2066,8 +2066,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 15
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2144,6 +2144,7 @@ GameObject:
   - component: {fileID: 8557869881021471188}
   - component: {fileID: 4392589329337592319}
   - component: {fileID: 3473422021195902727}
+  - component: {fileID: 3865261377047589951}
   m_Layer: 5
   m_Name: Challenge Circuit
   m_TagString: Untagged
@@ -2210,6 +2211,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3865261377047589951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523814677307002543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6e03da771546894b8025d3677af0058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: "M\u1EA1ch th\u1EED th\xE1ch"
+  description: "Gi\u1EA3i m\xE3 l\xE0m sao b\xEAn tr\xE1i l\xE0 10, b\xEAn ph\u1EA3i
+    l\xE0 10"
+  targetValueLeft: 10
+  targetValueRight: 10
+  targetSum: 20
+  decode:
+  - {fileID: 2033206252980367322}
+  - {fileID: 8509514245608854831}
 --- !u!1 &3552848561162420253
 GameObject:
   m_ObjectHideFlags: 0

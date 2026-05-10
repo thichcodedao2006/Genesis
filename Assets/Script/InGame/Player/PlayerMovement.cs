@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,8 +19,16 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        PlayerSpeed = CharacterControl.instance.info.CharacterSpeed;
-    }
+        try
+        {
+            PlayerSpeed = CharacterControl.instance.info.CharacterSpeed;
+        }
+        catch(Exception e)
+        {
+            Debug.Log("Player Speed not found, set to default value");  
+            PlayerSpeed = 3f;
+        }
+    } 
 
     private void Start()
     {

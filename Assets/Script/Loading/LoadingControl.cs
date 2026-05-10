@@ -21,7 +21,7 @@ public class LoadingControl : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
 
-        AsyncOperation operation = SceneManager.LoadSceneAsync("B_hall");
+        AsyncOperation operation = SceneManager.LoadSceneAsync("Outside");
 
         while( !operation.isDone)
         {

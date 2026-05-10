@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,13 @@ public class LogicDecode : MonoBehaviour
 {
     [SerializeField] List<LogicValue> inputs;
     [SerializeField] TMPro.TextMeshProUGUI outputText;
+    private int currVal;
+    public Action onValueChanged; 
+    public int CurrVal
+    {
+        get { return currVal; }
+        set { currVal = value; onValueChanged?.Invoke(); }
+    }
 
     public void Start()
     {
@@ -27,15 +35,15 @@ public class LogicDecode : MonoBehaviour
     }
     private void Calculate(bool? newValue) 
     {
-        int value = 0 ; 
+        CurrVal = 0;    
         for (int i = 0; i < inputs.Count; i++) 
         {
             if (inputs[i].Value) 
             {
-                value += (int)Mathf.Pow(2, i);
+                CurrVal += (int)Mathf.Pow(2, i);
             }
         }
-        outputText.text = value.ToString();
+        outputText.text = CurrVal.ToString();
     }
 
 }

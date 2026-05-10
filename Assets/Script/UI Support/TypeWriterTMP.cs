@@ -13,7 +13,7 @@ using UnityEngine;
 
 public class TypeWriterTMP : MonoBehaviour
 {
-    private TMP_Text textUI;
+    [SerializeField]private TMP_Text textUI;
 
     [Header("Typewriter")]
     [SerializeField] private float delay = 0.03f;
