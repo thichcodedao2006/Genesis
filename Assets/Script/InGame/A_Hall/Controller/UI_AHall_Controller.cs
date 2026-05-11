@@ -29,11 +29,15 @@ public class UI_AHall_Controller : MonoBehaviour
     public TextMeshProUGUI ObjectName;
     public TextMeshProUGUI ObjectDescription;
     public TextMeshProUGUI ReceiveObjectContent;
+    public TextMeshProUGUI LockerText;
 
     [Header("Panel")]
+    public GameObject InGamePanel;
     public GameObject DialogPanel;
     public GameObject InventoryPanel;
     public GameObject DetailPanel;
+    public GameObject InputPanel;
+    public GameObject NotifyPlacePanel;
 
     [Header("Image")]
     public Image DialogAvatar;
@@ -46,10 +50,19 @@ public class UI_AHall_Controller : MonoBehaviour
     public Button ExitButton;
     public Button DetailButton;
 
+    [Header("Sprite")]
+    public Sprite ComputerOff;
+    public Sprite ComputerOn;
+    public Sprite LockerOpen;
+    public Sprite LockerClose;
     [Header("Other")]
     private Object currentObj;
     #endregion
 
+    private void Start()
+    {
+        NotifyPlacePanel.gameObject.SetActive(true);
+    }
     private void Awake()
     {
         MakeSingleTon();
@@ -155,6 +168,30 @@ public class UI_AHall_Controller : MonoBehaviour
     public void ShowReceiveObjectPanel(bool state)
     {
         ReceiveObject.gameObject.SetActive(state);
+    }
+
+    public void ShowInGamePanel(bool state)
+    {
+        InGamePanel.SetActive(state);
+    }
+
+    public void ShowInputPanel(bool state)
+    {
+        InputPanel.SetActive(state);
+    }
+
+    public string GetInputText()
+    {
+        return LockerText.text;
+    }
+    public void SetInputText(string txt)
+    {
+        LockerText.text = txt;
+    }
+
+    public void SetInputTextColor(Color color)
+    {
+        LockerText.color = color;
     }
     #endregion
 }

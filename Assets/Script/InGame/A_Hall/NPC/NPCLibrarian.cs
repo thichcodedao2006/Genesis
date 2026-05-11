@@ -7,11 +7,13 @@ public class NPCLibrarian : NPCControl_AHall
     private void OnEnable()
     {
         EventSystem.SuccessAChallenge += AdvanceDialog;
+        EventSystem.ClickChoosePlaceFirstTime += ClickFirstTime;
     }
 
     private void OnDisable()
     {
         EventSystem.SuccessAChallenge -= AdvanceDialog;
+        EventSystem.ClickChoosePlaceFirstTime -= ClickFirstTime;
     }
     public override void EndDialog()
     {
@@ -23,6 +25,9 @@ public class NPCLibrarian : NPCControl_AHall
         } else if (CurrentDialog ==1 )
         {
             // cho vào sự kiện 
+            Game_AHall_Controller.instance.ChangeFollowCameraPriority(8);
+            ChoosePlaceStore.instance.ShowALlChoosePlace();
+            UI_AHall_Controller.instance.ShowInGamePanel(false);
         }
         if (CurrentDialog != 2) CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
@@ -34,5 +39,13 @@ public class NPCLibrarian : NPCControl_AHall
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+    }
+
+    private void ClickFirstTime()
+    {
+        Game_AHall_Controller.instance.ChangeFollowCameraPriority(10);
+        UI_AHall_Controller.instance.ShowInGamePanel(true);
+        EventSystem.ClickChoosePlaceFirstTime -= ClickFirstTime;
+       
     }
 }
