@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class E_Hall_Controller : MonoBehaviour
@@ -8,9 +6,11 @@ public class E_Hall_Controller : MonoBehaviour
     private static E_Hall_Controller instance;
     [SerializeField] private GameObject roomE101;
     [SerializeField] private TypeWriterTMP tmp;
-    [SerializeField] float announceDelay = 2f;  
-    
-    private string welcomeText = "Hello đây là toàn E"; 
+    [SerializeField] float announceDelay = 2f;
+
+    private string welcomeText = "Hello đây là toàn E";
+    private Checker? checker;
+
     public static E_Hall_Controller Instance
     {
         get { return instance; }
@@ -28,23 +28,29 @@ public class E_Hall_Controller : MonoBehaviour
     }
     private void Start()
     {
-        roomE101.SetActive(false); 
+        roomE101.SetActive(true);
         tmp.gameObject.SetActive(false);
         StartCoroutine(Announce(welcomeText));
         PlayerSetUp();
     }
-    public IEnumerator Announce(string message) 
+    public IEnumerator Announce(string message)
     {
         yield return new WaitForSeconds(0.5f);
         tmp.gameObject.SetActive(true);
         tmp.ShowText(message);
         yield return new WaitForSeconds(announceDelay);
-        tmp.gameObject.SetActive(false);    
+        tmp.gameObject.SetActive(false);
     }
-    public void PlayerSetUp() 
+    public void PlayerSetUp()
     {
         var player = PlayerController.instance.gameObject.transform;
         player.transform.localScale = new Vector3(1, 1, 1);
-    
+
     }
+    public void setChecker(Checker checker) => this.checker = checker;
+
+
+    // 1. Làm check đủ thẻ nhớ chưa
+    // 2. Làm check đã lụm cap chưa
+    public void PassCondition(ConditionType condition, bool isPass) => checker?.setPassCondition(condition, isPass);
 }

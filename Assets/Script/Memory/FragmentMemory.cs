@@ -9,7 +9,7 @@ public class KeyDataFM
     public string value;
 }
 
-[CreateAssetMenu(fileName = "Fragment Memory", menuName = "Memory/Fragment Memory")]
+[CreateAssetMenu(fileName = "Fragment Memory", menuName = "Memory Game/Fragment Memory")]
 public class FragmentMemory : ScriptableObject
 {
     public int OrderIdx;

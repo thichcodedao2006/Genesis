@@ -19,7 +19,16 @@ public class EnterDoor : MonoBehaviour
 
     private IEnumerator Teleport(GameObject player)
     {
-        player.transform.position = newPosition.transform.position;
+        // Lấy vị trí mới, nhưng giữ nguyên trục Z hiện tại của player
+        Vector3 targetPosition = new Vector3(
+            newPosition.transform.position.x,
+            newPosition.transform.position.y,
+            player.transform.position.z
+        );
+
+        player.transform.position = targetPosition;
+
+        yield return null;
 
         if (cinemachineConfiner != null)
         {
@@ -31,7 +40,5 @@ public class EnterDoor : MonoBehaviour
             yield return E_Hall_Controller.Instance.StartCoroutine(
                 E_Hall_Controller.Instance.Announce(enteringText)
             );
-        else
-            yield return null;
     }
 }

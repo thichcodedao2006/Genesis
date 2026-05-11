@@ -18,6 +18,8 @@ public class KeyData
     public static int KeyE = 5;
     public static int MapA = 6;
 
+    public static int wireCap = 20;
+
     [Header("State")]
     public static string HaveEnteredA = "HaveEnteredA";
     public static string HaveEnteredB = "HaveEnteredB";
