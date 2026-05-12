@@ -166,6 +166,7 @@ public class GuessGame_Logic : MonoBehaviour
     public void OpenGuessPanel()
     {
         GuessPanel.SetActive(true);
+        Game_BHall_Controller.instance.PlayerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         StateControl.instance.IsGamePause = true;
         StartCoroutine(ShowPanelNextFrame());
     }

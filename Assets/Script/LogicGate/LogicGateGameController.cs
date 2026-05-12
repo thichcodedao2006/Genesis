@@ -109,6 +109,7 @@ public class LogicGateGameController : MonoBehaviour
     {
             if (Vector3.Distance(Game_BHall_Controller.instance.PlayerTransform.position, checkerTransform.position) < validDistance)
             {
+                Game_BHall_Controller.instance.PlayerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 action?.Invoke();
             }
     }
