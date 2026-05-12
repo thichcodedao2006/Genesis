@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    #region SingleTon
     public static PlayerController instance;
 
     private void MakeSingleTon()
@@ -18,9 +19,13 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    #endregion
+
+    private Animator animator;
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         instance = null;
         MakeSingleTon();
     }
@@ -31,6 +36,7 @@ public class PlayerController : MonoBehaviour
         {
             bool CanGoIn = false;
             string NextScene = "";
+            int check = 0;
             switch (collision.gameObject.name)
             {
                 case "DoorA":
@@ -39,6 +45,7 @@ public class PlayerController : MonoBehaviour
                         {
                             CanGoIn = true;
                             NextScene = "A_Hall";
+                            check = SavingSystem.instance.GetCurrentState(KeyData.HaveEnteredA);
                         }
                         break;
                     }
@@ -48,6 +55,7 @@ public class PlayerController : MonoBehaviour
                         {
                             CanGoIn = true;
                             NextScene = "B_Hall";
+                            check = SavingSystem.instance.GetCurrentState(KeyData.HaveEnteredB);
                         }
                         break;
                     }
@@ -57,6 +65,7 @@ public class PlayerController : MonoBehaviour
                         {
                             CanGoIn = true;
                             NextScene = "C_Hall";
+                            check = SavingSystem.instance.GetCurrentState(KeyData.HaveEnteredC);
                         }
                         break;
                     }
@@ -66,6 +75,7 @@ public class PlayerController : MonoBehaviour
                         {
                             CanGoIn = true;
                             NextScene = "E_Hall";
+                            check = SavingSystem.instance.GetCurrentState(KeyData.HaveEnteredE);
                         }
                         break;
                     }
@@ -76,13 +86,34 @@ public class PlayerController : MonoBehaviour
             if (CanGoIn)
             {
                 // hien thong bao va mo Scene
-                int check = SavingSystem.instance.GetCurrentState(KeyData.HaveEnteredA);
-                if (check == 0)
+                if (check == 0 || check == -1)
                 {
                     // hien thong bao
                     UI_Outside_Controller.instance.ShowReceiveObjectPanel(true);
                     UI_Outside_Controller.instance.SetReceiveObject("Đã sử dụng chìa khóa.");
-                    SavingSystem.instance.SaveCurrentState(KeyData.HaveEnteredA, 1);
+                    switch (NextScene)
+                    {
+                        case "A_Hall":
+                            {
+                                SavingSystem.instance.SaveCurrentState(KeyData.HaveEnteredA, 1);
+                                break;
+                            }
+                        case "B_Hall":
+                            {
+                                SavingSystem.instance.SaveCurrentState(KeyData.HaveEnteredB, 1);
+                                break;
+                            }
+                        case "C_Hall":
+                            {
+                                SavingSystem.instance.SaveCurrentState(KeyData.HaveEnteredC, 1);
+                                break;
+                            }
+                        case "E_Hall":
+                            {
+                                SavingSystem.instance.SaveCurrentState(KeyData.HaveEnteredE, 1);
+                                break;
+                            }
+                    }
                 }
                 StateControl.instance.IsGamePause = true;
                 SceneManager.LoadScene(NextScene);
@@ -101,5 +132,11 @@ public class PlayerController : MonoBehaviour
             StateControl.instance.IsGamePause = true;
             SceneManager.LoadScene("Outside");
         }
+    }
+
+    public void SetPlayerIdle(float x, float y)
+    {
+        animator.SetFloat("lastX", x);
+        animator.SetFloat("lastY", y);
     }
 }

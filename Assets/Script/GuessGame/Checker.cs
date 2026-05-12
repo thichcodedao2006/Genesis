@@ -18,7 +18,7 @@ public class Checker : MonoBehaviour
         int i = 0;
         try
         {
-            setPassCondition(ConditionType.HavingCap, InventorySystem.instance.CheckInventory(KeyData.wireCap));
+            setPassCondition(ConditionType.HavingCap, InventorySystem.instance.CheckInventory(KeyData.capE));
         }
         catch
         {

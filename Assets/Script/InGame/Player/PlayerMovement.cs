@@ -50,13 +50,13 @@ public class PlayerMovement : MonoBehaviour
     #region Function
     private void Move()
     {
-     //   if (StateControl.instance.IsGamePause) return;
+        if (StateControl.instance.IsGamePause) return;
         rb.velocity = PlayerSpeed * Direction;  
     }
 
     private void GetDirection()
     {
-     //   if (StateControl.instance.IsGamePause) return;
+        if (StateControl.instance.IsGamePause) return;
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
         if (x != 0 || y != 0)

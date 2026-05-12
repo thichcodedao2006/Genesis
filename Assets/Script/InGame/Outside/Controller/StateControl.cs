@@ -27,5 +27,6 @@ public class StateControl : MonoBehaviour
 
     [Header("Control variance")]
     public bool IsGamePause = false;
+    public bool CanClickUI = true;
 
 }

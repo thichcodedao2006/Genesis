@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "NH\u1EA4N \u0110\u1EC2 B\u1EAET \u0110\u1EA6U"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
-  m_sharedMaterial: {fileID: 7183974576723731018, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -206,8 +206,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -388,7 +388,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 450, y: 350}
-  m_SizeDelta: {x: 600, y: 200}
+  m_SizeDelta: {x: 600, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284717369
 MonoBehaviour:
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5b77e71bb8720b0439d0e9a2d0b27c51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1205b16739db6c4ea0a3b9f267f08fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1019,8 +1019,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "CH\u1ECCN NH\xC2N V\u1EACT"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
-  m_sharedMaterial: {fileID: 7183974576723731018, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1044,8 +1044,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1153,8 +1153,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Vy
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
-  m_sharedMaterial: {fileID: 7183974576723731018, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1178,8 +1178,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1287,8 +1287,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "V\u0169"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
-  m_sharedMaterial: {fileID: 7183974576723731018, guid: 0ca6c353e6b59ee468686aa793f06825, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
+  m_sharedMaterial: {fileID: -8351617803291495369, guid: d420ddf3dcd1c2a4f9604f1ce7ea5d7c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1312,8 +1312,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2342,6 +2342,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1b5281722663f134a9a029c51db82c65, type: 2}
   - {fileID: 11400000, guid: 47898f8cb1d4591489f18337878fddb8, type: 2}
   - {fileID: 11400000, guid: 28f392078cb354f4fa13e21de7cd84a8, type: 2}
+  - {fileID: 11400000, guid: ee09916e8fad01648ae04c7a9ff1306b, type: 2}
+  - {fileID: 11400000, guid: 91bb25054832fc04f8e69c6e2a6f67b3, type: 2}
+  - {fileID: 11400000, guid: c36337edb11f30148b1956f8c5e6d8f2, type: 2}
 --- !u!4 &1482368828
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class KeyData
     public static int KeyE = 5;
     public static int MapA = 6;
 
-    public static int wireCap = 20;
+    public static int capE = 20;
 
     [Header("State")]
     public static string HaveEnteredA = "HaveEnteredA";
@@ -29,4 +29,11 @@ public class KeyData
     [Header("Spawn")]
     public static string RandomSpawn = "RandomSpawn";
     public static string SpawnFromA = "SpawnFromA";
+    public static string SpawnFromB = "SpawnFromB";
+    public static string SpawnFromE = "SpawnFromE"; 
+
+    [Header("Object State")]
+    public static string Computer = "Computer";
+    public static string Locker = "Locker";
+
 }

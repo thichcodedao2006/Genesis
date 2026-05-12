@@ -23,6 +23,7 @@ public class ChooseCharButton : MonoBehaviour
 
     private void SaveSomethingBeforeGame()
     {
+        PlayerPrefs.DeleteAll();
         // Default Conversation 
         PlayerPrefs.SetInt(KeyData.NPCSecurity, info.CharacterID);
         PlayerPrefs.SetInt(KeyData.NPCStaffA, 0);
@@ -36,6 +37,7 @@ public class ChooseCharButton : MonoBehaviour
         PlayerPrefs.Save();
 
         InventorySystem.instance.AddInventory(info.CharacterID);
+        InventorySystem.instance.AddInventory(KeyData.KeyB);
     }
 
 }

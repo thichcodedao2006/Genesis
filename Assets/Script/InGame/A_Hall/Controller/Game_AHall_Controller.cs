@@ -27,6 +27,8 @@ public class Game_AHall_Controller : MonoBehaviour
     [Header("Spawn")]
     public GameObject LibraryToA;
     public GameObject AToLibrary;
+    public GameObject InFrontNPC;
+
     #endregion
 
     private void Awake()
@@ -58,4 +60,99 @@ public class Game_AHall_Controller : MonoBehaviour
     {
         UI_AHall_Controller.instance.ShowDetailPanel(false);
     }
+
+    public void ChangeFollowCameraPriority(int pri)
+    {
+        followCamera.Priority = pri;
+    }
+
+    public void CloseInput()
+    {
+        if (!StateControl.instance.CanClickUI) return;
+        UI_AHall_Controller.instance.ShowInputPanel(false);
+        StateControl.instance.IsGamePause = false;
+    }    
+
+    public void DeleteChar()
+    {
+        if (!StateControl.instance.CanClickUI) return;
+        string txt = UI_AHall_Controller.instance.GetInputText();
+        if (txt.Length == 0) return;
+        txt = txt.Remove(txt.Length - 1);
+        UI_AHall_Controller.instance.SetInputText(txt);
+    }
+
+    public void EnterInput()
+    {
+        if (!StateControl.instance.CanClickUI) return;
+        string txt = UI_AHall_Controller.instance.GetInputText();
+        if (LogicController.instance.CheckWinningCondition())
+        {
+            StartCoroutine(Winning(txt));
+        }else
+        {
+            StartCoroutine(Losing(txt));
+        }
+    }
+
+    IEnumerator Losing(string txt)
+    {
+        yield return StartCoroutine(TypingBack(txt));
+
+        UI_AHall_Controller.instance.SetInputTextColor(Color.red);
+
+        yield return StartCoroutine(TypingFront("Incorrect"));
+
+        yield return StartCoroutine(TypingBack("Incorrect"));
+
+        UI_AHall_Controller.instance.SetInputTextColor(Color.white);
+
+        StateControl.instance.CanClickUI = true;
+    }
+
+    IEnumerator Winning(string txt)
+    {
+        yield return StartCoroutine(TypingBack(txt));
+
+        UI_AHall_Controller.instance.SetInputTextColor(Color.green);
+
+        yield return StartCoroutine(TypingFront("Correct"));
+
+        yield return new WaitForSeconds(0.5f);
+
+        UI_AHall_Controller.instance.ShowInputPanel(false);
+
+        UI_AHall_Controller.instance.SetInputTextColor(Color.white);
+
+        StateControl.instance.CanClickUI = true;
+
+        StateControl.instance.IsGamePause = false;
+
+        EventSystem.SuccessAChallenge?.Invoke();
+
+
+    }
+
+    IEnumerator TypingFront(string txt)
+    {
+        string real = "";
+        foreach(char c in txt)
+        {
+            real += c;
+            UI_AHall_Controller.instance.SetInputText(real);
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+    IEnumerator TypingBack(string txt)
+    {
+        while (txt.Length > 0)
+        {
+            txt = txt.Remove(txt.Length - 1);
+            UI_AHall_Controller.instance.SetInputText(txt);
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+
 }

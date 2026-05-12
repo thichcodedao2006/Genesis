@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Cinemachine;
+using System.Collections;
 using UnityEngine;
 
 public class E_Hall_Controller : MonoBehaviour
@@ -11,6 +12,9 @@ public class E_Hall_Controller : MonoBehaviour
   //  [SerializeField] Transform afterCreditSpawnPoint;
     private string welcomeText = "Hello đây là toàn E";
     private Checker? checker;
+
+    public CinemachineVirtualCamera followCamera;
+    public GameObject spawnpoint;
 
     public static E_Hall_Controller Instance
     {
@@ -26,6 +30,9 @@ public class E_Hall_Controller : MonoBehaviour
         {
             instance = this;
         }
+        GameObject player = Instantiate(CharacterControl.instance.info.CharacterPrefab);
+        player.transform.position = spawnpoint.transform.position;
+        followCamera.Follow = player.transform;
     }
     private void Start()
     {

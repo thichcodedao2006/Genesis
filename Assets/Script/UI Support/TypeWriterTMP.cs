@@ -40,11 +40,16 @@ public class TypeWriterTMP : MonoBehaviour
     /// </summary>
     public void ShowText(string content)
     {
+        if (!isActiveAndEnabled)
+        {
+            textUI.text = content;
+            return;
+        }
+
         if (typingCoroutine != null)
             StopCoroutine(typingCoroutine);
 
         StopBlink();
-
         typingCoroutine = StartCoroutine(TypeText(content));
     }
 
