@@ -126,6 +126,10 @@ public class Game_AHall_Controller : MonoBehaviour
 
         StateControl.instance.CanClickUI = true;
 
+        StateControl.instance.IsGamePause = false;
+
+        EventSystem.SuccessAChallenge?.Invoke();
+
 
     }
 

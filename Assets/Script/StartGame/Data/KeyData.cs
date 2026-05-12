@@ -27,4 +27,10 @@ public class KeyData
     [Header("Spawn")]
     public static string RandomSpawn = "RandomSpawn";
     public static string SpawnFromA = "SpawnFromA";
+    public static string SpawnFromB = "SpawnFromB";
+
+    [Header("Object State")]
+    public static string Computer = "Computer";
+    public static string Locker = "Locker";
+
 }
