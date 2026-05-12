@@ -25,7 +25,7 @@ public class TypeWriterTMP : MonoBehaviour
 
     private Coroutine typingCoroutine;
     private Coroutine blinkCoroutine;
-
+    public bool IsTyping => typingCoroutine != null;    
     private Color baseColor;
 
     private void Awake()
@@ -129,5 +129,10 @@ public class TypeWriterTMP : MonoBehaviour
 
             yield return new WaitForSeconds(blinkInterval);
         }
+    }
+    public float TypeSpeed
+    {
+        get => delay * 1000f;
+        set => delay = value / 1000f; 
     }
 }

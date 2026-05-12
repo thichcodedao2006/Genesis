@@ -7,7 +7,8 @@ public class E_Hall_Controller : MonoBehaviour
     [SerializeField] private GameObject roomE101;
     [SerializeField] private TypeWriterTMP tmp;
     [SerializeField] float announceDelay = 2f;
-
+    [SerializeField] GameObject creditSequence;
+  //  [SerializeField] Transform afterCreditSpawnPoint;
     private string welcomeText = "Hello đây là toàn E";
     private Checker? checker;
 
@@ -53,4 +54,13 @@ public class E_Hall_Controller : MonoBehaviour
     // 1. Làm check đủ thẻ nhớ chưa
     // 2. Làm check đã lụm cap chưa
     public void PassCondition(ConditionType condition, bool isPass) => checker?.setPassCondition(condition, isPass);
+
+    public void ShowAfterCredit() 
+    {
+        //var credit =   Instantiate(afterCreditPrefab, afterCreditSpawnPoint.position, Quaternion.identity);
+        //credit.transform.localPosition = Vector3.zero;
+        //credit.transform.localScale = Vector3.one;
+        creditSequence.SetActive(true);
+        creditSequence.GetComponent<CreditSequence>().Play();
+    }
 }

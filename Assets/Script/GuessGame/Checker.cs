@@ -30,8 +30,19 @@ public class Checker : MonoBehaviour
 
             if (!conditions[i].isPass) break;
         }
-        if (i == conditions.Count) StartCoroutine(hallController.Announce(whenPassAll));
+        if (i == conditions.Count) 
+        {
+            StartCoroutine(WhenPassOn());
+        }
         else StartCoroutine(hallController.Announce(conditions[i].announceWhenNotPass));
     }
     public void setPassCondition(ConditionType conditionType, bool isPass) => conditions.Find(c => c.type == conditionType).isPass = isPass;
+
+    public IEnumerator WhenPassOn() 
+    {
+        yield return hallController.Announce(whenPassAll);
+        yield return new WaitForSeconds(1f);    
+        hallController.ShowAfterCredit();
+    }
+
 }
