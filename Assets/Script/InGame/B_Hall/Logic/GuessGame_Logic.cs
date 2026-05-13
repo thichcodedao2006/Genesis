@@ -18,9 +18,9 @@ public class GuessGame_Logic : MonoBehaviour
 {
     [Header("UI")]
     public GameObject GuessPanel;
-    public TextMeshProUGUI Description;
-    public TextMeshProUGUI Hint;
-    public TextMeshProUGUI GuessLeft;
+    public TypeWriterTMP Description;
+    public TypeWriterTMP Hint;
+    public TypeWriterTMP GuessLeft;
     public TMP_InputField GuessAnswer;
 
     [Header ("Data")]
@@ -32,11 +32,11 @@ public class GuessGame_Logic : MonoBehaviour
     private int Secret;
     private int min, max;
     #region Function
-    private void Start()
-    {
-        GetCurrentPhaseData();
-        ShowDataBaseOnPhase();
-    }
+    //private void OnEnable()
+    //{
+    //    GetCurrentPhaseData();
+    //    ShowDataBaseOnPhase();
+    //}
 
     public void Reset()
     {
@@ -65,45 +65,91 @@ public class GuessGame_Logic : MonoBehaviour
 
     public void ShowDataBaseOnPhase()
     {
-        Description.text = phaseConfigs[CurrentPhase].label + " " + min + " - " + max;
-        Hint.text = "";
-        GuessLeft.text = "Còn lại: " + CurrentLive + " lượt nhập";
+        Description.ShowText(phaseConfigs[CurrentPhase].label + " " + min + " - " + max);
+        Hint.ShowText("");
+        GuessLeft.ShowText("Còn lại: " + CurrentLive + " lượt nhập")    ;
         GuessAnswer.text = "";
     }
 
     public void NextPhase()
     {
-        string answer = GuessAnswer.text;
-        int ans = Convert.ToInt32(answer);
-        if (ans == phaseConfigs[CurrentPhase].secret)
+        if (!ValidateInput(out int ans)) return;
+
+        PhaseConfig phase = phaseConfigs[CurrentPhase];
+
+        if (ans == phase.secret)
         {
-            Hint.color = Color.green;
-            Hint.text = "Chính xác";
-            if (CurrentPhase == 2)
+            Hint.SetColor(Color.green);
+            Hint.ShowText("Chính xác!");
+
+            if (CurrentPhase >= phaseConfigs.Count - 1)
             {
                 Reset();
                 CloseGuessPanel();
-                // ket thuc va cho vao trong
                 PlayerController.instance.transform.position = Game_BHall_Controller.instance.InB316.transform.position;
                 PlayerController.instance.SetPlayerIdle(0, -1);
-            } else
-            {
-                IncreasePhase();
-                GetCurrentPhaseData();
-                ShowDataBaseOnPhase();
+                return;
             }
-        } else
-        {
-            Wrong();
-            if (ans <  phaseConfigs[CurrentPhase].secret)
-            {
-                Hint.text = "Số cần tìm có giá trị lớn hơn số nhập.";
-            } else
-            {
-                Hint.text = "Số cần tìm có giá trị nhỏ hơn số nhập.";
-            }
+
+            IncreasePhase();
+            GetCurrentPhaseData();
+            ShowDataBaseOnPhase();
         }
-    }    
+        else
+        {
+            CurrentLive--;
+            GuessAnswer.text = "";
+
+            Hint.SetColor(Color.white);
+
+            if (CurrentLive <= 0)
+            {
+                Hint.SetColor(Color.red);
+                Hint.ShowText("Hết lượt! Thử lại từ đầu.");
+                Reset();
+                CloseGuessPanel();
+                return;
+            }
+
+            GuessLeft.ShowText("Còn lại: " + CurrentLive + " lượt nhập");
+
+            if (ans < phase.secret)
+                Hint.ShowText("Số cần tìm có giá trị lớn hơn số nhập.");
+            else
+                Hint.ShowText("Số cần tìm có giá trị nhỏ hơn số nhập.");
+        }
+    }
+
+    private bool ValidateInput(out int ans)
+    {
+        ans = 0;
+        string input = GuessAnswer.text.Trim();
+
+        if (string.IsNullOrEmpty(input))
+        {
+            Hint.SetColor(Color.yellow);
+            Hint.ShowText("Vui lòng nhập một số.");
+            return false;
+        }
+
+        if (!int.TryParse(input, out ans))
+        {
+            Hint.SetColor(Color.yellow);
+            Hint.ShowText("Input không hợp lệ. Vui lòng nhập số nguyên.");
+            return false;
+        }
+
+        PhaseConfig phase = phaseConfigs[CurrentPhase];
+        if (ans < phase.min || ans > phase.max)
+        {
+            Hint.SetColor(Color.yellow);
+            Hint.ShowText($"Số phải nằm trong khoảng {phase.min} - {phase.max}.");
+            return false;
+        }
+
+        return true;
+    }
+
 
     public void Wrong()
     {
@@ -111,8 +157,8 @@ public class GuessGame_Logic : MonoBehaviour
         ShowDataBaseOnPhase();
         if (CurrentLive == 0)
         {
-            Hint.color = Color.red;
-            Hint.text = "Wrong";
+            Hint.SetColor(Color.red)    ;
+            Hint.ShowText("Wrong")  ;
             CloseGuessPanel();
         }
     }
@@ -120,7 +166,16 @@ public class GuessGame_Logic : MonoBehaviour
     public void OpenGuessPanel()
     {
         GuessPanel.SetActive(true);
+        Game_BHall_Controller.instance.PlayerTransform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         StateControl.instance.IsGamePause = true;
+        StartCoroutine(ShowPanelNextFrame());
+    }
+    private IEnumerator ShowPanelNextFrame()
+    {
+        yield return null;
+        GetCurrentPhaseData();
+        ShowDataBaseOnPhase();
+
     }
     #endregion
 }

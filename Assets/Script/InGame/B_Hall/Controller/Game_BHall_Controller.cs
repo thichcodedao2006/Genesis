@@ -59,5 +59,7 @@ public class Game_BHall_Controller : MonoBehaviour
     {
         UI_BHall_Controller.instance.ShowDetailPanel(false);
     }
+    public Transform PlayerTransform => followCamera.Follow;
+    public GameObject Player => followCamera.Follow.gameObject;
     #endregion
 }

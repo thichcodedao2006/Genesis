@@ -58,6 +58,7 @@ public class NPCControl_AHall : MonoBehaviour, IInteractable
         }
         else
         {
+            Debug.Log("Not contains " + CurrentDialog); 
             return;
         }
 

@@ -16,7 +16,7 @@ public class PressurePlateGame : MonoBehaviour
     [SerializeField] private int targetNumber = 14;
     [SerializeField] private Color winColor = Color.green;
     [SerializeField] private float timeLimit = 90f;
-    bool isWin = false; 
+    bool isWin = false;
     private string defaultText = string.Empty;
     private List<int> idxes = new List<int>();
 
@@ -83,9 +83,10 @@ public class PressurePlateGame : MonoBehaviour
             cap.SetActive(true);
 
             board.SetColorAndBlink(winColor);
-            isWin = true;   
+            isWin = true;
+            E_Hall_Controller.Instance.PassCondition(ConditionType.WinningE101, true);
         }
-        else if(idxes.Count == 4) 
+        else if (idxes.Count == 4)
         {
             ResetPuzzle();
         }
@@ -102,7 +103,7 @@ public class PressurePlateGame : MonoBehaviour
 
         foreach (var plate in plates)
         {
-            plate.ResetPlate(); 
+            plate.ResetPlate();
         }
     }
 

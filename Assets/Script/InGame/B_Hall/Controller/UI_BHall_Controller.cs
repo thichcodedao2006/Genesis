@@ -162,5 +162,6 @@ public class UI_BHall_Controller : MonoBehaviour
     {
         ReceiveObject.gameObject.SetActive(state);
     }
+
 }
 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa06fb7629e9134993a19bb127fb561, type: 3}
+  m_Name: Condition 2
+  m_EditorClassIdentifier: 
+  isPass: 1
+  type: 1
+  description: "\u0111\u1EE7 th\u1EBB nh\u1EDB ch\u01B0a"
+  announceWhenPass: "B\u1EA1n \u0111\xE3 \u0111\u1EE7 d\u1EEF li\u1EC7u t\u1EEB th\u1EBB
+    nh\u1EDB, h\xE3y kh\xF4i ph\u1EE5c d\u1EEF li\u1EC7u c\xF2n thi\u1EBFu trong
+    server"
+  announceWhenNotPass: "B\u1EA1n c\u1EA7n t\xECm l\u1EA1i \u0111\u1EE7 th\u1EBB nh\u1EDB"
