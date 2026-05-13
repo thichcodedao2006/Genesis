@@ -10,7 +10,7 @@ public class KeyData
     public static string NPCStaffB = "2";
     public static string NPCStaffC = "3";
     public static string NPCLibrarian = "4";
-
+    public static string NPCStaffE = "5";
     [Header("Inventory")]
     public static int KeyA = 2;
     public static int KeyB = 3;
@@ -19,7 +19,10 @@ public class KeyData
     public static int MapA = 6;
 
     public static int capE = 20;
-
+    public static int MemoryCard1 = 21; 
+    public static int MemoryCard2 = 22; 
+    public static int MemoryCard3 = 23; 
+    public static int MemoryCard4 = 24; 
     [Header("State")]
     public static string HaveEnteredA = "HaveEnteredA";
     public static string HaveEnteredB = "HaveEnteredB";

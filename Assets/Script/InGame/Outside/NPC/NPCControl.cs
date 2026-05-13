@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class NPCControl : MonoBehaviour, IInteractable
@@ -13,6 +15,8 @@ public class NPCControl : MonoBehaviour, IInteractable
     protected int CurrentDialogIndex = 0;
     private List<string> InsideCurrentDialog = new List<string>();
     private List<bool> SentenceCanBeAutoPass = new List<bool>();
+
+    public Action considerateDialog; 
     public void Interact() // work as a click function
     {
         if (DialogContent == null || (StateControl.instance.IsGamePause && !isDialogActive) || isDialogActive)
@@ -101,7 +105,10 @@ public class NPCControl : MonoBehaviour, IInteractable
             UI_Outside_Controller.instance.SetDialogText(InsideCurrentDialog[CurrentDialogIndex]);
         } else
         {
-            if (++CurrentDialogIndex < InsideCurrentDialog.Count)
+            CurrentDialogIndex++; 
+            considerateDialog?.Invoke(); 
+
+            if (CurrentDialogIndex < InsideCurrentDialog.Count)
             {
                 StartCoroutine(TypingContent());
             }

@@ -39,6 +39,7 @@ public class E_Hall_Controller : MonoBehaviour
         roomE101.SetActive(true);
         tmp.gameObject.SetActive(false);
         StartCoroutine(Announce(welcomeText));
+        
         PlayerSetUp();
     }
     public IEnumerator Announce(string message)
@@ -51,8 +52,10 @@ public class E_Hall_Controller : MonoBehaviour
     }
     public void PlayerSetUp()
     {
+        Debug.Log("Đã set up xong");
         var player = PlayerController.instance.gameObject.transform;
         player.transform.localScale = new Vector3(1, 1, 1);
+        StateControl.instance.IsGamePause = false;
 
     }
     public void setChecker(Checker checker) => this.checker = checker;
