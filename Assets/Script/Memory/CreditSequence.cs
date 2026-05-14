@@ -39,10 +39,9 @@ public class CreditSequence : MonoBehaviour
     private CreditLine[] _lines;
 
     // ── Unity ─────────────────────────────────────────────
-    private void Start()
+    private void Awake()
     {
         BuildScript();
-        
     }
     public void Play()
     {
@@ -264,5 +263,9 @@ public class CreditSequence : MonoBehaviour
         yield return new WaitForSeconds(0.06f);
         c.a = 0f;
         glitchOverlay.color = c;
+    }
+    public void OnDestroy()
+    {
+        PlayerPrefs.DeleteAll(); 
     }
 }

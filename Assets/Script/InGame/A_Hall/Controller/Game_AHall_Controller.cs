@@ -1,4 +1,4 @@
-using Cinemachine;
+﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,6 +24,9 @@ public class Game_AHall_Controller : MonoBehaviour
     public CinemachineVirtualCamera followCamera;
     public GameObject spawnpoint;
 
+    [SerializeField] PickableObj memoryCard1;
+    [SerializeField] PickableObj memoryCard2; 
+
     [Header("Spawn")]
     public GameObject LibraryToA;
     public GameObject AToLibrary;
@@ -42,6 +45,8 @@ public class Game_AHall_Controller : MonoBehaviour
     private void Start()
     {
         StateControl.instance.IsGamePause = false;
+        memoryCard1.OnPickedWithData = AnnouncePickedItem;
+        memoryCard2.OnPickedWithData= AnnouncePickedItem;   
     }
 
     public void OpenBackPack()
@@ -155,5 +160,10 @@ public class Game_AHall_Controller : MonoBehaviour
         }
     }
 
+    public void AnnouncePickedItem(Object obj)
+    {
+        UI_AHall_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
+        UI_AHall_Controller.instance.ShowReceiveObjectPanel(true);
+    }
 
 }

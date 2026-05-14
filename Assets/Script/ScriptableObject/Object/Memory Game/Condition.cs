@@ -7,7 +7,8 @@ public enum ConditionType
 {
     WinningE101,
     HavingFullFM,
-    HavingCap
+    HavingCap, 
+    CompletedRecovery
 }
 [CreateAssetMenu(fileName = "Condition", menuName = "Memory Game/Condition")]
 public class Condition : ScriptableObject

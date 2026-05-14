@@ -58,6 +58,7 @@ public class LogicGateGameController : MonoBehaviour
             {
                 title.ShowText("Chúc mừng!");
                 description.ShowText("Bạn đã hoàn thành thử thách");
+                Game_BHall_Controller.instance.ShowUpKeyC(); 
             };
 
         }
@@ -89,14 +90,14 @@ public class LogicGateGameController : MonoBehaviour
     // Actach to    Intermediate button
     public void openLogicGateGuide() => this.CheckPlayerDistanceToInteract(() =>
     {
-        SetActiveCircuit(CircuitType.LogicGateGuide, true);
         StateControl.instance.IsGamePause = true;
         PlayerController.instance.ResetVelo();
+
+        SetActiveCircuit(CircuitType.LogicGateGuide, true);
     });
     // Attach to    Advanced button 
     public void openLogicGateGame() => this.CheckPlayerDistanceToInteract(() =>
     {
-
         StateControl.instance.IsGamePause = true;
         PlayerController.instance.ResetVelo();
         SetActiveCircuit(CircuitType.LogicGateGame, true);

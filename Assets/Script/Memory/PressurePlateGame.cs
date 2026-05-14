@@ -16,6 +16,7 @@ public class PressurePlateGame : MonoBehaviour
     [SerializeField] private int targetNumber = 14;
     [SerializeField] private Color winColor = Color.green;
     [SerializeField] private float timeLimit = 90f;
+    [SerializeField] private float validDistance; 
     bool isWin = false;
     private string defaultText = string.Empty;
     private List<int> idxes = new List<int>();
@@ -36,6 +37,10 @@ public class PressurePlateGame : MonoBehaviour
             Debug.Log("Subscribe to " + item.name);
             item.onComplete += WhenComplete;
         }
+
+        var picked = cap.GetComponent<PickableObj>();
+        picked.PickedCondition += E_Hall_Controller.Instance.ValidDistance; 
+        picked.OnPicked += WhenPickedCap; 
     }
 
     private void Update()
@@ -106,5 +111,10 @@ public class PressurePlateGame : MonoBehaviour
             plate.ResetPlate();
         }
     }
-
+    private void WhenPickedCap() => E_Hall_Controller.Instance.PassCondition(ConditionType.HavingCap, true); 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(cap.transform.position, validDistance); 
+    }
 }

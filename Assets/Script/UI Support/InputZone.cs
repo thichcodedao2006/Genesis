@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -28,6 +28,8 @@ public class InputZone : MonoBehaviour
             enterButton.SetActive(false);
             exitButton.SetActive(true);
             onCorrectAnswer?.Invoke();
+            Debug.Log("Trả lời đúng: " + answer);
+            MemoryRecoverGame.Instance.CurrCompletedLines++; 
             CloseInputZone();
             return true;
         }
@@ -66,6 +68,7 @@ public class InputZone : MonoBehaviour
 
     public void OpenInputZone(int keyIndex, Action correctCallback)
     {
+        onCorrectAnswer = null;
         onCorrectAnswer = correctCallback;
 
         key = HorizontalPhone.Instance
@@ -84,6 +87,7 @@ public class InputZone : MonoBehaviour
     }
     public void CloseInputZone()
     {
+        onCorrectAnswer = null;
         correctObj.SetActive(false);
         incorrectObj.SetActive(false);
         enterButton.SetActive(false);
