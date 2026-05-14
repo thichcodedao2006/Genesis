@@ -1,4 +1,4 @@
-using Cinemachine;
+﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,6 +27,10 @@ public class Game_BHall_Controller : MonoBehaviour
     public GameObject InB316;
     #endregion
 
+    #region Pickable Object
+    [SerializeField] PickableObj keyC;
+    [SerializeField] PickableObj memoryCard;
+    #endregion
     private void Awake()
     {
         MakeSingleTon();
@@ -40,6 +44,10 @@ public class Game_BHall_Controller : MonoBehaviour
     private void Start()
     {
         StateControl.instance.IsGamePause = false;
+        keyC.OnPickedWithData += AnnouncePickedItem;
+        memoryCard.OnPickedWithData += AnnouncePickedItem;
+
+        keyC.gameObject.SetActive(false); 
     }
 
     #region Function
@@ -62,4 +70,14 @@ public class Game_BHall_Controller : MonoBehaviour
     public Transform PlayerTransform => followCamera.Follow;
     public GameObject Player => followCamera.Follow.gameObject;
     #endregion
+    public void AnnouncePickedItem(Object obj) 
+    {
+        UI_BHall_Controller.instance.SetReceiveObject("Bạn nhận được" + obj.NameObject);
+        UI_BHall_Controller.instance.ShowReceiveObjectPanel(true);
+    }
+
+    public void ShowUpKeyC() 
+    {
+        keyC.gameObject.SetActive(true);
+    }
 }

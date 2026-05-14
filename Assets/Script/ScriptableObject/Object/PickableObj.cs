@@ -9,10 +9,12 @@ public class PickableObj : MonoBehaviour, IInteractable
     [SerializeField] Object data;
 
     public Action OnPicked;
+    public Action<Object> OnPickedWithData;
     public Predicate<GameObject> PickedCondition;
     public void Start()
     {
-        InventorySystem.instance.AddInventory(data.IDobject);
+        Debug.Log("Đang set up: " + data.NameObject);
+       
     }
     public bool CanInteract()
     {
@@ -23,9 +25,12 @@ public class PickableObj : MonoBehaviour, IInteractable
     {
         if (!CanInteract())
             Debug.Log("Pick faild" + data.name);
-        OnPicked?.Invoke(); 
+        OnPicked?.Invoke();
+        OnPickedWithData?.Invoke(data); 
         Debug.Log("Pick " + data.name);
+        InventorySystem.instance.AddInventory(data.IDobject);
         LoadingData.instance.AddNewItemToUI(data.IDobject);  
+
         Destroy(gameObject);
     }
     public void OnMouseDown()

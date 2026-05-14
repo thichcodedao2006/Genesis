@@ -58,6 +58,7 @@ public class LogicGateGameController : MonoBehaviour
             {
                 title.ShowText("Chúc mừng!");
                 description.ShowText("Bạn đã hoàn thành thử thách");
+                Game_BHall_Controller.instance.ShowUpKeyC(); 
             };
 
         }
