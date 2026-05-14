@@ -14,7 +14,17 @@ public class PickableObj : MonoBehaviour, IInteractable
     public void Start()
     {
         Debug.Log("Đang set up: " + data.NameObject);
-       
+    }
+    public void OnEnable()
+    {
+        if (PlayerPrefs.HasKey(keySave)) 
+        {
+            int val = PlayerPrefs.GetInt(keySave);
+            if (val == 1) 
+            {
+                gameObject.SetActive(false);
+            }
+        }
     }
     public bool CanInteract()
     {
@@ -29,13 +39,14 @@ public class PickableObj : MonoBehaviour, IInteractable
         OnPickedWithData?.Invoke(data); 
         Debug.Log("Pick " + data.name);
         InventorySystem.instance.AddInventory(data.IDobject);
-        LoadingData.instance.AddNewItemToUI(data.IDobject);  
-
+        LoadingData.instance.AddNewItemToUI(data.IDobject);
+        PlayerPrefs.SetInt(keySave,1);
+        PlayerPrefs.Save();
         Destroy(gameObject);
     }
     public void OnMouseDown()
     {
         Interact();
     }
-
+    public string keySave => $"pickable_{data.IDobject}"; 
 }

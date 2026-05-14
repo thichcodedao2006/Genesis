@@ -264,4 +264,8 @@ public class CreditSequence : MonoBehaviour
         c.a = 0f;
         glitchOverlay.color = c;
     }
+    public void OnDestroy()
+    {
+        PlayerPrefs.DeleteAll(); 
+    }
 }

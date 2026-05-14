@@ -11,12 +11,17 @@ public class Checker : MonoBehaviour
     [SerializeField] TypeWriterTMP writerTMP;
 
     E_Hall_Controller hallController;
-
+    private string keyChecker = "first_time_enter"; 
     public void Start()
     {
-        for (int i = 0; i < conditions.Count; i++)
+        int val = SavingSystem.instance.GetCurrentState(keyChecker);
+        if (val == -1)
         {
-            conditions[i] = Instantiate(conditions[i]);
+            SavingSystem.instance.SaveCurrentState("first_time_enter", 1);
+            foreach (var item in conditions)
+            {
+                item.isPass = false;
+            }
         }
 
         hallController = E_Hall_Controller.Instance;
@@ -34,9 +39,13 @@ public class Checker : MonoBehaviour
             E_Hall_Controller.Instance.IsWinGame = true;
         }
     }
-
+    
     public void setPassCondition(ConditionType conditionType, bool isPass)
-        => conditions.Find(c => c.type == conditionType).isPass = isPass;
+    {
+        conditions.Find(c => c.type == conditionType).isPass = isPass;
+        //save(conditionType, isPass);
+    }
+      
 
     public bool isPassCondition(ConditionType conditionType) => conditions.Find(c => c.type == conditionType).isPass; 
 
@@ -59,5 +68,15 @@ public class Checker : MonoBehaviour
     {
         checkPanel.SetActive(false);
         E_Hall_Controller.Instance.ContinuePlayer();
+    }
+
+    public string getSaveKey(ConditionType conditionType)
+        => $"condition_{(int)conditionType}";
+
+    public void save(ConditionType conditionType, bool val)
+    {
+        string key = getSaveKey(conditionType);
+        PlayerPrefs.SetInt(key, (val) ? 1 : 0);
+        PlayerPrefs.Save(); 
     }
 }

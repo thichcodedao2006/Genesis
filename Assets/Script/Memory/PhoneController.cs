@@ -16,7 +16,7 @@ public class PhoneController : MonoBehaviour
             verticalPhone.SetActive(false);
             // Animation múa lửa gì đó , để hiện cái điện thoại, hoặc màn hình chờ
             //horizontalPhone.SetActive(true);   
-            E_Hall_Controller.Instance.OpenPhonePanel();
+            E_Hall_Controller.Instance?.OpenPhonePanel();
         }else 
         {
             horizontalPhone.SetActive(false);
@@ -26,7 +26,7 @@ public class PhoneController : MonoBehaviour
     public void TurnOffPhone() 
     {
         verticalPhone.SetActive(false);
-        E_Hall_Controller.Instance.ClosePhonePanel(); 
+        E_Hall_Controller.Instance?.ClosePhonePanel(); 
     }
     
 }

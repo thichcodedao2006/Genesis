@@ -68,6 +68,7 @@ public class InputZone : MonoBehaviour
 
     public void OpenInputZone(int keyIndex, Action correctCallback)
     {
+        onCorrectAnswer = null;
         onCorrectAnswer = correctCallback;
 
         key = HorizontalPhone.Instance
@@ -86,6 +87,7 @@ public class InputZone : MonoBehaviour
     }
     public void CloseInputZone()
     {
+        onCorrectAnswer = null;
         correctObj.SetActive(false);
         incorrectObj.SetActive(false);
         enterButton.SetActive(false);

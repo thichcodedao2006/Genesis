@@ -38,11 +38,14 @@ public class HorizontalPhone : MonoBehaviour
             // Chỉ load đúng theo phần thẻ nhớ
            if(InventorySystem.instance.CheckInventory(KeyData.MemoryCard1 + i)) 
            {
-              
-           }
+                fragmentCodes[i].SetUI(fragmentMemories[i].OrderIdx, fragmentMemories[i].HexCode);
+                fragmentCodes[i].OnClickFragment += SetUpEvent;
+            }else 
+            {
+                fragmentCodes[i].SetUI(-1, "DATA LOST");
+            }
             //fragmentCodes[i].gameObject.SetActive(true);
-            fragmentCodes[i].SetUI(fragmentMemories[i].OrderIdx, fragmentMemories[i].HexCode);
-            fragmentCodes[i].OnClickFragment += SetUpEvent; 
+            
         }
     }
     private void OnEnable()

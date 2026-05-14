@@ -161,8 +161,8 @@ public class Game_AHall_Controller : MonoBehaviour
 
     public void AnnouncePickedItem(Object obj)
     {
-        UI_BHall_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
-        UI_BHall_Controller.instance.ShowReceiveObjectPanel(true);
+        UI_AHall_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
+        UI_AHall_Controller.instance.ShowReceiveObjectPanel(true);
     }
 
 }

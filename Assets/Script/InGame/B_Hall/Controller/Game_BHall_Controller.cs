@@ -72,7 +72,7 @@ public class Game_BHall_Controller : MonoBehaviour
     #endregion
     public void AnnouncePickedItem(Object obj) 
     {
-        UI_BHall_Controller.instance.SetReceiveObject("Bạn nhận được" + obj.NameObject);
+        UI_BHall_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
         UI_BHall_Controller.instance.ShowReceiveObjectPanel(true);
     }
 
