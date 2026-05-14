@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: StaffInsideE
+  m_EditorClassIdentifier: 
+  NPCid: 6
+  NPCname: Tomie
+  NPCAva: {fileID: 583898692, guid: 29e0083d929d8ad4b9344fdd4adc4fbc, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "Muhajajajaa, \u3053\u3061\u3089\u306F\u5BCC\u6C5F\u3067\u3059, \u0111\xE3
+      t\u1EDBi l\xFAc tr\u01B0\u1EDDng n\xE0y \u0111i v\xE0o d\u0129 v\xE3ng"
+    - "S\u1EE3 ch\u01B0a, d\u1EE1n th\xF4i em \u01A1i, c\u1EA3m \u01A1n em \u0111\xE3
+      m\u1EDF c\u1EEDa cho ch\u1ECB ra. T\u1ED1i qua ng\u1EE7 qu\xEAn trong t\xF2a,
+      b\u1EADn s\u1EEDa c\xE1i server, l\xE0m ri\u1EBFt m\xE0 c\xE1i c\u1ED9ng c\xE1p
+      c\u1EE7a ch\u1ECB n\u1ED5 r\u1ED3i em \u01A1i."
+    autoProgress: 0000
+  - DialogID: 1
+    SentenceList:
+    - "Qua nay ch\u1ECB \u1EDF \u0111\xE2y l\xE0m \u0111\u01B0\u1EE3c m\u1ED9t m\u1EDB
+      r\u1ED3i, c\xF2n thi\u1EBFu data g\xEC \u0111\xF3, v\u1EEBa hay l\u1EA1i c\xF3
+      m\u1EA5y khe c\u1EA5m th\u1EBB nh\u1EDB. Ch\u1ECB \u0111o\xE1n m\u1EA5y c\xE1i
+      th\u1EBB nh\u1EDB c\xF3 ch\u1EE9a data c\u1EA7n thi\u1EBFt "
+    - "Em t\xECm v\xF2ng quanh \u0111\xE2y gi\xFAp ch\u1ECB nha. \xC0 v\u1EDBi n\u1EEFa,
+      em c\u1EA7n m\u1ED9t lo\u1EA1i d\xE2y c\xE1p chuy\xEAn d\u1EE5ng \u0111\u1EC3
+      k\u1EBFt n\u1ED1i tr\u1EF1c ti\u1EBFp v\u1EDBi server, em th\u1EED t\xECm c\u1ED9ng
+      m\u1EDBi trong ph\xF2ng E101 nha"
+    autoProgress: 0000
+  - DialogID: 2
+    SentenceList:
+    - "Nh\xECn m\u1EB7t s\xE1ng l\xE1ng c\u1EE1 n\xE0y th\xEC t\xECm m\u1EA5y h\u1ED3i
+      xong. C\u1EE1 n\xE0y \u0111\u1ED5i h\u1EC7 c\u01A1 s\u1ED1 c\xE1c ki\u1EC3u
+      nhanh l\u1EAFm n\xE8"
+    - "Ch\u1ECB c\xF3 \u0111\u1EC3 l\u1EA1i note b\xEAn ph\xF2ng server, em check
+      b\xEAn \u0111\xF3."
+    autoProgress: 0000
+  TypingSpeed: 0.05
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -28,6 +28,8 @@ public class InputZone : MonoBehaviour
             enterButton.SetActive(false);
             exitButton.SetActive(true);
             onCorrectAnswer?.Invoke();
+            Debug.Log("Trả lời đúng: " + answer);
+            MemoryRecoverGame.Instance.CurrCompletedLines++; 
             CloseInputZone();
             return true;
         }

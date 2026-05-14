@@ -1,4 +1,4 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -30,13 +30,21 @@ public class TypeWriterTMP : MonoBehaviour
 
     private void Awake()
     {
-        textUI = GetComponent<TMP_Text>();
+        if (textUI == null)
+            textUI = GetComponent<TMP_Text>();
+
+        if (textUI == null)
+        {
+            Debug.LogError("TypeWriterTMP: Kh√¥ng t√¨m th·∫•y TMP_Text!", this);
+            return;
+        }
+
         baseColor = textUI.color;
     }
 
     /// <summary>
-    /// Hi?n th? text v?i hi?u ?ng gı ch?.
-    /// N?u ?ang blink thÏ s? d?ng blink v‡ tr? v? m‡u g?c.
+    /// Hi?n th? text v?i hi?u ?ng g√µ ch?.
+    /// N?u ?ang blink th√¨ s? d?ng blink v√† tr? v? m√†u g?c.
     /// </summary>
     public void ShowText(string content)
     {
@@ -54,7 +62,7 @@ public class TypeWriterTMP : MonoBehaviour
     }
 
     /// <summary>
-    /// ??i m‡u ch? ngay l?p t?c.
+    /// ??i m√†u ch? ngay l?p t?c.
     /// </summary>
     public void SetColor(Color color)
     {
@@ -63,7 +71,7 @@ public class TypeWriterTMP : MonoBehaviour
     }
 
     /// <summary>
-    /// ??i m‡u ch? r?i b?t ??u hi?u ?ng ch?p ch?p.
+    /// ??i m√†u ch? r?i b?t ??u hi?u ?ng ch?p ch?p.
     /// </summary>
     public void SetColorAndBlink(Color color)
     {
@@ -85,7 +93,7 @@ public class TypeWriterTMP : MonoBehaviour
     }
 
     /// <summary>
-    /// D?ng hi?u ?ng ch?p ch?p v‡ tr? l?i m‡u g?c.
+    /// D?ng hi?u ?ng ch?p ch?p v√† tr? l?i m√†u g?c.
     /// </summary>
     public void StopBlink()
     {
@@ -116,7 +124,7 @@ public class TypeWriterTMP : MonoBehaviour
 
         typingCoroutine = null;
 
-        // N?u ?„ b?t blink trong Inspector thÏ t? ??ng ch?y
+        // N?u ?√£ b?t blink trong Inspector th√¨ t? ??ng ch?y
         if (blinkEnabled)
             StartBlink();
     }
@@ -139,5 +147,9 @@ public class TypeWriterTMP : MonoBehaviour
     {
         get => delay * 1000f;
         set => delay = value / 1000f; 
+    }
+    public void setTextBasicMode (string s) 
+    {
+        textUI.text = s;
     }
 }

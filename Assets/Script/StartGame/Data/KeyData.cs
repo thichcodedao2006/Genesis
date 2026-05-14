@@ -11,6 +11,7 @@ public class KeyData
     public static string NPCStaffC = "3";
     public static string NPCLibrarian = "4";
     public static string NPCStaffE = "5";
+    public static string NPCStaffInsideE = "6";
     [Header("Inventory")]
     public static int KeyA = 2;
     public static int KeyB = 3;

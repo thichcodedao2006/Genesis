@@ -15,12 +15,9 @@ public class NPCStaffE : NPCControl
     {
         considerateDialog += () =>
         {
-            if (CurrentDialog == 1 && CurrentDialogIndex == 1)
+            if (CurrentDialog == 1 && InventorySystem.instance.CheckInventory(KeyData.KeyE))
             {
-                bool hasKey = InventorySystem.instance.CheckInventory(KeyData.KeyE);
-                if (!hasKey)
-                    CurrentDialogIndex = 0;
-  
+                CurrentDialogIndex = 1; 
             }
         };
     }

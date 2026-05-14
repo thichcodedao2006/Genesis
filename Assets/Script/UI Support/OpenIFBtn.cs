@@ -47,5 +47,6 @@ public class OpenIFBtn : MonoBehaviour
         typeWriter.ShowText(key);
 
         GetComponent<UnityEngine.UI.Button>().interactable = false;
+
     }
 }

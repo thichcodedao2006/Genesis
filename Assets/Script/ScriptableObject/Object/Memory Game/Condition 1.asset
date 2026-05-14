@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fa06fb7629e9134993a19bb127fb561, type: 3}
   m_Name: Condition 1
   m_EditorClassIdentifier: 
-  isPass: 1
+  isPass: 0
   type: 2
   description: "c\xF3 c\xE1p ch\u01B0a"
-  announceWhenPass: "B\u1EA1n \u0111\xE3 c\xF3 c\xE1p, h\xE3y k\u1EBFt n\u1ED1i v\xE0o
-    server"
-  announceWhenNotPass: "Thi\u1EBFu c\xE1p chuy\xEAn d\u1EE5ng"
+  announceWhenPass: "\u0110\xE3 c\xF3 c\xE1p, h\xE3y k\u1EBFt n\u1ED1i v\xE0o server"
+  announceWhenNotPass: "C\u1ED9ng c\xE1p \u0111\u1EB7c bi\u1EC7t \u0111\u1EC3 k\u1EBFt
+    n\u1ED1i v\xE0o server"

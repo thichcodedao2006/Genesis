@@ -39,10 +39,9 @@ public class CreditSequence : MonoBehaviour
     private CreditLine[] _lines;
 
     // ── Unity ─────────────────────────────────────────────
-    private void Start()
+    private void Awake()
     {
         BuildScript();
-        
     }
     public void Play()
     {
