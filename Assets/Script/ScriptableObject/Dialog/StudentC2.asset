@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: StudentC2
+  m_EditorClassIdentifier: 
+  NPCid: 7
+  NPCname: "C\u1ED1t \u0111\u1EE9a t\xF3c h\u1ED3ng"
+  NPCAva: {fileID: -302143098, guid: 9bb9bb5260652c94b97d3ce2237d7096, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "Ch\xE0o b\u1EA1n, kh\xF4ng ng\u1EDD b\u1EA1n t\xECm ra ch\xFAng t\xF4i \u1EDF
+      \u0111\xE2y. \u0110\xE2y l\xE0 t\xF2a C, t\xF2a n\xE0y th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+      s\u1EED d\u1EE5ng cho c\xE1c s\u1EF1 ki\u1EC7n nh\u01B0 hi\u1EBFn m\xE1u hay
+      c\xE1c s\xE2n ch\u01A1i c\xF4ng ngh\u1EC7 do tr\u01B0\u1EDDng t\u1ED5 ch\u1EE9c."
+    - "V\xE0 c\u0169ng ch\xEDnh v\xEC th\u1EBF, h\xF4m nay t\xF4i c\xF3 1 th\u1EED
+      th\xE1ch d\xE0nh cho b\u1EA1n. N\u1EBFu b\u1EA1n gi\u1EA3i \u0111\u01B0\u1EE3c
+      n\xF3, t\xF4i ngh\u0129 b\u1EA1n s\u1EBD nh\u1EADn \u0111\u01B0\u1EE3c \u0111i\u1EC1u
+      m\xE0 b\u1EA1n \u0111ang t\xECm ki\u1EBFm."
+    - "Th\u1EED th\xE1ch r\u1EA5t \u0111\u01A1n gi\u1EA3n n\xEAn t\xF4i s\u1EBD ch\u1EC9
+      n\xF3i 1 l\u1EA7n th\xF4i. Tr\u01B0\u1EDBc m\u1EB7t b\u1EA1n l\xE0 chi\u1EBFc
+      m\xE1y t\xEDnh t\xE2n ti\u1EBFn c\u1EE7a tr\u01B0\u1EDDng. Tuy v\u1EADy, n\xF3
+      \u0111ang g\u1EB7p m\u1ED9t s\u1ED1 v\u1EA5n \u0111\u1EC1 li\xEAn quan \u0111\u1EBFn
+      l\u01B0u tr\u1EEF d\u1EEF li\u1EC7u."
+    - "Chi\u1EBFc m\xE1y t\xEDnh hi\u1EC7n c\xF3 2 v\xF9ng nh\u1EDB ph\u1EE5 (Secondary)
+      v\xE0 1 v\xF9ng nh\u1EDB ch\xEDnh (Primary). C\xE1c th\u1EA7y c\xF4 \u0111\xE3
+      chu\u1EA9n b\u1ECB d\u1EEF li\u1EC7u cho 5 n\u0103m s\u1EAFp t\u1EDBi \u0111\u01B0\u1EE3c
+      s\u1EAFp x\u1EBFp theo th\u1EE9 t\u1EF1 t\u0103ng d\u1EA7n t\u1EEB tr\xEAn
+      xu\u1ED1ng trong b\u1ED9 nh\u1EDB ph\u1EE5 \u0111\u1EA7u ti\xEAn."
+    - "Nhi\u1EC7m v\u1EE5 c\u1EE7a b\u1EA1n l\xE0 s\u1EAFp x\u1EBFp l\u1EA1i ch\xFAng
+      t\u0103ng d\u1EA7n t\u1EEB tr\xEAn xu\u1ED1ng nh\u01B0ng ph\u1EA3i n\u1EB1m
+      trong b\u1ED9 nh\u1EDB ch\xEDnh."
+    - "Tuy v\u1EADy, b\u1EA1n g\u1EB7p m\u1ED9t s\u1ED1 tr\u1EDF ng\u1EA1i nh\u01B0
+      sau: V\xF9ng nh\u1EDB ch\u1EC9 c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c truy xu\u1EA5t
+      \u1EDF ph\u1EA7n tr\xEAn c\xF9ng t\u1EE9c l\xE0 b\u1EA1n ch\u1EC9 c\xF3 th\u1EC3
+      thao t\xE1c v\u1EDBi d\u1EEF li\u1EC7u n\u1EB1m \u1EDF tr\xEAn \u0111\u1EA7u."
+    - "Ngo\xE0i ra d\u1EEF li\u1EC7u c\xF3 s\u1ED1 th\u1EE9 t\u1EF1 n\u0103m l\u1EDBn
+      h\u01A1n kh\xF4ng th\u1EC3 n\u1EB1m tr\xEAn d\u1EEF li\u1EC7u c\xF3 s\u1ED1
+      th\u1EF1 t\u1EF1 n\u0103m b\xE9 h\u01A1n. \u0110i\u1EC1u n\xE0y nh\u1EB1m \u0111\u1EA3m
+      b\u1EA3o thu\u1EADn ti\u1EC7n trong truy xu\u1EA5t d\u1EEF li\u1EC7u."
+    - "\u0110\xF3 l\xE0 to\xE0n b\u1ED9 th\xF4ng tin b\u1EA1n c\u1EA7n bi\u1EBFt.
+      Ch\xFAc b\u1EA1n may m\u1EAFn."
+    autoProgress: 0100000000000000
+  - DialogID: 1
+    SentenceList:
+    - "T\xF4i ch\u1EC9 h\u01B0\u1EDBng d\u1EABn 1 l\u1EA7n th\xF4i. B\u1EA1n \u0111\u1EC3
+      tai trong t\xFAi qu\u1EA7n \xE0."
+    autoProgress: 00
+  - DialogID: 2
+    SentenceList:
+    - "Qu\xE1 xu\u1EA5t s\u1EAFc. Qu\u1EA3 l\xE0 nh\u1EEFng g\xEC t\xF4i mong \u0111\u1EE3i
+      t\u1EEB m\u1ED9t ng\u01B0\u1EDDi nh\u01B0 b\u1EA1n."
+    autoProgress: 00
+  TypingSpeed: 0.02
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

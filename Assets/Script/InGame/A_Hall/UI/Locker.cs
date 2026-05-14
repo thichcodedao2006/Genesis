@@ -42,7 +42,9 @@ public class Locker : MonoBehaviour
     private void OnMouseDown()
     {
         if (!CanClick) return;
+        if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1.5f) return;
         Debug.Log("Locker");
+        PlayerController.instance.ResetVelo();
         UI_AHall_Controller.instance.ShowInputPanel(true);
         StateControl.instance.IsGamePause = true;
     }

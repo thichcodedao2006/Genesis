@@ -64,6 +64,7 @@ public class Computer_AHall : MonoBehaviour
         }
         if (HaveClick)
         {
+            PlayerController.instance.ResetVelo();
             StateControl.instance.IsGamePause = true;
             List<int> list = new List<int>();
             foreach (int i in IDChoosePlaces)
@@ -79,6 +80,7 @@ public class Computer_AHall : MonoBehaviour
             Debug.Log("Too far");
             return;
         }
+        PlayerController.instance.ResetVelo();
         PlayerPrefs.SetInt(data, 1);
         StateControl.instance.IsGamePause = true;
         LogicController.instance.CalculateDistance(ID);

@@ -142,6 +142,7 @@ public class NPCControl_AHall : MonoBehaviour, IInteractable
             return;
         }
         Debug.Log("Success");
+        PlayerController.instance.ResetVelo();
         if (CanInteract())
         {
             Interact();

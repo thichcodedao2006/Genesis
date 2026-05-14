@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class NPCStaffC : NPCControl
 {
+
+    private void OnEnable()
+    {
+        EventSystem.HaveReceiveKeyC += AdvanceDialog;
+        EventSystem.HaveCollectKeyC();
+    }
+
+    private void OnDisable()
+    {
+        EventSystem.HaveReceiveKeyC -= AdvanceDialog;   
+    }
     public override void EndDialog()
     {
         Common();
@@ -11,6 +22,13 @@ public class NPCStaffC : NPCControl
         {
             CurrentDialog++;
         }
+        CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
+        SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+    }
+
+    private void AdvanceDialog()
+    {
+        CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
     }

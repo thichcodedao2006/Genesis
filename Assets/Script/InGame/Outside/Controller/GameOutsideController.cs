@@ -45,6 +45,7 @@ public class GameOutsideController : MonoBehaviour
     #region Function 
     public void InventoryClick()
     {
+        PlayerController.instance.ResetVelo();
         UI_Outside_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
     }

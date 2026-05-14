@@ -509,9 +509,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1167078093}
     m_Modifications:
+    - target: {fileID: 2397599714642095757, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2397599714642095757, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2397599714642095757, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -100
+      objectReference: {fileID: 0}
     - target: {fileID: 3402827438648101034, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
       propertyPath: m_Name
       value: InGamePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5965576266952248253, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6012300358393070131, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
       propertyPath: m_Pivot.x

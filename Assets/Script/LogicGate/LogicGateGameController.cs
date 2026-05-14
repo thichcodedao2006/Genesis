@@ -82,18 +82,23 @@ public class LogicGateGameController : MonoBehaviour
         this.CheckPlayerDistanceToInteract(() =>
         {
             SetActiveCircuit(CircuitType.DecodeGuide, true);
+            StateControl.instance.IsGamePause = true;
+            PlayerController.instance.ResetVelo();
         }); 
     
     // Actach to    Intermediate button
     public void openLogicGateGuide() => this.CheckPlayerDistanceToInteract(() =>
     {
         SetActiveCircuit(CircuitType.LogicGateGuide, true);
+        StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo();
     });
     // Attach to    Advanced button 
     public void openLogicGateGame() => this.CheckPlayerDistanceToInteract(() =>
     {
 
         StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo();
         SetActiveCircuit(CircuitType.LogicGateGame, true);
         var game = circuitList[(int)CircuitType.LogicGateGame].gameObject.GetComponent<AdvanceLogicGame>();
         if (game != null && !game.getWin())

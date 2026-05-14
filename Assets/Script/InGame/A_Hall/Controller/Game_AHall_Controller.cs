@@ -46,6 +46,7 @@ public class Game_AHall_Controller : MonoBehaviour
 
     public void OpenBackPack()
     {
+        PlayerController.instance.ResetVelo();
         UI_AHall_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
     }

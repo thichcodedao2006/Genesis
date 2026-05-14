@@ -72,5 +72,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("moveX", x);
         animator.SetFloat("moveY", y);
     }
+
+    public void ResetVelocity()
+    {
+        rb.velocity = Vector3.zero;
+    }    
     #endregion
 }

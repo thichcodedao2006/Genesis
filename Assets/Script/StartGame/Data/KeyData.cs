@@ -11,6 +11,8 @@ public class KeyData
     public static string NPCStaffC = "3";
     public static string NPCLibrarian = "4";
     public static string NPCStaffE = "5";
+    public static string NPCStudentC1 = "6";
+    public static string NPCStudentC2 = "7";
     [Header("Inventory")]
     public static int KeyA = 2;
     public static int KeyB = 3;
@@ -33,10 +35,12 @@ public class KeyData
     public static string RandomSpawn = "RandomSpawn";
     public static string SpawnFromA = "SpawnFromA";
     public static string SpawnFromB = "SpawnFromB";
+    public static string SpawnFromC = "SpawnFromC";
     public static string SpawnFromE = "SpawnFromE"; 
 
     [Header("Object State")]
     public static string Computer = "Computer";
+    public static string ComputerCHall = "Computer_C";
     public static string Locker = "Locker";
 
 }

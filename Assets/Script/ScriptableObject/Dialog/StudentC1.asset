@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: StudentC1
+  m_EditorClassIdentifier: 
+  NPCid: 6
+  NPCname: "Ng\u1ED9 \xC1i N\u1ECB"
+  NPCAva: {fileID: -1172974459, guid: 3a5373f99d273104eab2428db80a0e6b, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "B\u1ECF ra b\u1EA1n \u01A1i. Ho\xE0n th\xE0nh th\u1EED th\xE1ch \u0111i r\u1ED3i
+      n\xF3i chuy\u1EC7n ti\u1EBFp."
+    autoProgress: 00
+  - DialogID: 1
+    SentenceList:
+    - "Kh\xF4ng th\u1EC3 tin n\u1ED5i. V\u1EA5n \u0111\u1EC1 m\xE0 b\u1ECDn t\xF4i
+      d\xE0nh 5 ph\xFAt \u0111\u1EC3 ngh\u0129 ra l\u1EA1i \u0111\u01B0\u1EE3c c\u1EADu
+      gi\u1EA3i quy\u1EBFt ch\u1EC9 trong m\u1ED9t b\u1EA3n nh\u1EA1c. C\u1EADu x\u1EE9ng
+      \u0111\xE1ng c\xF3 n\xF3."
+    autoProgress: 00
+  - DialogID: 2
+    SentenceList:
+    - "C\u1EADu c\xF2n mu\u1ED1n g\xEC \u1EDF t\xF4i n\u1EEFa? \u0110\u1ED3 qu\u1EF7
+      n\xE0y."
+    autoProgress: 00
+  TypingSpeed: 0.02
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

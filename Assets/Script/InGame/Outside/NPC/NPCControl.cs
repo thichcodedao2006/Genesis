@@ -146,6 +146,7 @@ public class NPCControl : MonoBehaviour, IInteractable
             Debug.Log("Out of range");
             return;
         }
+        PlayerController.instance.ResetVelo();
         Debug.Log("Success");
         if (CanInteract())
         {

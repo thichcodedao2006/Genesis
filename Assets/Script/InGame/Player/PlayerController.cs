@@ -22,15 +22,17 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     private Animator animator;
+    private PlayerMovement movement;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        movement = GetComponent<PlayerMovement>();
         instance = null;
         MakeSingleTon();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Door"))
         {
@@ -139,4 +141,10 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("lastX", x);
         animator.SetFloat("lastY", y);
     }
+
+    public void ResetVelo()
+    {
+        movement.ResetVelocity();
+        animator.SetBool("IsMoving", false);
+    }    
 }

@@ -141,6 +141,7 @@ public class NPCControl_BHall : MonoBehaviour
             return;
         }
         Debug.Log("Success");
+        PlayerController.instance.ResetVelo();
         if (CanInteract())
         {
             Interact();

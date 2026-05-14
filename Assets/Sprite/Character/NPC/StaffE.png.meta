@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,6 +93,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,12 +139,12 @@ TextureImporter:
       name: StaffE_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3392
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 3394
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,12 +160,12 @@ TextureImporter:
       name: StaffE_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 3392
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 3394
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,12 +181,12 @@ TextureImporter:
       name: StaffE_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3392
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 3394
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,12 +202,12 @@ TextureImporter:
       name: StaffE_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 3392
-        width: 39
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 206
+        y: 3394
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +223,12 @@ TextureImporter:
       name: StaffE_4
       rect:
         serializedVersion: 2
-        x: 262
-        y: 3392
-        width: 52
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 263
+        y: 3394
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,12 +244,12 @@ TextureImporter:
       name: StaffE_5
       rect:
         serializedVersion: 2
-        x: 327
-        y: 3392
-        width: 51
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 328
+        y: 3394
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +265,12 @@ TextureImporter:
       name: StaffE_6
       rect:
         serializedVersion: 2
-        x: 397
-        y: 3392
-        width: 38
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 398
+        y: 3394
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +286,12 @@ TextureImporter:
       name: StaffE_7
       rect:
         serializedVersion: 2
-        x: 20
-        y: 3329
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 3330
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,12 +307,12 @@ TextureImporter:
       name: StaffE_8
       rect:
         serializedVersion: 2
-        x: 84
-        y: 3329
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 3330
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,11 +329,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 149
-        y: 3329
-        width: 23
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3330
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -310,12 +349,12 @@ TextureImporter:
       name: StaffE_10
       rect:
         serializedVersion: 2
-        x: 211
-        y: 3329
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 3330
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -331,12 +370,12 @@ TextureImporter:
       name: StaffE_11
       rect:
         serializedVersion: 2
-        x: 273
-        y: 3329
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 3330
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,11 +392,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 338
-        y: 3329
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3330
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +412,12 @@ TextureImporter:
       name: StaffE_13
       rect:
         serializedVersion: 2
-        x: 403
-        y: 3329
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 404
+        y: 3330
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -394,12 +433,12 @@ TextureImporter:
       name: StaffE_14
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3265
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 3266
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -415,12 +454,12 @@ TextureImporter:
       name: StaffE_15
       rect:
         serializedVersion: 2
-        x: 79
-        y: 3265
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 3266
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +475,12 @@ TextureImporter:
       name: StaffE_16
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3265
-        width: 31
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 3266
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -457,12 +496,12 @@ TextureImporter:
       name: StaffE_17
       rect:
         serializedVersion: 2
-        x: 204
-        y: 3265
-        width: 39
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 206
+        y: 3266
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +517,12 @@ TextureImporter:
       name: StaffE_18
       rect:
         serializedVersion: 2
-        x: 262
-        y: 3265
-        width: 52
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 263
+        y: 3266
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,12 +538,12 @@ TextureImporter:
       name: StaffE_19
       rect:
         serializedVersion: 2
-        x: 327
-        y: 3265
-        width: 51
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 328
+        y: 3266
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -520,12 +559,12 @@ TextureImporter:
       name: StaffE_20
       rect:
         serializedVersion: 2
-        x: 398
-        y: 3265
-        width: 36
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 399
+        y: 3266
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,12 +580,12 @@ TextureImporter:
       name: StaffE_21
       rect:
         serializedVersion: 2
-        x: 20
-        y: 3201
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 3202
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +601,12 @@ TextureImporter:
       name: StaffE_22
       rect:
         serializedVersion: 2
-        x: 83
-        y: 3201
-        width: 25
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 3202
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,11 +623,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 149
-        y: 3201
-        width: 23
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3202
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -604,12 +643,12 @@ TextureImporter:
       name: StaffE_24
       rect:
         serializedVersion: 2
-        x: 209
-        y: 3201
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 3202
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -625,12 +664,12 @@ TextureImporter:
       name: StaffE_25
       rect:
         serializedVersion: 2
-        x: 268
-        y: 3201
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 269
+        y: 3202
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,12 +685,12 @@ TextureImporter:
       name: StaffE_26
       rect:
         serializedVersion: 2
-        x: 332
-        y: 3201
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 333
+        y: 3202
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -667,12 +706,12 @@ TextureImporter:
       name: StaffE_27
       rect:
         serializedVersion: 2
-        x: 398
-        y: 3201
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 3202
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -688,12 +727,12 @@ TextureImporter:
       name: StaffE_28
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3137
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 3138
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -709,12 +748,12 @@ TextureImporter:
       name: StaffE_29
       rect:
         serializedVersion: 2
-        x: 83
-        y: 3135
-        width: 28
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 3136
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +769,12 @@ TextureImporter:
       name: StaffE_30
       rect:
         serializedVersion: 2
-        x: 149
-        y: 3135
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 3136
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -751,12 +790,12 @@ TextureImporter:
       name: StaffE_31
       rect:
         serializedVersion: 2
-        x: 213
-        y: 3135
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 214
+        y: 3136
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,12 +811,12 @@ TextureImporter:
       name: StaffE_32
       rect:
         serializedVersion: 2
-        x: 277
-        y: 3135
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 278
+        y: 3136
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -793,12 +832,12 @@ TextureImporter:
       name: StaffE_33
       rect:
         serializedVersion: 2
-        x: 341
-        y: 3135
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 342
+        y: 3136
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,12 +853,12 @@ TextureImporter:
       name: StaffE_34
       rect:
         serializedVersion: 2
-        x: 405
-        y: 3135
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 406
+        y: 3136
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -835,12 +874,12 @@ TextureImporter:
       name: StaffE_35
       rect:
         serializedVersion: 2
-        x: 469
-        y: 3135
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 470
+        y: 3136
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,12 +895,12 @@ TextureImporter:
       name: StaffE_36
       rect:
         serializedVersion: 2
-        x: 20
-        y: 3073
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 3074
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -877,12 +916,12 @@ TextureImporter:
       name: StaffE_37
       rect:
         serializedVersion: 2
-        x: 81
-        y: 3073
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 3074
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,12 +937,12 @@ TextureImporter:
       name: StaffE_38
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3073
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 3074
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -919,12 +958,12 @@ TextureImporter:
       name: StaffE_39
       rect:
         serializedVersion: 2
-        x: 211
-        y: 3073
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 213
+        y: 3074
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,12 +979,12 @@ TextureImporter:
       name: StaffE_40
       rect:
         serializedVersion: 2
-        x: 270
-        y: 3073
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 271
+        y: 3074
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -961,12 +1000,12 @@ TextureImporter:
       name: StaffE_41
       rect:
         serializedVersion: 2
-        x: 331
-        y: 3073
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 332
+        y: 3074
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,12 +1021,12 @@ TextureImporter:
       name: StaffE_42
       rect:
         serializedVersion: 2
-        x: 398
-        y: 3073
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 399
+        y: 3074
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1003,12 +1042,12 @@ TextureImporter:
       name: StaffE_43
       rect:
         serializedVersion: 2
-        x: 467
-        y: 3073
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 469
+        y: 3074
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1024,12 +1063,12 @@ TextureImporter:
       name: StaffE_44
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3009
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 3010
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1045,12 +1084,12 @@ TextureImporter:
       name: StaffE_45
       rect:
         serializedVersion: 2
-        x: 81
-        y: 3010
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 3011
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1066,12 +1105,12 @@ TextureImporter:
       name: StaffE_46
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3010
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 3011
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1087,12 +1126,12 @@ TextureImporter:
       name: StaffE_47
       rect:
         serializedVersion: 2
-        x: 209
-        y: 3010
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 3011
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1108,12 +1147,12 @@ TextureImporter:
       name: StaffE_48
       rect:
         serializedVersion: 2
-        x: 273
-        y: 3010
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 3011
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1129,12 +1168,12 @@ TextureImporter:
       name: StaffE_49
       rect:
         serializedVersion: 2
-        x: 338
-        y: 3010
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 3011
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,12 +1189,12 @@ TextureImporter:
       name: StaffE_50
       rect:
         serializedVersion: 2
-        x: 402
-        y: 3010
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 3011
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1171,12 +1210,12 @@ TextureImporter:
       name: StaffE_51
       rect:
         serializedVersion: 2
-        x: 464
-        y: 3010
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 466
+        y: 3011
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1192,12 +1231,12 @@ TextureImporter:
       name: StaffE_52
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2945
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 2946
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1213,12 +1252,12 @@ TextureImporter:
       name: StaffE_53
       rect:
         serializedVersion: 2
-        x: 83
-        y: 2945
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 2946
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1234,12 +1273,12 @@ TextureImporter:
       name: StaffE_54
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2945
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 2946
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1255,12 +1294,12 @@ TextureImporter:
       name: StaffE_55
       rect:
         serializedVersion: 2
-        x: 208
-        y: 2945
-        width: 28
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 2946
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1276,12 +1315,12 @@ TextureImporter:
       name: StaffE_56
       rect:
         serializedVersion: 2
-        x: 277
-        y: 2945
-        width: 28
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 278
+        y: 2946
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1297,12 +1336,12 @@ TextureImporter:
       name: StaffE_57
       rect:
         serializedVersion: 2
-        x: 341
-        y: 2945
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 342
+        y: 2946
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1318,12 +1357,12 @@ TextureImporter:
       name: StaffE_58
       rect:
         serializedVersion: 2
-        x: 405
-        y: 2945
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 406
+        y: 2946
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1339,12 +1378,12 @@ TextureImporter:
       name: StaffE_59
       rect:
         serializedVersion: 2
-        x: 464
-        y: 2945
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 465
+        y: 2946
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1360,12 +1399,12 @@ TextureImporter:
       name: StaffE_60
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2881
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 2882
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1381,12 +1420,12 @@ TextureImporter:
       name: StaffE_61
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2882
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 2883
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1402,12 +1441,12 @@ TextureImporter:
       name: StaffE_62
       rect:
         serializedVersion: 2
-        x: 143
-        y: 2881
-        width: 33
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 2882
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1423,12 +1462,12 @@ TextureImporter:
       name: StaffE_63
       rect:
         serializedVersion: 2
-        x: 208
-        y: 2879
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 2881
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1444,12 +1483,12 @@ TextureImporter:
       name: StaffE_64
       rect:
         serializedVersion: 2
-        x: 272
-        y: 2881
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 2882
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1465,12 +1504,12 @@ TextureImporter:
       name: StaffE_65
       rect:
         serializedVersion: 2
-        x: 336
-        y: 2882
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 2883
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1486,12 +1525,12 @@ TextureImporter:
       name: StaffE_66
       rect:
         serializedVersion: 2
-        x: 400
-        y: 2881
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 401
+        y: 2882
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1507,12 +1546,12 @@ TextureImporter:
       name: StaffE_67
       rect:
         serializedVersion: 2
-        x: 464
-        y: 2879
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 466
+        y: 2881
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1528,12 +1567,12 @@ TextureImporter:
       name: StaffE_68
       rect:
         serializedVersion: 2
-        x: 528
-        y: 2881
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 2882
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1549,12 +1588,12 @@ TextureImporter:
       name: StaffE_69
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2816
-        width: 24
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 2818
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1570,12 +1609,12 @@ TextureImporter:
       name: StaffE_70
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2816
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 2818
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1592,11 +1631,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 149
-        y: 2818
-        width: 23
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2819
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1612,12 +1651,12 @@ TextureImporter:
       name: StaffE_72
       rect:
         serializedVersion: 2
-        x: 211
-        y: 2818
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 213
+        y: 2819
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1633,12 +1672,12 @@ TextureImporter:
       name: StaffE_73
       rect:
         serializedVersion: 2
-        x: 275
-        y: 2816
-        width: 29
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 277
+        y: 2818
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1654,12 +1693,12 @@ TextureImporter:
       name: StaffE_74
       rect:
         serializedVersion: 2
-        x: 339
-        y: 2816
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 2818
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1675,12 +1714,12 @@ TextureImporter:
       name: StaffE_75
       rect:
         serializedVersion: 2
-        x: 403
-        y: 2816
-        width: 29
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 405
+        y: 2818
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1696,12 +1735,12 @@ TextureImporter:
       name: StaffE_76
       rect:
         serializedVersion: 2
-        x: 467
-        y: 2816
-        width: 27
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 469
+        y: 2818
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1717,12 +1756,12 @@ TextureImporter:
       name: StaffE_77
       rect:
         serializedVersion: 2
-        x: 532
-        y: 2816
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 533
+        y: 2818
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1738,12 +1777,12 @@ TextureImporter:
       name: StaffE_78
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2752
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 2754
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1759,12 +1798,12 @@ TextureImporter:
       name: StaffE_79
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2752
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 2754
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1780,12 +1819,12 @@ TextureImporter:
       name: StaffE_80
       rect:
         serializedVersion: 2
-        x: 143
-        y: 2752
-        width: 33
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 2753
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1801,12 +1840,12 @@ TextureImporter:
       name: StaffE_81
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2752
-        width: 31
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 2753
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1822,12 +1861,12 @@ TextureImporter:
       name: StaffE_82
       rect:
         serializedVersion: 2
-        x: 272
-        y: 2752
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 2753
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1843,12 +1882,12 @@ TextureImporter:
       name: StaffE_83
       rect:
         serializedVersion: 2
-        x: 336
-        y: 2752
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 2754
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1864,12 +1903,12 @@ TextureImporter:
       name: StaffE_84
       rect:
         serializedVersion: 2
-        x: 400
-        y: 2752
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 401
+        y: 2753
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1885,12 +1924,12 @@ TextureImporter:
       name: StaffE_85
       rect:
         serializedVersion: 2
-        x: 464
-        y: 2752
-        width: 30
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 465
+        y: 2753
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1906,12 +1945,12 @@ TextureImporter:
       name: StaffE_86
       rect:
         serializedVersion: 2
-        x: 528
-        y: 2752
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 2753
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1927,12 +1966,12 @@ TextureImporter:
       name: StaffE_87
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2688
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 2690
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1948,12 +1987,12 @@ TextureImporter:
       name: StaffE_88
       rect:
         serializedVersion: 2
-        x: 83
-        y: 2688
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 2690
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1970,11 +2009,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 149
-        y: 2690
-        width: 23
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2691
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1990,12 +2029,12 @@ TextureImporter:
       name: StaffE_90
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2690
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 2691
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2011,12 +2050,12 @@ TextureImporter:
       name: StaffE_91
       rect:
         serializedVersion: 2
-        x: 273
-        y: 2688
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 2690
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2032,12 +2071,12 @@ TextureImporter:
       name: StaffE_92
       rect:
         serializedVersion: 2
-        x: 334
-        y: 2688
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 2690
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2053,12 +2092,12 @@ TextureImporter:
       name: StaffE_93
       rect:
         serializedVersion: 2
-        x: 400
-        y: 2688
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 402
+        y: 2690
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2074,12 +2113,12 @@ TextureImporter:
       name: StaffE_94
       rect:
         serializedVersion: 2
-        x: 466
-        y: 2688
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 467
+        y: 2690
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2095,12 +2134,12 @@ TextureImporter:
       name: StaffE_95
       rect:
         serializedVersion: 2
-        x: 530
-        y: 2688
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 532
+        y: 2690
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2116,12 +2155,12 @@ TextureImporter:
       name: StaffE_96
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2624
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 2626
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2137,12 +2176,12 @@ TextureImporter:
       name: StaffE_97
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2624
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 2625
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2158,12 +2197,12 @@ TextureImporter:
       name: StaffE_98
       rect:
         serializedVersion: 2
-        x: 143
-        y: 2624
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 2625
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2179,12 +2218,12 @@ TextureImporter:
       name: StaffE_99
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2624
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 2625
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2200,12 +2239,12 @@ TextureImporter:
       name: StaffE_100
       rect:
         serializedVersion: 2
-        x: 273
-        y: 2624
-        width: 38
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 2625
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2222,11 +2261,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 338
-        y: 2624
-        width: 40
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2625
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2242,12 +2281,12 @@ TextureImporter:
       name: StaffE_102
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2560
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 2562
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2263,12 +2302,12 @@ TextureImporter:
       name: StaffE_103
       rect:
         serializedVersion: 2
-        x: 79
-        y: 2560
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 2562
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2284,12 +2323,12 @@ TextureImporter:
       name: StaffE_104
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2560
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 2562
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2306,11 +2345,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 203
-        y: 2560
-        width: 35
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2562
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2326,12 +2365,12 @@ TextureImporter:
       name: StaffE_106
       rect:
         serializedVersion: 2
-        x: 263
-        y: 2560
-        width: 39
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 2562
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2347,12 +2386,12 @@ TextureImporter:
       name: StaffE_107
       rect:
         serializedVersion: 2
-        x: 329
-        y: 2560
-        width: 36
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331
+        y: 2562
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2368,12 +2407,12 @@ TextureImporter:
       name: StaffE_108
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2497
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 2498
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2389,12 +2428,12 @@ TextureImporter:
       name: StaffE_109
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2497
-        width: 30
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 2498
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2410,12 +2449,12 @@ TextureImporter:
       name: StaffE_110
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2497
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 2498
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2431,12 +2470,12 @@ TextureImporter:
       name: StaffE_111
       rect:
         serializedVersion: 2
-        x: 211
-        y: 2497
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 2498
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2452,12 +2491,12 @@ TextureImporter:
       name: StaffE_112
       rect:
         serializedVersion: 2
-        x: 275
-        y: 2497
-        width: 37
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 276
+        y: 2498
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2473,12 +2512,12 @@ TextureImporter:
       name: StaffE_113
       rect:
         serializedVersion: 2
-        x: 338
-        y: 2497
-        width: 42
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 2498
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2494,12 +2533,12 @@ TextureImporter:
       name: StaffE_114
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2433
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 2434
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2515,12 +2554,12 @@ TextureImporter:
       name: StaffE_115
       rect:
         serializedVersion: 2
-        x: 84
-        y: 2433
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 86
+        y: 2434
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2536,12 +2575,12 @@ TextureImporter:
       name: StaffE_116
       rect:
         serializedVersion: 2
-        x: 147
-        y: 2433
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 2434
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2557,12 +2596,12 @@ TextureImporter:
       name: StaffE_117
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2433
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 2434
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2578,12 +2617,12 @@ TextureImporter:
       name: StaffE_118
       rect:
         serializedVersion: 2
-        x: 275
-        y: 2433
-        width: 39
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 276
+        y: 2434
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2599,12 +2638,12 @@ TextureImporter:
       name: StaffE_119
       rect:
         serializedVersion: 2
-        x: 339
-        y: 2433
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 2434
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2620,12 +2659,12 @@ TextureImporter:
       name: StaffE_120
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2369
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 2370
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2641,12 +2680,12 @@ TextureImporter:
       name: StaffE_121
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2366
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 2368
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2663,11 +2702,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 149
-        y: 2366
-        width: 25
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2368
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2683,12 +2722,12 @@ TextureImporter:
       name: StaffE_123
       rect:
         serializedVersion: 2
-        x: 211
-        y: 2366
-        width: 25
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 2368
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2704,12 +2743,12 @@ TextureImporter:
       name: StaffE_124
       rect:
         serializedVersion: 2
-        x: 275
-        y: 2366
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 276
+        y: 2368
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2725,12 +2764,12 @@ TextureImporter:
       name: StaffE_125
       rect:
         serializedVersion: 2
-        x: 339
-        y: 2366
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 2368
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2746,12 +2785,12 @@ TextureImporter:
       name: StaffE_126
       rect:
         serializedVersion: 2
-        x: 403
-        y: 2366
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 404
+        y: 2368
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2767,12 +2806,12 @@ TextureImporter:
       name: StaffE_127
       rect:
         serializedVersion: 2
-        x: 467
-        y: 2366
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 468
+        y: 2368
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2788,12 +2827,12 @@ TextureImporter:
       name: StaffE_128
       rect:
         serializedVersion: 2
-        x: 530
-        y: 2366
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 532
+        y: 2368
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2809,12 +2848,12 @@ TextureImporter:
       name: StaffE_129
       rect:
         serializedVersion: 2
-        x: 594
-        y: 2366
-        width: 30
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 596
+        y: 2368
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2830,12 +2869,12 @@ TextureImporter:
       name: StaffE_130
       rect:
         serializedVersion: 2
-        x: 658
-        y: 2366
-        width: 25
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 660
+        y: 2368
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2851,12 +2890,12 @@ TextureImporter:
       name: StaffE_131
       rect:
         serializedVersion: 2
-        x: 722
-        y: 2366
-        width: 26
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 2368
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2872,12 +2911,12 @@ TextureImporter:
       name: StaffE_132
       rect:
         serializedVersion: 2
-        x: 786
-        y: 2366
-        width: 26
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 788
+        y: 2368
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2893,12 +2932,12 @@ TextureImporter:
       name: StaffE_133
       rect:
         serializedVersion: 2
-        x: 20
-        y: 2305
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 22
+        y: 2306
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2914,12 +2953,12 @@ TextureImporter:
       name: StaffE_134
       rect:
         serializedVersion: 2
-        x: 83
-        y: 2305
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 2306
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2935,12 +2974,12 @@ TextureImporter:
       name: StaffE_135
       rect:
         serializedVersion: 2
-        x: 142
-        y: 2305
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 143
+        y: 2306
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2956,12 +2995,12 @@ TextureImporter:
       name: StaffE_136
       rect:
         serializedVersion: 2
-        x: 204
-        y: 2305
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 205
+        y: 2306
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2977,12 +3016,12 @@ TextureImporter:
       name: StaffE_137
       rect:
         serializedVersion: 2
-        x: 268
-        y: 2305
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 269
+        y: 2306
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2998,12 +3037,12 @@ TextureImporter:
       name: StaffE_138
       rect:
         serializedVersion: 2
-        x: 331
-        y: 2305
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 332
+        y: 2306
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3019,12 +3058,12 @@ TextureImporter:
       name: StaffE_139
       rect:
         serializedVersion: 2
-        x: 395
-        y: 2305
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 396
+        y: 2306
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3040,12 +3079,12 @@ TextureImporter:
       name: StaffE_140
       rect:
         serializedVersion: 2
-        x: 459
-        y: 2305
-        width: 39
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 461
+        y: 2306
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3061,12 +3100,12 @@ TextureImporter:
       name: StaffE_141
       rect:
         serializedVersion: 2
-        x: 523
-        y: 2305
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 525
+        y: 2306
+        width: 38
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3082,12 +3121,12 @@ TextureImporter:
       name: StaffE_142
       rect:
         serializedVersion: 2
-        x: 587
-        y: 2305
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 589
+        y: 2306
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3103,12 +3142,12 @@ TextureImporter:
       name: StaffE_143
       rect:
         serializedVersion: 2
-        x: 651
-        y: 2305
-        width: 38
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 653
+        y: 2306
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3124,12 +3163,12 @@ TextureImporter:
       name: StaffE_144
       rect:
         serializedVersion: 2
-        x: 716
-        y: 2305
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 717
+        y: 2306
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3145,12 +3184,12 @@ TextureImporter:
       name: StaffE_145
       rect:
         serializedVersion: 2
-        x: 780
-        y: 2305
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 781
+        y: 2306
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3166,12 +3205,12 @@ TextureImporter:
       name: StaffE_146
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2241
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 2242
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3187,12 +3226,12 @@ TextureImporter:
       name: StaffE_147
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2241
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 2243
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3208,12 +3247,12 @@ TextureImporter:
       name: StaffE_148
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 2243
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3229,12 +3268,12 @@ TextureImporter:
       name: StaffE_149
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2241
-        width: 26
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3250,12 +3289,12 @@ TextureImporter:
       name: StaffE_150
       rect:
         serializedVersion: 2
-        x: 273
-        y: 2241
-        width: 26
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3272,11 +3311,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 338
-        y: 2241
-        width: 25
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3292,12 +3331,12 @@ TextureImporter:
       name: StaffE_152
       rect:
         serializedVersion: 2
-        x: 400
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 402
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3313,12 +3352,12 @@ TextureImporter:
       name: StaffE_153
       rect:
         serializedVersion: 2
-        x: 464
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 466
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3334,12 +3373,12 @@ TextureImporter:
       name: StaffE_154
       rect:
         serializedVersion: 2
-        x: 528
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 530
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3355,12 +3394,12 @@ TextureImporter:
       name: StaffE_155
       rect:
         serializedVersion: 2
-        x: 592
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 594
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3376,12 +3415,12 @@ TextureImporter:
       name: StaffE_156
       rect:
         serializedVersion: 2
-        x: 656
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 658
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3397,12 +3436,12 @@ TextureImporter:
       name: StaffE_157
       rect:
         serializedVersion: 2
-        x: 721
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 722
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3418,12 +3457,12 @@ TextureImporter:
       name: StaffE_158
       rect:
         serializedVersion: 2
-        x: 785
-        y: 2241
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 786
+        y: 2242
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3439,12 +3478,12 @@ TextureImporter:
       name: StaffE_159
       rect:
         serializedVersion: 2
-        x: 19
-        y: 2177
-        width: 25
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 2178
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3460,12 +3499,12 @@ TextureImporter:
       name: StaffE_160
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2177
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 2178
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3481,12 +3520,12 @@ TextureImporter:
       name: StaffE_161
       rect:
         serializedVersion: 2
-        x: 143
-        y: 2177
-        width: 36
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 2178
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3502,12 +3541,12 @@ TextureImporter:
       name: StaffE_162
       rect:
         serializedVersion: 2
-        x: 206
-        y: 2177
-        width: 39
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 208
+        y: 2178
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3523,12 +3562,12 @@ TextureImporter:
       name: StaffE_163
       rect:
         serializedVersion: 2
-        x: 270
-        y: 2177
-        width: 39
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 2178
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3544,12 +3583,12 @@ TextureImporter:
       name: StaffE_164
       rect:
         serializedVersion: 2
-        x: 339
-        y: 2177
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 2178
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3565,12 +3604,12 @@ TextureImporter:
       name: StaffE_165
       rect:
         serializedVersion: 2
-        x: 400
-        y: 2177
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 402
+        y: 2178
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3586,12 +3625,12 @@ TextureImporter:
       name: StaffE_166
       rect:
         serializedVersion: 2
-        x: 462
-        y: 2177
-        width: 38
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 463
+        y: 2178
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3607,12 +3646,12 @@ TextureImporter:
       name: StaffE_167
       rect:
         serializedVersion: 2
-        x: 523
-        y: 2177
-        width: 41
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 525
+        y: 2178
+        width: 38
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3628,12 +3667,12 @@ TextureImporter:
       name: StaffE_168
       rect:
         serializedVersion: 2
-        x: 591
-        y: 2177
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 592
+        y: 2178
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3649,12 +3688,12 @@ TextureImporter:
       name: StaffE_169
       rect:
         serializedVersion: 2
-        x: 656
-        y: 2177
-        width: 36
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 657
+        y: 2178
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3670,12 +3709,12 @@ TextureImporter:
       name: StaffE_170
       rect:
         serializedVersion: 2
-        x: 722
-        y: 2177
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 2178
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3691,12 +3730,12 @@ TextureImporter:
       name: StaffE_171
       rect:
         serializedVersion: 2
-        x: 783
-        y: 2177
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 785
+        y: 2178
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3712,12 +3751,12 @@ TextureImporter:
       name: StaffE_172
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2113
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 2114
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3733,12 +3772,12 @@ TextureImporter:
       name: StaffE_173
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2113
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 2114
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3754,12 +3793,12 @@ TextureImporter:
       name: StaffE_174
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2113
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 2114
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3775,12 +3814,12 @@ TextureImporter:
       name: StaffE_175
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2114
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 2115
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3796,12 +3835,12 @@ TextureImporter:
       name: StaffE_176
       rect:
         serializedVersion: 2
-        x: 273
-        y: 2114
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 2115
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3818,11 +3857,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 338
-        y: 2111
-        width: 35
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2113
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3838,12 +3877,12 @@ TextureImporter:
       name: StaffE_178
       rect:
         serializedVersion: 2
-        x: 19
-        y: 2050
-        width: 28
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 2051
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3859,12 +3898,12 @@ TextureImporter:
       name: StaffE_179
       rect:
         serializedVersion: 2
-        x: 83
-        y: 2049
-        width: 28
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 2050
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3880,12 +3919,12 @@ TextureImporter:
       name: StaffE_180
       rect:
         serializedVersion: 2
-        x: 145
-        y: 2052
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 2054
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3901,12 +3940,12 @@ TextureImporter:
       name: StaffE_181
       rect:
         serializedVersion: 2
-        x: 209
-        y: 2050
-        width: 29
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 2051
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3922,12 +3961,12 @@ TextureImporter:
       name: StaffE_182
       rect:
         serializedVersion: 2
-        x: 273
-        y: 2049
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 2050
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3943,12 +3982,12 @@ TextureImporter:
       name: StaffE_183
       rect:
         serializedVersion: 2
-        x: 338
-        y: 2052
-        width: 30
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 2054
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3964,12 +4003,12 @@ TextureImporter:
       name: StaffE_184
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1984
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 1986
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3985,12 +4024,12 @@ TextureImporter:
       name: StaffE_185
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1984
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 1986
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4006,12 +4045,12 @@ TextureImporter:
       name: StaffE_186
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1920
-        width: 24
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1922
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4027,12 +4066,12 @@ TextureImporter:
       name: StaffE_187
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1920
-        width: 24
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 1922
+        width: 22
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4048,12 +4087,12 @@ TextureImporter:
       name: StaffE_188
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1856
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 1858
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4069,12 +4108,12 @@ TextureImporter:
       name: StaffE_189
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1856
-        width: 34
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 1858
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4090,12 +4129,12 @@ TextureImporter:
       name: StaffE_190
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1792
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1794
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4111,12 +4150,12 @@ TextureImporter:
       name: StaffE_191
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1792
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 1794
+        width: 22
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4132,12 +4171,12 @@ TextureImporter:
       name: StaffE_192
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1728
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 1730
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4153,12 +4192,12 @@ TextureImporter:
       name: StaffE_193
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1728
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 1730
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4174,12 +4213,12 @@ TextureImporter:
       name: StaffE_194
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1730
-        width: 33
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 1731
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4195,12 +4234,12 @@ TextureImporter:
       name: StaffE_195
       rect:
         serializedVersion: 2
-        x: 208
-        y: 1736
-        width: 33
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 1738
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4216,12 +4255,12 @@ TextureImporter:
       name: StaffE_196
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1733
-        width: 46
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 266
+        y: 1734
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4237,12 +4276,12 @@ TextureImporter:
       name: StaffE_197
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1664
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1666
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4258,12 +4297,12 @@ TextureImporter:
       name: StaffE_198
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1664
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 1666
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4279,12 +4318,12 @@ TextureImporter:
       name: StaffE_199
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1667
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 1668
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4300,12 +4339,12 @@ TextureImporter:
       name: StaffE_200
       rect:
         serializedVersion: 2
-        x: 211
-        y: 1667
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 213
+        y: 1669
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4321,12 +4360,12 @@ TextureImporter:
       name: StaffE_201
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1664
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 277
+        y: 1666
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4342,12 +4381,12 @@ TextureImporter:
       name: StaffE_202
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1601
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 1602
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4363,12 +4402,12 @@ TextureImporter:
       name: StaffE_203
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1601
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 1602
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4384,12 +4423,12 @@ TextureImporter:
       name: StaffE_204
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1603
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 1604
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4405,12 +4444,12 @@ TextureImporter:
       name: StaffE_205
       rect:
         serializedVersion: 2
-        x: 206
-        y: 1606
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 207
+        y: 1608
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4426,12 +4465,12 @@ TextureImporter:
       name: StaffE_206
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1603
-        width: 49
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 1605
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4447,12 +4486,12 @@ TextureImporter:
       name: StaffE_207
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1537
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1538
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4468,12 +4507,12 @@ TextureImporter:
       name: StaffE_208
       rect:
         serializedVersion: 2
-        x: 83
-        y: 1537
-        width: 28
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 1538
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4489,12 +4528,12 @@ TextureImporter:
       name: StaffE_209
       rect:
         serializedVersion: 2
-        x: 143
-        y: 1539
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 1540
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4510,12 +4549,12 @@ TextureImporter:
       name: StaffE_210
       rect:
         serializedVersion: 2
-        x: 204
-        y: 1539
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 206
+        y: 1541
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4531,12 +4570,12 @@ TextureImporter:
       name: StaffE_211
       rect:
         serializedVersion: 2
-        x: 263
-        y: 1537
-        width: 37
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 1538
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4552,12 +4591,12 @@ TextureImporter:
       name: StaffE_212
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1473
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 1474
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4573,12 +4612,12 @@ TextureImporter:
       name: StaffE_213
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1473
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 1474
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4594,12 +4633,12 @@ TextureImporter:
       name: StaffE_214
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1483
-        width: 31
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 1484
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4615,12 +4654,12 @@ TextureImporter:
       name: StaffE_215
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1409
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 15
+        y: 1411
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4636,12 +4675,12 @@ TextureImporter:
       name: StaffE_216
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1409
-        width: 30
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 1410
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4657,12 +4696,12 @@ TextureImporter:
       name: StaffE_217
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1411
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 141
+        y: 1412
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4679,11 +4718,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 1345
-        width: 30
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1346
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4699,12 +4738,12 @@ TextureImporter:
       name: StaffE_219
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1345
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 1346
+        width: 28
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4720,12 +4759,12 @@ TextureImporter:
       name: StaffE_220
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1345
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 1346
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4741,12 +4780,12 @@ TextureImporter:
       name: StaffE_221
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1282
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 1283
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4762,12 +4801,12 @@ TextureImporter:
       name: StaffE_222
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1281
-        width: 30
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 1282
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4783,12 +4822,12 @@ TextureImporter:
       name: StaffE_223
       rect:
         serializedVersion: 2
-        x: 150
-        y: 1282
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 152
+        y: 1284
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4804,12 +4843,12 @@ TextureImporter:
       name: StaffE_224
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1217
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 1218
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4825,12 +4864,12 @@ TextureImporter:
       name: StaffE_225
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1217
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 1218
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4846,12 +4885,12 @@ TextureImporter:
       name: StaffE_226
       rect:
         serializedVersion: 2
-        x: 135
-        y: 1217
-        width: 51
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 136
+        y: 1218
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4867,12 +4906,12 @@ TextureImporter:
       name: StaffE_227
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1153
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1154
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4888,12 +4927,12 @@ TextureImporter:
       name: StaffE_228
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1153
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 1154
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4909,12 +4948,12 @@ TextureImporter:
       name: StaffE_229
       rect:
         serializedVersion: 2
-        x: 149
-        y: 1153
-        width: 37
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 1154
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4930,12 +4969,12 @@ TextureImporter:
       name: StaffE_230
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1088
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 1090
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4951,12 +4990,12 @@ TextureImporter:
       name: StaffE_231
       rect:
         serializedVersion: 2
-        x: 81
-        y: 1088
-        width: 30
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 1090
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4972,12 +5011,12 @@ TextureImporter:
       name: StaffE_232
       rect:
         serializedVersion: 2
-        x: 135
-        y: 1088
-        width: 51
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 136
+        y: 1090
+        width: 48
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4993,12 +5032,12 @@ TextureImporter:
       name: StaffE_233
       rect:
         serializedVersion: 2
-        x: 20
-        y: 1024
-        width: 24
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 1026
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5014,12 +5053,12 @@ TextureImporter:
       name: StaffE_234
       rect:
         serializedVersion: 2
-        x: 84
-        y: 1024
-        width: 24
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 1026
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5035,12 +5074,12 @@ TextureImporter:
       name: StaffE_235
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1024
-        width: 37
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 135
+        y: 1026
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5056,12 +5095,12 @@ TextureImporter:
       name: StaffE_236
       rect:
         serializedVersion: 2
-        x: 19
-        y: 962
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 963
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5077,12 +5116,12 @@ TextureImporter:
       name: StaffE_237
       rect:
         serializedVersion: 2
-        x: 84
-        y: 958
-        width: 26
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 960
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5098,12 +5137,12 @@ TextureImporter:
       name: StaffE_238
       rect:
         serializedVersion: 2
-        x: 147
-        y: 958
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 960
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5119,12 +5158,12 @@ TextureImporter:
       name: StaffE_239
       rect:
         serializedVersion: 2
-        x: 211
-        y: 958
-        width: 27
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 212
+        y: 960
+        width: 25
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5140,12 +5179,12 @@ TextureImporter:
       name: StaffE_240
       rect:
         serializedVersion: 2
-        x: 275
-        y: 962
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 277
+        y: 963
+        width: 23
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5161,12 +5200,12 @@ TextureImporter:
       name: StaffE_241
       rect:
         serializedVersion: 2
-        x: 339
-        y: 958
-        width: 26
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 340
+        y: 960
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5182,12 +5221,12 @@ TextureImporter:
       name: StaffE_242
       rect:
         serializedVersion: 2
-        x: 403
-        y: 958
-        width: 26
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 405
+        y: 960
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5203,12 +5242,12 @@ TextureImporter:
       name: StaffE_243
       rect:
         serializedVersion: 2
-        x: 466
-        y: 958
-        width: 27
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 467
+        y: 960
+        width: 25
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5224,12 +5263,12 @@ TextureImporter:
       name: StaffE_244
       rect:
         serializedVersion: 2
-        x: 17
-        y: 896
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 898
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5245,12 +5284,12 @@ TextureImporter:
       name: StaffE_245
       rect:
         serializedVersion: 2
-        x: 81
-        y: 896
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 897
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5266,12 +5305,12 @@ TextureImporter:
       name: StaffE_246
       rect:
         serializedVersion: 2
-        x: 145
-        y: 896
-        width: 25
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 897
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5287,12 +5326,12 @@ TextureImporter:
       name: StaffE_247
       rect:
         serializedVersion: 2
-        x: 209
-        y: 899
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 901
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5308,12 +5347,12 @@ TextureImporter:
       name: StaffE_248
       rect:
         serializedVersion: 2
-        x: 272
-        y: 896
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 898
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5329,12 +5368,12 @@ TextureImporter:
       name: StaffE_249
       rect:
         serializedVersion: 2
-        x: 338
-        y: 896
-        width: 25
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 897
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5350,12 +5389,12 @@ TextureImporter:
       name: StaffE_250
       rect:
         serializedVersion: 2
-        x: 402
-        y: 896
-        width: 25
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 897
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5371,12 +5410,12 @@ TextureImporter:
       name: StaffE_251
       rect:
         serializedVersion: 2
-        x: 464
-        y: 898
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 466
+        y: 899
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5393,11 +5432,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 830
-        width: 25
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 832
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5413,12 +5452,12 @@ TextureImporter:
       name: StaffE_253
       rect:
         serializedVersion: 2
-        x: 81
-        y: 830
-        width: 29
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 832
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5434,12 +5473,12 @@ TextureImporter:
       name: StaffE_254
       rect:
         serializedVersion: 2
-        x: 145
-        y: 832
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 833
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5455,12 +5494,12 @@ TextureImporter:
       name: StaffE_255
       rect:
         serializedVersion: 2
-        x: 209
-        y: 835
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 836
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5476,12 +5515,12 @@ TextureImporter:
       name: StaffE_256
       rect:
         serializedVersion: 2
-        x: 273
-        y: 830
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 832
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5497,12 +5536,12 @@ TextureImporter:
       name: StaffE_257
       rect:
         serializedVersion: 2
-        x: 338
-        y: 830
-        width: 27
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 832
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5518,12 +5557,12 @@ TextureImporter:
       name: StaffE_258
       rect:
         serializedVersion: 2
-        x: 402
-        y: 832
-        width: 28
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 833
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5539,12 +5578,12 @@ TextureImporter:
       name: StaffE_259
       rect:
         serializedVersion: 2
-        x: 466
-        y: 835
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 467
+        y: 836
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5560,12 +5599,12 @@ TextureImporter:
       name: StaffE_260
       rect:
         serializedVersion: 2
-        x: 15
-        y: 769
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 770
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5581,12 +5620,12 @@ TextureImporter:
       name: StaffE_261
       rect:
         serializedVersion: 2
-        x: 84
-        y: 768
-        width: 26
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 769
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5602,12 +5641,12 @@ TextureImporter:
       name: StaffE_262
       rect:
         serializedVersion: 2
-        x: 150
-        y: 768
-        width: 24
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 151
+        y: 769
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5623,12 +5662,12 @@ TextureImporter:
       name: StaffE_263
       rect:
         serializedVersion: 2
-        x: 208
-        y: 771
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 773
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5644,12 +5683,12 @@ TextureImporter:
       name: StaffE_264
       rect:
         serializedVersion: 2
-        x: 272
-        y: 769
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 770
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5665,12 +5704,12 @@ TextureImporter:
       name: StaffE_265
       rect:
         serializedVersion: 2
-        x: 341
-        y: 768
-        width: 25
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 343
+        y: 769
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5686,12 +5725,12 @@ TextureImporter:
       name: StaffE_266
       rect:
         serializedVersion: 2
-        x: 405
-        y: 768
-        width: 25
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 406
+        y: 769
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5707,12 +5746,12 @@ TextureImporter:
       name: StaffE_267
       rect:
         serializedVersion: 2
-        x: 464
-        y: 769
-        width: 30
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 465
+        y: 771
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5728,12 +5767,12 @@ TextureImporter:
       name: StaffE_268
       rect:
         serializedVersion: 2
-        x: 20
-        y: 705
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 706
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5749,12 +5788,12 @@ TextureImporter:
       name: StaffE_269
       rect:
         serializedVersion: 2
-        x: 84
-        y: 705
-        width: 27
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 706
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5770,12 +5809,12 @@ TextureImporter:
       name: StaffE_270
       rect:
         serializedVersion: 2
-        x: 17
-        y: 641
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 19
+        y: 642
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5791,12 +5830,12 @@ TextureImporter:
       name: StaffE_271
       rect:
         serializedVersion: 2
-        x: 81
-        y: 641
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 642
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5812,12 +5851,12 @@ TextureImporter:
       name: StaffE_272
       rect:
         serializedVersion: 2
-        x: 19
-        y: 575
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 577
+        width: 24
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5833,12 +5872,12 @@ TextureImporter:
       name: StaffE_273
       rect:
         serializedVersion: 2
-        x: 83
-        y: 575
-        width: 27
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 577
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5854,12 +5893,12 @@ TextureImporter:
       name: StaffE_274
       rect:
         serializedVersion: 2
-        x: 17
-        y: 513
-        width: 29
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 19
+        y: 514
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5875,12 +5914,12 @@ TextureImporter:
       name: StaffE_275
       rect:
         serializedVersion: 2
-        x: 81
-        y: 513
-        width: 30
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 514
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5896,12 +5935,12 @@ TextureImporter:
       name: StaffE_276
       rect:
         serializedVersion: 2
-        x: 19
-        y: 447
-        width: 25
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 449
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5917,12 +5956,12 @@ TextureImporter:
       name: StaffE_277
       rect:
         serializedVersion: 2
-        x: 81
-        y: 449
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 450
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5938,12 +5977,12 @@ TextureImporter:
       name: StaffE_278
       rect:
         serializedVersion: 2
-        x: 142
-        y: 449
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 143
+        y: 450
+        width: 25
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5959,12 +5998,12 @@ TextureImporter:
       name: StaffE_279
       rect:
         serializedVersion: 2
-        x: 206
-        y: 449
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 207
+        y: 450
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5980,12 +6019,12 @@ TextureImporter:
       name: StaffE_280
       rect:
         serializedVersion: 2
-        x: 270
-        y: 449
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 271
+        y: 450
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6001,12 +6040,12 @@ TextureImporter:
       name: StaffE_281
       rect:
         serializedVersion: 2
-        x: 334
-        y: 449
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 335
+        y: 450
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6022,12 +6061,12 @@ TextureImporter:
       name: StaffE_282
       rect:
         serializedVersion: 2
-        x: 402
-        y: 449
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 450
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6043,12 +6082,12 @@ TextureImporter:
       name: StaffE_283
       rect:
         serializedVersion: 2
-        x: 461
-        y: 449
-        width: 28
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 462
+        y: 450
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6065,11 +6104,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 527
-        y: 449
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 450
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6085,12 +6124,12 @@ TextureImporter:
       name: StaffE_285
       rect:
         serializedVersion: 2
-        x: 596
-        y: 449
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 597
+        y: 450
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6106,12 +6145,12 @@ TextureImporter:
       name: StaffE_286
       rect:
         serializedVersion: 2
-        x: 662
-        y: 449
-        width: 35
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663
+        y: 450
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6127,12 +6166,12 @@ TextureImporter:
       name: StaffE_287
       rect:
         serializedVersion: 2
-        x: 726
-        y: 449
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 727
+        y: 450
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6148,12 +6187,12 @@ TextureImporter:
       name: StaffE_288
       rect:
         serializedVersion: 2
-        x: 790
-        y: 449
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 791
+        y: 450
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6169,12 +6208,12 @@ TextureImporter:
       name: StaffE_289
       rect:
         serializedVersion: 2
-        x: 19
-        y: 385
-        width: 38
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 386
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6190,12 +6229,12 @@ TextureImporter:
       name: StaffE_290
       rect:
         serializedVersion: 2
-        x: 76
-        y: 385
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 77
+        y: 386
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6211,12 +6250,12 @@ TextureImporter:
       name: StaffE_291
       rect:
         serializedVersion: 2
-        x: 138
-        y: 385
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 386
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6233,11 +6272,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 203
-        y: 385
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 386
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6253,12 +6292,12 @@ TextureImporter:
       name: StaffE_293
       rect:
         serializedVersion: 2
-        x: 265
-        y: 385
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 267
+        y: 386
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6274,12 +6313,12 @@ TextureImporter:
       name: StaffE_294
       rect:
         serializedVersion: 2
-        x: 329
-        y: 385
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331
+        y: 386
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6295,12 +6334,12 @@ TextureImporter:
       name: StaffE_295
       rect:
         serializedVersion: 2
-        x: 395
-        y: 385
-        width: 35
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 397
+        y: 386
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6316,12 +6355,12 @@ TextureImporter:
       name: StaffE_296
       rect:
         serializedVersion: 2
-        x: 459
-        y: 385
-        width: 32
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 461
+        y: 386
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6337,12 +6376,12 @@ TextureImporter:
       name: StaffE_297
       rect:
         serializedVersion: 2
-        x: 528
-        y: 385
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 529
+        y: 386
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6358,12 +6397,12 @@ TextureImporter:
       name: StaffE_298
       rect:
         serializedVersion: 2
-        x: 594
-        y: 385
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 595
+        y: 386
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6379,12 +6418,12 @@ TextureImporter:
       name: StaffE_299
       rect:
         serializedVersion: 2
-        x: 658
-        y: 385
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 660
+        y: 386
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6400,12 +6439,12 @@ TextureImporter:
       name: StaffE_300
       rect:
         serializedVersion: 2
-        x: 722
-        y: 385
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 386
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6421,12 +6460,12 @@ TextureImporter:
       name: StaffE_301
       rect:
         serializedVersion: 2
-        x: 786
-        y: 385
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 788
+        y: 386
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6442,12 +6481,12 @@ TextureImporter:
       name: StaffE_302
       rect:
         serializedVersion: 2
-        x: 13
-        y: 319
-        width: 27
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 321
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6463,12 +6502,12 @@ TextureImporter:
       name: StaffE_303
       rect:
         serializedVersion: 2
-        x: 79
-        y: 319
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 321
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6484,12 +6523,12 @@ TextureImporter:
       name: StaffE_304
       rect:
         serializedVersion: 2
-        x: 149
-        y: 319
-        width: 28
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 321
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6505,12 +6544,12 @@ TextureImporter:
       name: StaffE_305
       rect:
         serializedVersion: 2
-        x: 214
-        y: 319
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 215
+        y: 321
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6526,12 +6565,12 @@ TextureImporter:
       name: StaffE_306
       rect:
         serializedVersion: 2
-        x: 278
-        y: 319
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 279
+        y: 321
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6548,11 +6587,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 343
-        y: 319
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 321
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6568,12 +6607,12 @@ TextureImporter:
       name: StaffE_308
       rect:
         serializedVersion: 2
-        x: 400
-        y: 319
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 401
+        y: 321
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6590,11 +6629,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 473
-        y: 319
-        width: 25
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 321
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6610,12 +6649,12 @@ TextureImporter:
       name: StaffE_310
       rect:
         serializedVersion: 2
-        x: 533
-        y: 319
-        width: 26
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 534
+        y: 321
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6631,12 +6670,12 @@ TextureImporter:
       name: StaffE_311
       rect:
         serializedVersion: 2
-        x: 589
-        y: 319
-        width: 32
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 591
+        y: 321
+        width: 28
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6652,12 +6691,12 @@ TextureImporter:
       name: StaffE_312
       rect:
         serializedVersion: 2
-        x: 648
-        y: 319
-        width: 35
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 649
+        y: 321
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6673,12 +6712,12 @@ TextureImporter:
       name: StaffE_313
       rect:
         serializedVersion: 2
-        x: 712
-        y: 319
-        width: 36
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 713
+        y: 321
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6694,12 +6733,12 @@ TextureImporter:
       name: StaffE_314
       rect:
         serializedVersion: 2
-        x: 776
-        y: 319
-        width: 36
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 777
+        y: 321
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6715,12 +6754,12 @@ TextureImporter:
       name: StaffE_315
       rect:
         serializedVersion: 2
-        x: 7
-        y: 256
-        width: 39
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 258
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6736,12 +6775,12 @@ TextureImporter:
       name: StaffE_316
       rect:
         serializedVersion: 2
-        x: 81
-        y: 256
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 258
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6757,12 +6796,12 @@ TextureImporter:
       name: StaffE_317
       rect:
         serializedVersion: 2
-        x: 149
-        y: 256
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 258
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6778,12 +6817,12 @@ TextureImporter:
       name: StaffE_318
       rect:
         serializedVersion: 2
-        x: 213
-        y: 256
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 214
+        y: 258
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6799,12 +6838,12 @@ TextureImporter:
       name: StaffE_319
       rect:
         serializedVersion: 2
-        x: 277
-        y: 256
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 278
+        y: 258
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6820,12 +6859,12 @@ TextureImporter:
       name: StaffE_320
       rect:
         serializedVersion: 2
-        x: 341
-        y: 256
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 342
+        y: 258
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6841,12 +6880,12 @@ TextureImporter:
       name: StaffE_321
       rect:
         serializedVersion: 2
-        x: 402
-        y: 256
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 258
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6862,12 +6901,12 @@ TextureImporter:
       name: StaffE_322
       rect:
         serializedVersion: 2
-        x: 469
-        y: 256
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 471
+        y: 258
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6883,12 +6922,12 @@ TextureImporter:
       name: StaffE_323
       rect:
         serializedVersion: 2
-        x: 533
-        y: 256
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 534
+        y: 258
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6904,12 +6943,12 @@ TextureImporter:
       name: StaffE_324
       rect:
         serializedVersion: 2
-        x: 594
-        y: 256
-        width: 29
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 595
+        y: 258
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6925,12 +6964,12 @@ TextureImporter:
       name: StaffE_325
       rect:
         serializedVersion: 2
-        x: 651
-        y: 256
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 653
+        y: 258
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6946,12 +6985,12 @@ TextureImporter:
       name: StaffE_326
       rect:
         serializedVersion: 2
-        x: 716
-        y: 256
-        width: 33
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 717
+        y: 258
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6967,12 +7006,12 @@ TextureImporter:
       name: StaffE_327
       rect:
         serializedVersion: 2
-        x: 780
-        y: 256
-        width: 33
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 781
+        y: 258
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6988,12 +7027,12 @@ TextureImporter:
       name: StaffE_328
       rect:
         serializedVersion: 2
-        x: 19
-        y: 192
-        width: 25
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 193
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7009,12 +7048,12 @@ TextureImporter:
       name: StaffE_329
       rect:
         serializedVersion: 2
-        x: 81
-        y: 192
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 194
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7030,12 +7069,12 @@ TextureImporter:
       name: StaffE_330
       rect:
         serializedVersion: 2
-        x: 143
-        y: 194
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 195
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7051,12 +7090,12 @@ TextureImporter:
       name: StaffE_331
       rect:
         serializedVersion: 2
-        x: 208
-        y: 194
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 196
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7072,12 +7111,12 @@ TextureImporter:
       name: StaffE_332
       rect:
         serializedVersion: 2
-        x: 272
-        y: 194
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 196
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7093,12 +7132,12 @@ TextureImporter:
       name: StaffE_333
       rect:
         serializedVersion: 2
-        x: 338
-        y: 192
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 194
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7114,12 +7153,12 @@ TextureImporter:
       name: StaffE_334
       rect:
         serializedVersion: 2
-        x: 19
-        y: 128
-        width: 38
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 130
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7135,12 +7174,12 @@ TextureImporter:
       name: StaffE_335
       rect:
         serializedVersion: 2
-        x: 76
-        y: 128
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 77
+        y: 130
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7156,12 +7195,12 @@ TextureImporter:
       name: StaffE_336
       rect:
         serializedVersion: 2
-        x: 135
-        y: 128
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 130
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7177,12 +7216,12 @@ TextureImporter:
       name: StaffE_337
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 39
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 193
+        y: 130
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7199,11 +7238,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 257
-        y: 128
-        width: 38
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 130
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7219,12 +7258,12 @@ TextureImporter:
       name: StaffE_339
       rect:
         serializedVersion: 2
-        x: 332
-        y: 128
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 333
+        y: 130
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7240,12 +7279,12 @@ TextureImporter:
       name: StaffE_340
       rect:
         serializedVersion: 2
-        x: 13
-        y: 64
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 65
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7261,12 +7300,12 @@ TextureImporter:
       name: StaffE_341
       rect:
         serializedVersion: 2
-        x: 79
-        y: 64
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 65
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7282,12 +7321,12 @@ TextureImporter:
       name: StaffE_342
       rect:
         serializedVersion: 2
-        x: 149
-        y: 64
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 65
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7303,12 +7342,12 @@ TextureImporter:
       name: StaffE_343
       rect:
         serializedVersion: 2
-        x: 214
-        y: 64
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 215
+        y: 65
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7324,12 +7363,12 @@ TextureImporter:
       name: StaffE_344
       rect:
         serializedVersion: 2
-        x: 278
-        y: 64
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 279
+        y: 65
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7345,12 +7384,12 @@ TextureImporter:
       name: StaffE_345
       rect:
         serializedVersion: 2
-        x: 336
-        y: 64
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 65
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7366,12 +7405,12 @@ TextureImporter:
       name: StaffE_346
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 39
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 2
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7387,12 +7426,12 @@ TextureImporter:
       name: StaffE_347
       rect:
         serializedVersion: 2
-        x: 81
-        y: 0
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 83
+        y: 2
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7408,12 +7447,12 @@ TextureImporter:
       name: StaffE_348
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 152
+        y: 2
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7429,12 +7468,12 @@ TextureImporter:
       name: StaffE_349
       rect:
         serializedVersion: 2
-        x: 216
-        y: 0
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 218
+        y: 2
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7450,12 +7489,12 @@ TextureImporter:
       name: StaffE_350
       rect:
         serializedVersion: 2
-        x: 280
-        y: 0
-        width: 41
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 282
+        y: 2
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7471,12 +7510,12 @@ TextureImporter:
       name: StaffE_351
       rect:
         serializedVersion: 2
-        x: 338
-        y: 0
-        width: 35
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 2
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

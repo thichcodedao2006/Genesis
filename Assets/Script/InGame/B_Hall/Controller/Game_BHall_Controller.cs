@@ -45,6 +45,7 @@ public class Game_BHall_Controller : MonoBehaviour
     #region Function
     public void OpenBackPack()
     {
+        PlayerController.instance.ResetVelo();
         UI_BHall_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
     }

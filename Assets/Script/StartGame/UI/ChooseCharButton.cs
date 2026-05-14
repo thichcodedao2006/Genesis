@@ -7,20 +7,29 @@ using UnityEngine.UI;
 public class ChooseCharButton : MonoBehaviour
 {
     public CharacterInfo info;
-
+    private bool CanClick = false;
     private void Start()
     {
         Button btn = GetComponent<Button>();
         btn.onClick.AddListener(SetCharacter);
+        StartCoroutine(WaitAndClick()); 
     }
 
     private void SetCharacter()
     {
+        if (!CanClick) return;
         CharacterControl.instance.SetCharacterInfo(info);
         SaveSomethingBeforeGame();
         SceneManager.LoadScene("LoadingScene");
     }
 
+    IEnumerator WaitAndClick()
+    {
+        
+        yield return new WaitForSeconds(1f);
+
+        CanClick = true;
+    }
     private void SaveSomethingBeforeGame()
     {
         PlayerPrefs.DeleteAll();
@@ -34,12 +43,13 @@ public class ChooseCharButton : MonoBehaviour
         PlayerPrefs.SetInt(KeyData.HaveEnteredB, 0);
         PlayerPrefs.SetInt(KeyData.HaveEnteredC, 0);
         PlayerPrefs.SetInt(KeyData.HaveEnteredE, 0);
-        PlayerPrefs.SetInt(KeyData.NPCLibrarian, 0);    
+        PlayerPrefs.SetInt(KeyData.NPCLibrarian, 0);
+        PlayerPrefs.SetInt(KeyData.NPCStudentC1, 0);
+        PlayerPrefs.SetInt(KeyData.NPCStudentC2, 0);
         PlayerPrefs.Save();
 
         InventorySystem.instance.AddInventory(info.CharacterID);
-        InventorySystem.instance.AddInventory(KeyData.KeyB);
-        InventorySystem.instance.AddInventory(KeyData.KeyE); 
+        InventorySystem.instance.AddInventory(KeyData.KeyC);
     }
 
 }
