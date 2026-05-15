@@ -38,7 +38,7 @@ public class E_Hall_Controller : MonoBehaviour
     public GameObject spawnpoint;
     private float validDistance = 1f;
     #endregion
-
+    [SerializeField] SoundLibrary soundLibrary;
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -66,7 +66,14 @@ public class E_Hall_Controller : MonoBehaviour
         memoryCard.PickedCondition += ValidDistance;
         memoryCard.OnPicked += PickMemoryCard;
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.SetUpLocalLibraryAndPlayBM(soundLibrary,SoundKey.HallEBG);
+    }
+    public void OnDisable()
+    {
+        SoundManager.Instance.ResetLocalLibraryAndPlayBM();
+    }
     // ───────────────────────────── Core ──────────────────────────────
 
     public void PlayerSetUp()
@@ -86,8 +93,7 @@ public class E_Hall_Controller : MonoBehaviour
 
     public void StopPlayer()
     {
-        followCamera.Follow.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo(); 
     }
 
     // ───────────────────────── Inventory / UI ────────────────────────
@@ -95,23 +101,28 @@ public class E_Hall_Controller : MonoBehaviour
     public void OpenBackPack()
     {
         StopPlayer();
+        SoundManager.PlayOpenBackPack(); 
         UI_EHall_Controller.instance.ShowInventoryPanel(true);
     }
 
     public void CloseBackPack()
     {
+        SoundManager.PlayCloseBackPack();
         UI_EHall_Controller.instance.ShowInventoryPanel(false);
         StateControl.instance.IsGamePause = false;
     }
 
     public void OpenDetail()
     {
+        SoundManager.PlayClickUI();
         UI_EHall_Controller.instance.ShowDetailPanel(true);
     }
 
     public void CloseDetail()
     {
+        SoundManager.PlayClickUI(); 
         UI_EHall_Controller.instance.ShowDetailPanel(false);
+        StateControl.instance.IsGamePause = false;
     }
 
     // ─────────────────────────── Phone Panel ─────────────────────────
@@ -120,6 +131,7 @@ public class E_Hall_Controller : MonoBehaviour
     {
         StopPlayer();
         phonePanel.SetActive(true);
+        StateControl.instance.IsGamePause = false;
     }
 
     public void ClosePhonePanel()

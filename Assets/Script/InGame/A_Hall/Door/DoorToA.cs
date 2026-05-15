@@ -8,6 +8,7 @@ public class DoorToA : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySFX(SoundKey.OpenDoor);
             PlayerController.instance.transform.position = Game_AHall_Controller.instance.LibraryToA.transform.position;
         }
     }

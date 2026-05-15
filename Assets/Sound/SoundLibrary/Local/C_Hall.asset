@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bbccdb89df22f48a68e6e4e80a1eb7, type: 3}
+  m_Name: C_Hall
+  m_EditorClassIdentifier: 
+  entries:
+  - key: QueueGame_Main_Background_Sound
+    clip: {fileID: 8300000, guid: 9bf3eb1bb7cd72047b41c4cfa66202da, type: 3}
+    volume: 0.1
+  - key: C_Hall_Main_Background_sound
+    clip: {fileID: 8300000, guid: 9c37758689c9bce4b886a2240896fa77, type: 3}
+    volume: 0.1
+  - key: Choose_Computer
+    clip: {fileID: 8300000, guid: 46635931a855a3341afe157af9df2ee2, type: 3}
+    volume: 0.1

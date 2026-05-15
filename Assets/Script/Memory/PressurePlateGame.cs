@@ -58,9 +58,14 @@ public class PressurePlateGame : MonoBehaviour
 
     public void WhenComplete(int orderIdx)
     {
-        if (isWin) return;
+
+        if (isWin) {
+            SoundManager.PlayCompleteLevel();
+            return; 
+        }
         if (!isCounting)
         {
+         
             isCounting = true;
             timer = 0f;
         }

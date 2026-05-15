@@ -91,6 +91,7 @@ public class LogicController : MonoBehaviour
 
     private void FinishGame()
     {
+        SoundManager.PlayCompleteLevel(); 
         PlayerController.instance.transform.position = Game_AHall_Controller.instance.InFrontNPC.transform.position;
     }
 

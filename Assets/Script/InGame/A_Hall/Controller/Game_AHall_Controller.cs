@@ -31,7 +31,7 @@ public class Game_AHall_Controller : MonoBehaviour
     public GameObject LibraryToA;
     public GameObject AToLibrary;
     public GameObject InFrontNPC;
-
+    public SoundLibrary SoundLibrary;
     #endregion
 
     private void Awake()
@@ -48,9 +48,17 @@ public class Game_AHall_Controller : MonoBehaviour
         memoryCard1.OnPickedWithData = AnnouncePickedItem;
         memoryCard2.OnPickedWithData= AnnouncePickedItem;   
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.SetUpLocalLibraryAndPlayBM(SoundLibrary, SoundKey.HallABG);
+    }
+    public void OnDisable()
+    {
+        SoundManager.Instance.ResetLocalLibraryAndPlayBM();
+    }
     public void OpenBackPack()
     {
+        SoundManager.PlayOpenBackPack(); 
         PlayerController.instance.ResetVelo();
         UI_AHall_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
@@ -58,6 +66,7 @@ public class Game_AHall_Controller : MonoBehaviour
 
     public void CloseBack()
     {
+        SoundManager.PlayCloseBackPack();
         UI_AHall_Controller.instance.ShowInventoryPanel(false);
         StateControl.instance.IsGamePause = false;
     }

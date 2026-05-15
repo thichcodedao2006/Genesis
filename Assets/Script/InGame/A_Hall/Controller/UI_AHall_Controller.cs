@@ -147,6 +147,7 @@ public class UI_AHall_Controller : MonoBehaviour
 
     public void ClickDetail()
     {
+        SoundManager.PlayClickUI();
         ShowDetailPanel(true);
         DetailImage.sprite = currentObj.DetailImage;
 

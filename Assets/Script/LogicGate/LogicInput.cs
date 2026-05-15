@@ -8,6 +8,7 @@ public class LogicInput : MonoBehaviour
     
     public void Click() 
     {
+        SoundManager.Instance.PlaySFX(SoundKey.InputLogicGate);
         value.Value = !value.Value; 
     }
 }

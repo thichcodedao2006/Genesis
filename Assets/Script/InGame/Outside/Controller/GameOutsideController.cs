@@ -33,6 +33,7 @@ public class GameOutsideController : MonoBehaviour
     [Header("Spawn")]
     public GameObject spawnpoint;
     #endregion
+    [SerializeField] SoundLibrary soundLibrary;
     private void Start()
     {
         StateControl.instance.IsGamePause = false;
@@ -41,10 +42,18 @@ public class GameOutsideController : MonoBehaviour
         player.transform.position = spawnposition.transform.position;
         followCamera.Follow = player.transform;
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.SetUpLocalLibraryAndPlayBM(soundLibrary, SoundKey.MainBG);
+    }
+    public void OnDestroy()
+    {
+        SoundManager.Instance.ResetLocalLibraryAndPlayBM();
+    }
     #region Function 
     public void InventoryClick()
     {
+        SoundManager.PlayOpenBackPack();
         PlayerController.instance.ResetVelo();
         UI_Outside_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
@@ -52,12 +61,14 @@ public class GameOutsideController : MonoBehaviour
 
     public void InventoryClose()
     {
+        SoundManager.PlayCloseBackPack();
         UI_Outside_Controller.instance.ShowInventoryPanel(false);
         StateControl.instance.IsGamePause = false;
     }
 
     public void CloseDetail()
     {
+        SoundManager.PlayClickUI(); 
         UI_Outside_Controller.instance.ShowDetailPanel(false);
     }
     #endregion

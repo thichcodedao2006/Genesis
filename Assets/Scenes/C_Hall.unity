@@ -29968,6 +29968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followCamera: {fileID: 449194522}
   spawnpoint: {fileID: 1827024702}
+  soundLibrary: {fileID: 11400000, guid: 44eebcb8a9eca7543b9a38f46d36ad73, type: 2}
 --- !u!1 &1074331606
 GameObject:
   m_ObjectHideFlags: 0
@@ -33316,7 +33317,7 @@ PrefabInstance:
     - target: {fileID: 7115287428781583970, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1464486442}
+      objectReference: {fileID: 0}
     - target: {fileID: 7115287428781583970, guid: ed17711bcd440e9479e716094fb59a87, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bbccdb89df22f48a68e6e4e80a1eb7, type: 3}
+  m_Name: Global
+  m_EditorClassIdentifier: 
+  entries:
+  - key: Start_Game
+    clip: {fileID: 8300000, guid: 9e8f14f54cde5ab4489eb3c88311358e, type: 3}
+    volume: 1
+  - key: Running
+    clip: {fileID: 8300000, guid: 4dc7e09044ad0ca499bd6051c40c4333, type: 3}
+    volume: 0.2
+  - key: Open_Backpack
+    clip: {fileID: 8300000, guid: b6f593edadecef04e9faf6ec97cfe501, type: 3}
+    volume: 1
+  - key: Close_Backpack
+    clip: {fileID: 8300000, guid: 62823e3d0be2c2146ab2c133a4513080, type: 3}
+    volume: 1
+  - key: Pick_Object
+    clip: {fileID: 8300000, guid: bb8f93916f67a7f439f8cf080915e192, type: 3}
+    volume: 1
+  - key: Open_Phone
+    clip: {fileID: 8300000, guid: ceb0106c5fa65d4448b21e9bf8cab441, type: 3}
+    volume: 1
+  - key: CompleteLevel
+    clip: {fileID: 8300000, guid: 6222180b04eb59a4fae645a7a16585dd, type: 3}
+    volume: 1
+  - key: Click_UI
+    clip: {fileID: 8300000, guid: 939d8b4408f4f8742b89636f5f2f5a2f, type: 3}
+    volume: 1
+  - key: Open_Door
+    clip: {fileID: 8300000, guid: 6817c9be81db36b459102cf25ca18b12, type: 3}
+    volume: 1
+  - key: Close_Door
+    clip: {fileID: 8300000, guid: 4fbbd2de561465b46b5f665b3481e97b, type: 3}
+    volume: 1
+  - key: Footstep_Floor
+    clip: {fileID: 8300000, guid: c34e50cf8b91c0448a550bcc8ccf512b, type: 3}
+    volume: 1
+  - key: Typing
+    clip: {fileID: 8300000, guid: a7b5cce48bdbf714f9201dd04d5a7814, type: 3}
+    volume: 1
+  - key: Answer_Correct
+    clip: {fileID: 8300000, guid: 28e4196b5baca9641a37e234b14e6e3d, type: 3}
+    volume: 1
+  - key: Answer_Incorrect
+    clip: {fileID: 8300000, guid: f9f94efcd81d9de47812c01ca0b1b405, type: 3}
+    volume: 1

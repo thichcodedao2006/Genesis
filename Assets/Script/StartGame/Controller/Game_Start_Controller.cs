@@ -5,7 +5,7 @@ using UnityEngine;
 public class Game_Start_Controller : MonoBehaviour
 {
     public static Game_Start_Controller instance;
-
+    public SoundLibrary soundLibrary;
     private void MakeSingleTon()
     {
         if (instance == null)
@@ -22,9 +22,17 @@ public class Game_Start_Controller : MonoBehaviour
     {
         MakeSingleTon();
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.PlayBGM(SoundKey.StartGame);
+    }
+    public void OnDisable()
+    {
+        SoundManager.Instance.StopBGM();
+    }
     public void TabToStart()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.ClickUI);
         StartCoroutine(CircleProcess());
     }
 

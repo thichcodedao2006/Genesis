@@ -9,6 +9,7 @@ public class FromBToOutside : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySFX(SoundKey.CloseDoor);
             SceneTransitionManager.TargetSpawn = KeyData.SpawnFromB;
             SceneManager.LoadScene("Outside");
         }

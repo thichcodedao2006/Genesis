@@ -454,6 +454,7 @@ public class LogicQueueController : MonoBehaviour
 
     IEnumerator Winning()
     {
+        SoundManager.PlayCompleteLevel(); 
         yield return StartCoroutine(typing("Successful"));
 
         EventSystem.SuccessCChallenge?.Invoke();

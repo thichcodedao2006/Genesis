@@ -34,14 +34,22 @@ public class PickableObj : MonoBehaviour, IInteractable
     public void Interact()
     {
         if (!CanInteract())
-            Debug.Log("Pick faild" + data.name);
+        {
+            Debug.Log("Pick failed " + data.name);
+            return;
+        }
+
+        SoundManager.Instance.PlaySFX(SoundKey.PickObject);
+
         OnPicked?.Invoke();
-        OnPickedWithData?.Invoke(data); 
-        Debug.Log("Pick " + data.name);
+        OnPickedWithData?.Invoke(data);
+
         InventorySystem.instance.AddInventory(data.IDobject);
         LoadingData.instance.AddNewItemToUI(data.IDobject);
-        PlayerPrefs.SetInt(keySave,1);
+
+        PlayerPrefs.SetInt(keySave, 1);
         PlayerPrefs.Save();
+
         Destroy(gameObject);
     }
     public void OnMouseDown()

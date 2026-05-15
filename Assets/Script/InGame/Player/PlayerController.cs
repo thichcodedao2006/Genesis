@@ -116,8 +116,11 @@ public class PlayerController : MonoBehaviour
                                 break;
                             }
                     }
+                    
+                    
                 }
                 StateControl.instance.IsGamePause = true;
+                SoundManager.Instance.PlaySFX(SoundKey.OpenDoor);
                 SceneManager.LoadScene(NextScene);
             }
         }

@@ -12,8 +12,8 @@ public class PhoneController : MonoBehaviour
     public void TurnOnPhone() 
     {
         StateControl.instance.IsGamePause = true;
-        PlayerController.instance.ResetVelo(); 
-       
+        PlayerController.instance.ResetVelo();
+        SoundManager.PlayOpenPhone(); 
         if (fullBattery) 
         {
             verticalPhone.SetActive(false);
@@ -28,6 +28,7 @@ public class PhoneController : MonoBehaviour
     }
     public void TurnOffPhone() 
     {
+        SoundManager.Instance.PlaySFX(SoundKey.ClickUI);
         verticalPhone.SetActive(false);
         StateControl.instance.IsGamePause = false;
         E_Hall_Controller.Instance?.ClosePhonePanel(); 

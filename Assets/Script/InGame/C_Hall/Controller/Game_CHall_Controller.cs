@@ -26,7 +26,7 @@ public class Game_CHall_Controller : MonoBehaviour
     public GameObject spawnpoint;
 
     #endregion
-
+    [SerializeField] SoundLibrary soundLibrary;
     private void Awake()
     {
         MakeSingleTon();
@@ -39,9 +39,17 @@ public class Game_CHall_Controller : MonoBehaviour
     {
         StateControl.instance.IsGamePause = false;
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.SetUpLocalLibraryAndPlayBM(soundLibrary, SoundKey.HallCBG);
+    }
+    public void OnDisable()
+    {
+        SoundManager.Instance.ResetLocalLibraryAndPlayBM();
+    }
     public void OpenBackPack()
     {
+        SoundManager.PlayOpenBackPack(); 
         PlayerController.instance.ResetVelo();
         UI_CHall_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
@@ -49,12 +57,14 @@ public class Game_CHall_Controller : MonoBehaviour
 
     public void CloseBack()
     {
+        SoundManager.PlayCloseBackPack();
         UI_CHall_Controller.instance.ShowInventoryPanel(false);
         StateControl.instance.IsGamePause = false;
     }
 
     public void CloseDetail()
     {
+        SoundManager.PlayClickUI(); 
         UI_CHall_Controller.instance.ShowDetailPanel(false);
     }
 

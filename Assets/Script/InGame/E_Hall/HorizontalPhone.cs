@@ -42,7 +42,7 @@ public class HorizontalPhone : MonoBehaviour
                 fragmentCodes[i].OnClickFragment += SetUpEvent;
             }else 
             {
-                fragmentCodes[i].SetUI(-1, "DATA LOST");
+                fragmentCodes[i].SetUI(-1, "DATALOST");
             }
             //fragmentCodes[i].gameObject.SetActive(true);
             

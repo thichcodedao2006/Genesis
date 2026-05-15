@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bbccdb89df22f48a68e6e4e80a1eb7, type: 3}
+  m_Name: Outside
+  m_EditorClassIdentifier: 
+  entries:
+  - key: Main_Background_sound
+    clip: {fileID: 8300000, guid: 038733eb198d3a3479cdf128a473ac3f, type: 3}
+    volume: 0.1
+  - key: Footstep_Cement
+    clip: {fileID: 8300000, guid: eb9535b45a43f144da385fe905a48c69, type: 3}
+    volume: 1
+  - key: Footstep_Earth
+    clip: {fileID: 8300000, guid: db8e7edc3fe2dec41a003eb77021cb86, type: 3}
+    volume: 1

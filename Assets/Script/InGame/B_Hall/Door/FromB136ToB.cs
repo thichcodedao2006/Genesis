@@ -10,6 +10,7 @@ public class FromB136ToB : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySFX(SoundKey.CloseDoor);
             PlayerController.instance.transform.position = InFrontB316.transform.position;
             PlayerController.instance.SetPlayerIdle(0, -1);
         }

@@ -112,6 +112,7 @@ public class GuessGame_Logic : MonoBehaviour
 
     IEnumerator WrongAnswer()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.AnswerIncorrect);
             Hint.SetColor(Color.red);
             Hint.ShowText("Hết lượt. Thử lại!");
             CanClick = false;
@@ -132,6 +133,7 @@ public class GuessGame_Logic : MonoBehaviour
     }
     IEnumerator CorrectAnswer()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.AnswerCorrect);
         Hint.SetColor(Color.green);
         Hint.ShowText("Chính xác!");
 
@@ -152,6 +154,7 @@ public class GuessGame_Logic : MonoBehaviour
         {
             Reset();
             CloseGuessPanel();
+            SoundManager.PlayCloseDoor();
             PlayerController.instance.transform.position = Game_BHall_Controller.instance.InB316.transform.position;
             PlayerController.instance.SetPlayerIdle(0, -1);
         }
@@ -208,6 +211,7 @@ public class GuessGame_Logic : MonoBehaviour
 
     public void OpenGuessPanel()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.OpenIF);
         if (Vector2.Distance((Vector2)CanvasButton.transform.position, (Vector2)PlayerController.instance.transform.position) > 2.5f) return;
         PlayerController.instance.ResetVelo();
         GuessPanel.SetActive(true);

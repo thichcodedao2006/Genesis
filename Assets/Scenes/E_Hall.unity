@@ -19419,6 +19419,7 @@ MonoBehaviour:
   checkerContentPanel: {fileID: 0}
   followCamera: {fileID: 1738133563}
   spawnpoint: {fileID: 1197948111}
+  soundLibrary: {fileID: 11400000, guid: 974f883863f2694499101c95f1b55c05, type: 2}
 --- !u!114 &614494537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38649,6 +38650,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -53031,7 +53042,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1516
+  - m_RefCount: 1517
     m_Data: {fileID: 11400000, guid: 27842e63d579377468b14b29aa4b3398, type: 2}
   - m_RefCount: 58
     m_Data: {fileID: 11400000, guid: 4b08ab388e0034e409c1db3406e6e033, type: 2}
@@ -53098,7 +53109,7 @@ Tilemap:
   - m_RefCount: 13
     m_Data: {fileID: 11400000, guid: 5ac450e69cff7cc488203513fd6167f3, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1516
+  - m_RefCount: 1517
     m_Data: {fileID: -90490374, guid: e709a56077e4527479aaddc27f48be6c, type: 3}
   - m_RefCount: 58
     m_Data: {fileID: -1127614613, guid: e709a56077e4527479aaddc27f48be6c, type: 3}
@@ -53165,7 +53176,7 @@ Tilemap:
   - m_RefCount: 13
     m_Data: {fileID: -1958203502, guid: 2b87def14f95b6541a8d011813cb49be, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2674
+  - m_RefCount: 2675
     m_Data:
       e00: 1
       e01: 0
@@ -53184,7 +53195,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2674
+  - m_RefCount: 2675
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1

@@ -57,6 +57,7 @@ public class Computer_AHall : MonoBehaviour
     public void CLick()
     {
         if (!CanClick) return;
+        SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
         if (!StateControl.instance.CanClickUI) return;
         if (!LogicController.instance.HaveStartGame)
         {
@@ -71,6 +72,7 @@ public class Computer_AHall : MonoBehaviour
             {
                 list.Add(i);
             }
+          
             ChoosePlaceStore.instance.ShowListPlace(list);
             LogicController.instance.lastComputerID = ID;
             return;

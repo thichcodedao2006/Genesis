@@ -57,6 +57,7 @@ public class LogicGateGameController : MonoBehaviour
             game.onWin += () =>
             {
                 title.ShowText("Chúc mừng!");
+                SoundManager.PlayCompleteLevel();
                 description.ShowText("Bạn đã hoàn thành thử thách");
                 Game_BHall_Controller.instance.ShowUpKeyC(); 
             };
@@ -82,24 +83,21 @@ public class LogicGateGameController : MonoBehaviour
     
         this.CheckPlayerDistanceToInteract(() =>
         {
+            Open();
             SetActiveCircuit(CircuitType.DecodeGuide, true);
-            StateControl.instance.IsGamePause = true;
-            PlayerController.instance.ResetVelo();
+
         }); 
     
     // Actach to    Intermediate button
     public void openLogicGateGuide() => this.CheckPlayerDistanceToInteract(() =>
     {
-        StateControl.instance.IsGamePause = true;
-        PlayerController.instance.ResetVelo();
-
+        Open();
         SetActiveCircuit(CircuitType.LogicGateGuide, true);
     });
     // Attach to    Advanced button 
     public void openLogicGateGame() => this.CheckPlayerDistanceToInteract(() =>
     {
-        StateControl.instance.IsGamePause = true;
-        PlayerController.instance.ResetVelo();
+        Open();
         SetActiveCircuit(CircuitType.LogicGateGame, true);
         var game = circuitList[(int)CircuitType.LogicGateGame].gameObject.GetComponent<AdvanceLogicGame>();
         if (game != null && !game.getWin())
@@ -107,6 +105,7 @@ public class LogicGateGameController : MonoBehaviour
     }); 
     public void CloseAllCircuit() 
     {
+        SoundManager.PlayClickUI(); 
         StateControl.instance.IsGamePause = false;
         SetActiveCircuit(CircuitType.DecodeGuide, false);
 
@@ -123,5 +122,11 @@ public class LogicGateGameController : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(checkerTransform.position, validDistance);
+    }
+    public void Open() 
+    {
+        SoundManager.Instance.PlaySFX(SoundKey.OpenButtonLogicGate);
+        StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo();
     }
 }

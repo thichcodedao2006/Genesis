@@ -45,6 +45,7 @@ public class CreditSequence : MonoBehaviour
     }
     public void Play()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.Ending);
         StartCoroutine(PlaySequence());
     }   
     private void LateUpdate()

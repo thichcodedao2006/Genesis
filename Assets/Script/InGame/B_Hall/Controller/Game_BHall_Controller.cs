@@ -31,6 +31,7 @@ public class Game_BHall_Controller : MonoBehaviour
     [SerializeField] PickableObj keyC;
     [SerializeField] PickableObj memoryCard;
     #endregion
+    [SerializeField] SoundLibrary soundLibrary;
     private void Awake()
     {
         MakeSingleTon();
@@ -49,7 +50,14 @@ public class Game_BHall_Controller : MonoBehaviour
 
         keyC.gameObject.SetActive(false); 
     }
-
+    public void OnEnable()
+    {
+        SoundManager.Instance.SetUpLocalLibraryAndPlayBM(soundLibrary, SoundKey.HallBBG);
+    }
+    public void OnDisable()
+    {
+        SoundManager.Instance.ResetLocalLibraryAndPlayBM();
+    }
     #region Function
     public void OpenBackPack()
     {

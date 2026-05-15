@@ -20,6 +20,7 @@ public class EnterDoor : MonoBehaviour
     private IEnumerator Teleport(GameObject player)
     {
         // Lấy vị trí mới, nhưng giữ nguyên trục Z hiện tại của player
+        SoundManager.Instance.PlaySFX(SoundKey.OpenDoor);
         Vector3 targetPosition = new Vector3(
             newPosition.transform.position.x,
             newPosition.transform.position.y,

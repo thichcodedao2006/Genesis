@@ -17,6 +17,7 @@ public class ChooseCharButton : MonoBehaviour
 
     private void SetCharacter()
     {
+        SoundManager.Instance.PlaySFX(SoundKey.ClickUI);
         if (!CanClick) return;
         CharacterControl.instance.SetCharacterInfo(info);
         SaveSomethingBeforeGame();

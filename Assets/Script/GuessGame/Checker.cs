@@ -31,6 +31,7 @@ public class Checker : MonoBehaviour
     public void Click()
     {
         // Sync các condition cần query runtime trước khi check
+        SoundManager.PlayClickUI();
         WriteOnCheckerPanel();
         E_Hall_Controller.Instance.StopPlayer(); 
         Condition? failed = conditions.Find(c => !c.isPass);

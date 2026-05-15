@@ -37,16 +37,18 @@ public class OpenIFBtn : MonoBehaviour
 
     public void OpenIF()
     {
+        //  HorizontalPhone.Instance.inputZone.gameObject.SetActive(true);
+        SoundManager.Instance.PlaySFX(SoundKey.OpenIF);
         HorizontalPhone.Instance.inputZone.OpenInputZone(idx, ShowKey);
     }
 
     public void ShowKey()
     {
         textObj.SetActive(true);
-
+        SoundManager.Instance.PlaySFX(SoundKey.Typing);
         typeWriter.ShowText(key);
-
-        GetComponent<UnityEngine.UI.Button>().interactable = false;
+        
+       // GetComponent<UnityEngine.UI.Button>().interactable = false;
 
     }
 }

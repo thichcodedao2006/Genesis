@@ -29,7 +29,8 @@ public class InputZone : MonoBehaviour
             exitButton.SetActive(true);
             onCorrectAnswer?.Invoke();
             Debug.Log("Trả lời đúng: " + answer);
-            MemoryRecoverGame.Instance.CurrCompletedLines++; 
+            MemoryRecoverGame.Instance.CurrCompletedLines++;
+            SoundManager.Instance.PlayBGM(SoundKey.AnswerCorrect);
             CloseInputZone();
             return true;
         }
@@ -37,7 +38,7 @@ public class InputZone : MonoBehaviour
         {
             correctObj.SetActive(false);
             incorrectObj.SetActive(true);
-
+            SoundManager.Instance.PlayBGM(SoundKey.AnswerIncorrect);
             StartCoroutine(
                 ShakeUI(inputField.GetComponent<RectTransform>())
             );
@@ -68,6 +69,7 @@ public class InputZone : MonoBehaviour
 
     public void OpenInputZone(int keyIndex, Action correctCallback)
     {
+        this.gameObject.SetActive(true);
         onCorrectAnswer = null;
         onCorrectAnswer = correctCallback;
 
@@ -98,10 +100,14 @@ public class InputZone : MonoBehaviour
     {
         checkAnswer(inputField.text);
     }
-
+    public void OnExitBtnClick()
+    {
+        SoundManager.PlayClickUI(); 
+        CloseInputZone(); 
+    }
     public void Start()
     {
-        CloseInputZone();
+        //CloseInputZone();
     }
     string NormalizeText(string text)
     {

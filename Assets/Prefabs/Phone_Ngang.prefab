@@ -285,7 +285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5626268984314999607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4242,7 +4242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4145093498676740040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5090,7 +5090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2977559490377016098
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6364,7 +6364,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6869186957010801029}
         m_TargetAssemblyTypeName: InputZone, Assembly-CSharp
-        m_MethodName: CloseInputZone
+        m_MethodName: OnExitBtnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
