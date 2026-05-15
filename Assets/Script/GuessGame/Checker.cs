@@ -30,17 +30,20 @@ public class Checker : MonoBehaviour
 
     public void Click()
     {
-        // Sync các condition cần query runtime trước khi check
+        bool hasFullCards = MemoryRecoverGame.Instance.havingMemoryCardCount() == 4;
+        setPassCondition(ConditionType.HavingFullFM, hasFullCards);
+
         SoundManager.PlayClickUI();
         WriteOnCheckerPanel();
-        E_Hall_Controller.Instance.StopPlayer(); 
+        E_Hall_Controller.Instance.StopPlayer();
+
         Condition? failed = conditions.Find(c => !c.isPass);
-        if(failed == null) 
+        if (failed == null)
         {
             E_Hall_Controller.Instance.IsWinGame = true;
         }
     }
-    
+
     public void setPassCondition(ConditionType conditionType, bool isPass)
     {
         conditions.Find(c => c.type == conditionType).isPass = isPass;

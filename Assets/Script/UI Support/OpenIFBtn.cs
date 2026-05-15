@@ -47,8 +47,8 @@ public class OpenIFBtn : MonoBehaviour
         textObj.SetActive(true);
         SoundManager.Instance.PlaySFX(SoundKey.Typing);
         typeWriter.ShowText(key);
-        
-       // GetComponent<UnityEngine.UI.Button>().interactable = false;
+        //gameObject.SetActive(false);
+       GetComponent<UnityEngine.UI.Button>().interactable = false;
 
     }
 }

@@ -37,10 +37,11 @@ MonoBehaviour:
       k\u1EBFt n\u1ED1i tr\u1EF1c ti\u1EBFp v\u1EDBi server, em th\u1EED t\xECm c\u1ED9ng
       m\u1EDBi trong ph\xF2ng E101 nha."
     - "Ch\u1ECB r\u1EA3nh tay r\u1ED3i l\u1EA5p th\xEAm m\u1EA5y t\u1EA5m \xE1p l\u1EF1c
-      chuy\u1EC3n m\xE0u vui l\u1EAFm, \u0111\u1EE9ng l\xEAn \u0111\xF3 n\xF3 hi\u1EC7n
-      \u0111\xE8n s\xE1ng tr\u01B0ng lu\xF4n. Nh\xECn tr\xEAn b\u1EA3ng c\xF3 thay
-      \u0111\u1ED5i l\xE0 oke"
-    autoProgress: 0000
+      chuy\u1EC3n m\xE0u vui l\u1EAFm, \u0111\u1EE9ng l\xEAn \u0111\xF3 l\xE2u l\xE0
+      n\xF3 hi\u1EC7n \u0111\xE8n s\xE1ng tr\u01B0ng lu\xF4n. T\u1EDBi m\u1ED9t l\xFAc
+      th\xEC \u0111\u1ED9 s\xE1ng t\u1ED1i \u0111a hi\u1EC7n, th\xEC b\u1EA3ng t\u1EF1
+      \u0111\u1ED9ng c\u1EADp nh\u1EADt text m\u1EDBi, nh\xECn c\u0169ng vui."
+    autoProgress: 000000
   - DialogID: 2
     SentenceList:
     - "Nh\xECn m\u1EB7t s\xE1ng l\xE1ng c\u1EE1 n\xE0y th\xEC t\xECm m\u1EA5y h\u1ED3i
@@ -48,13 +49,15 @@ MonoBehaviour:
       nhanh l\u1EAFm n\xE8. B\xEAn t\xF2a n\xE0y t\xF2a s\xE0i b\u1EA3o m\u1EADt
       ki\u1EC3u \u0111\xF3 kh\xF4ng \xE0."
     - "Th\xED d\u1EE5 e c\xF3 0xF(16) -> 15(10), th\xEC em l\u1EA5y 1 v\u1EDBi 5,
-      t\xE1ch th\xE0nh c\xE1c s\u1ED1 b\xE9 h\u01A1n ho\u1EB7c b\u1EB1ng 10 nha. "
-    - "R\u1ED3i gi\u1EA3i m\xE3 c\xE1i th\u1EBB nh\u1EDB theo tu\u1EA7n t\u1EF1 m\u1EA5y
-      s\u1ED1 \u0111\xF3 nha. Ch\u1ECB kh\xF4ng bi\u1EBFt n\u1EEFa, nh\u01B0ng m\xE0
-      n\u1EBFu \u0111em c\xE1c thi\u1EBFt b\u1ECB ra ngo\xE0i t\xF2a th\xEC kh\xF4ng
-      s\xE0i \u0111\u01B0\u1EE3c, coi nh\u01B0 reset m\xE1y lu\xF4n \xE1."
-    - "Ch\u1ECB c\xF3 \u0111\u1EC3 l\u1EA1i note b\xEAn ph\xF2ng server, em check
-      b\xEAn \u0111\xF3."
+      t\xE1ch th\xE0nh c\xE1c s\u1ED1 b\xE9 h\u01A1n ho\u1EB7c b\u1EB1ng 10 nha.
+      R\u1ED3i gi\u1EA3i m\xE3 c\xE1i th\u1EBB nh\u1EDB theo tu\u1EA7n t\u1EF1 m\u1EA5y
+      s\u1ED1 \u0111\xF3 nha. V\xE0 d\u1EEF li\u1EC7u tr\u1ED1ng ghi b\u1EB1ng ch\u1EEF
+      in nha em."
+    - "C\xF3 \u0111i\u1EC1u ch\u1ECB th\u1EA5y l\u1EA1 l\xE0 n\u1EBFu \u0111em c\xE1c
+      thi\u1EBFt b\u1ECB ra ngo\xE0i t\xF2a th\xEC kh\xF4ng s\xE0i \u0111\u01B0\u1EE3c,
+      coi nh\u01B0 reset m\xE1y lu\xF4n \xE1."
+    - "Ch\u1ECB c\xF3 \u0111\u1EC3 l\u1EA1i note nh\u1EEFng \u0111i\u1EC1u c\u1EA7n
+      l\xE0m b\xEAn ph\xF2ng server, em check b\xEAn \u0111\xF3."
     autoProgress: 00000000
   TypingSpeed: 0.02
   Voice: {fileID: 0}

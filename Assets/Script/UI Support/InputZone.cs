@@ -14,13 +14,17 @@ public class InputZone : MonoBehaviour
     [SerializeField] private GameObject correctObj;
     [SerializeField] private GameObject enterButton;
     [SerializeField] private GameObject exitButton;
-    [SerializeField] private TMP_InputField inputField ;
+    [SerializeField] private TMP_InputField inputField;
 
-    string key = string.Empty; 
-    public Action onCorrectAnswer;    
+    string key = string.Empty;
+    public Action onCorrectAnswer;
+
+    // THÊM: Biến trạng thái để check xem panel có đang mở không
+    private bool isZoneOpen = false;
+
     public bool checkAnswer(string answer)
     {
-        Debug.Log($"answer: {answer}, key: {key}");
+        Debug.Log($"answer: {answer}, vs key: {key}");
         if (this.NormalizeText(answer) == this.NormalizeText(key))
         {
             correctObj.SetActive(true);
@@ -30,7 +34,7 @@ public class InputZone : MonoBehaviour
             onCorrectAnswer?.Invoke();
             Debug.Log("Trả lời đúng: " + answer);
             MemoryRecoverGame.Instance.CurrCompletedLines++;
-            SoundManager.Instance.PlayBGM(SoundKey.AnswerCorrect);
+            SoundManager.Instance.PlaySFX(SoundKey.AnswerCorrect);
             CloseInputZone();
             return true;
         }
@@ -38,7 +42,7 @@ public class InputZone : MonoBehaviour
         {
             correctObj.SetActive(false);
             incorrectObj.SetActive(true);
-            SoundManager.Instance.PlayBGM(SoundKey.AnswerIncorrect);
+            SoundManager.Instance.PlaySFX(SoundKey.AnswerIncorrect);
             StartCoroutine(
                 ShakeUI(inputField.GetComponent<RectTransform>())
             );
@@ -69,6 +73,16 @@ public class InputZone : MonoBehaviour
 
     public void OpenInputZone(int keyIndex, Action correctCallback)
     {
+        // THÊM: Kiểm tra xem đang mở rồi thì chặn luôn, không đè key
+        if (isZoneOpen)
+        {
+            Debug.LogWarning("InputZone đang mở, không thể đè key mới!");
+            return;
+        }
+
+        // THÊM: Đánh dấu là đang mở
+        isZoneOpen = true;
+        E_Hall_Controller.Instance.StopPlayer(); 
         this.gameObject.SetActive(true);
         onCorrectAnswer = null;
         onCorrectAnswer = correctCallback;
@@ -87,28 +101,39 @@ public class InputZone : MonoBehaviour
 
         inputField.gameObject.SetActive(true);
     }
+
     public void CloseInputZone()
     {
+        isZoneOpen = false;
+
         onCorrectAnswer = null;
+        key = string.Empty;
+
         correctObj.SetActive(false);
         incorrectObj.SetActive(false);
         enterButton.SetActive(false);
         exitButton.SetActive(false);
         inputField.gameObject.SetActive(false);
+        E_Hall_Controller .Instance.ContinuePlayer();
+        this.gameObject.SetActive(false);
     }
-    public void OnEnterBtnClick() 
+
+    public void OnEnterBtnClick()
     {
         checkAnswer(inputField.text);
     }
+
     public void OnExitBtnClick()
     {
-        SoundManager.PlayClickUI(); 
-        CloseInputZone(); 
+        SoundManager.PlayClickUI();
+        CloseInputZone();
     }
+
     public void Start()
     {
         //CloseInputZone();
     }
+
     string NormalizeText(string text)
     {
         text = text.Trim().ToLower().Normalize(NormalizationForm.FormC);

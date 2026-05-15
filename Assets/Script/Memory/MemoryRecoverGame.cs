@@ -40,8 +40,12 @@ public class MemoryRecoverGame : MonoBehaviour
     public int havingMemoryCardCount()
     {
         int count = 0;
-        for (int i = KeyData.MemoryCard1; i <= KeyData.MemoryCard4; i++)
+        for (int i = KeyData.MemoryCard1; i <= KeyData.MemoryCard4; i++) 
+        {
             count += InventorySystem.instance.CheckInventory(i) ? 1 : 0;
+            Debug.Log("Kiem tra the no1 - status: " + (InventorySystem.instance.CheckInventory(i) ? 1 : 0)); 
+        }
+           
         return count;
     }
 }

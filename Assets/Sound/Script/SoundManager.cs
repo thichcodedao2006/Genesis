@@ -90,5 +90,5 @@ public class SoundManager : MonoBehaviour
 
     public static void PlayOpenPhone() => Instance.PlaySFX(SoundKey.OpenPhone);
 
-    public static void PlayCompleteLevel() => Instance.PlayBGM(SoundKey.CompleteLevel); 
+    public static void PlayCompleteLevel() => Instance.PlaySFX(SoundKey.CompleteLevel); 
 }

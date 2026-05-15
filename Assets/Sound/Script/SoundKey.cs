@@ -31,7 +31,8 @@ public static class SoundKey
     public const string NearbyServer = "Nearby_Server_Sound";
     public const string StartGame = "Start_Game";
     public const string Ending = "Ending_Sound";
-
+    public const string PressurePlate = "Pressure_Plate";
+    public const string UpdateOnBoard = "Update_On_Board";
 
     public const string InputLogicGate = "Intput_Logic_Gate";
     public const string OpenButtonLogicGate = "Open_Button_Logic_Gate";

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -57,9 +58,15 @@ public class LogicGateGameController : MonoBehaviour
             game.onWin += () =>
             {
                 title.ShowText("Chúc mừng!");
-                SoundManager.PlayCompleteLevel();
                 description.ShowText("Bạn đã hoàn thành thử thách");
-                Game_BHall_Controller.instance.ShowUpKeyC(); 
+               
+                if (!PlayerPrefs.HasKey("Win_LogicGateGame")) 
+                {
+                    SoundManager.PlayCompleteLevel(); 
+                    Game_BHall_Controller.instance.ShowUpKeyC();
+                    PlayerPrefs.SetInt("Win_LogicGateGame", 1);
+                    PlayerPrefs.Save();
+                }
             };
 
         }

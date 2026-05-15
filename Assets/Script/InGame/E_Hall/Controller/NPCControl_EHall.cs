@@ -21,7 +21,7 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        StateControl.instance.IsGamePause = true;
+       
         PlayerController.instance.ResetVelo();
         if (DialogContent == null
             || (StateControl.instance.IsGamePause && !isDialogActive)
@@ -30,6 +30,7 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
             return;
         }
         StartDialog();
+        E_Hall_Controller.Instance.StopPlayer(); 
     }
 
     // ──────────────────────────── Mouse ──────────────────────────────

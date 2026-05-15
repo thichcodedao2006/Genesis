@@ -20,7 +20,8 @@ public class CapInput : MonoBehaviour
         Debug.Log("Keets nois ing");
        if (E_Hall_Controller.Instance.isPassCondition(ConditionType.HavingCap)) 
         {
-            PhoneController.fullBattery = true; 
+            PhoneController.fullBattery = true;
+            SoundManager.Instance.PlaySFX(SoundKey.OpenPhone);
             E_Hall_Controller.Instance.OpenPhonePanel();
         }
     }

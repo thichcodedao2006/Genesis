@@ -94,9 +94,10 @@ public class GuessGame_Logic : MonoBehaviour
         {
             CurrentLive--;
             GuessAnswer.text = "";
-
+            SoundManager.Instance.PlaySFX(SoundKey.AnswerIncorrect);
             if (CurrentLive == 0)
             {
+                
                 StartCoroutine(WrongAnswer());
             } else
             {
@@ -112,8 +113,8 @@ public class GuessGame_Logic : MonoBehaviour
 
     IEnumerator WrongAnswer()
     {
-        SoundManager.Instance.PlaySFX(SoundKey.AnswerIncorrect);
-            Hint.SetColor(Color.red);
+      
+        Hint.SetColor(Color.red);
             Hint.ShowText("Hết lượt. Thử lại!");
             CanClick = false;
 

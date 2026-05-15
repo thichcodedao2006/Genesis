@@ -52,6 +52,7 @@ public class PressurePlate : MonoBehaviour
 
         if (!isPressed && !isCompleted && exitTimer < exitDuration)
         {
+           
             exitTimer += Time.deltaTime;
 
             float progress = exitTimer / exitDuration;
@@ -65,7 +66,7 @@ public class PressurePlate : MonoBehaviour
     {
         if (!collision.CompareTag("Player") || isCompleted)
             return;
-
+        SoundManager.Instance.PlaySFX(SoundKey.PressurePlate);
         isPressed = true;
 
         exitTimer = exitDuration;
@@ -78,7 +79,7 @@ public class PressurePlate : MonoBehaviour
     {
         if (!collision.CompareTag("Player") || isCompleted)
             return;
-
+        SoundManager.Instance.PlaySFX(SoundKey.PressurePlate);
         isPressed = false;
 
         colorWhenExit = plateRenderer.color;

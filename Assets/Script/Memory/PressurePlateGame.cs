@@ -85,7 +85,7 @@ public class PressurePlateGame : MonoBehaviour
 
         string newString = "0x" + number.ToString("X") + " -> " + number;
         board.ShowText(newString);
-
+        SoundManager.Instance.PlaySFX(SoundKey.UpdateOnBoard);
         if (number == targetNumber)
         {
             isSolved = true;

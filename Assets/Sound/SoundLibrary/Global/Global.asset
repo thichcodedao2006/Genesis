@@ -31,7 +31,7 @@ MonoBehaviour:
   - key: Open_Phone
     clip: {fileID: 8300000, guid: ceb0106c5fa65d4448b21e9bf8cab441, type: 3}
     volume: 1
-  - key: CompleteLevel
+  - key: Complete_Level
     clip: {fileID: 8300000, guid: 6222180b04eb59a4fae645a7a16585dd, type: 3}
     volume: 1
   - key: Click_UI
@@ -39,10 +39,10 @@ MonoBehaviour:
     volume: 1
   - key: Open_Door
     clip: {fileID: 8300000, guid: 6817c9be81db36b459102cf25ca18b12, type: 3}
-    volume: 1
+    volume: 0.5
   - key: Close_Door
     clip: {fileID: 8300000, guid: 4fbbd2de561465b46b5f665b3481e97b, type: 3}
-    volume: 1
+    volume: 0.5
   - key: Footstep_Floor
     clip: {fileID: 8300000, guid: c34e50cf8b91c0448a550bcc8ccf512b, type: 3}
     volume: 1

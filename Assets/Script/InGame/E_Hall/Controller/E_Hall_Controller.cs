@@ -36,7 +36,7 @@ public class E_Hall_Controller : MonoBehaviour
 
     public CinemachineVirtualCamera followCamera;
     public GameObject spawnpoint;
-    private float validDistance = 1f;
+    private float validDistance = 2f;
     #endregion
     [SerializeField] SoundLibrary soundLibrary;
     private void Awake()
@@ -93,6 +93,7 @@ public class E_Hall_Controller : MonoBehaviour
 
     public void StopPlayer()
     {
+        StateControl.instance.IsGamePause = true;
         PlayerController.instance.ResetVelo(); 
     }
 
