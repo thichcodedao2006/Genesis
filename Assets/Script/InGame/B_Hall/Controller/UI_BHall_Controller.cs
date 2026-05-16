@@ -35,12 +35,15 @@ public class UI_BHall_Controller : MonoBehaviour
     public TextMeshProUGUI ObjectName;
     public TextMeshProUGUI ObjectDescription;
     public TextMeshProUGUI ReceiveObjectContent;
+    public NotifyPlace notify;
 
     [Header("Panel")]
     public GameObject DialogPanel;
     public GameObject InventoryPanel;
     public GameObject DetailPanel;
     public GameObject NotifyPlacePanel;
+    public TransPanel TransitionPanel;
+    public GameObject ManualPanel;
 
     [Header("Image")]
     public Image DialogAvatar;
@@ -60,7 +63,17 @@ public class UI_BHall_Controller : MonoBehaviour
 
     private void Start()
     {
-        NotifyPlacePanel.SetActive(true);
+        StartCoroutine(TransitionEnter());
+    }
+
+    IEnumerator TransitionEnter()
+    {
+        ShowTransitionPanel(true);
+        SetTriggerShowTransitionPanel();
+        yield return new WaitForSeconds(0.5f);
+
+        ShowTransitionPanel(false);
+        ShowNotifyPlace(true, "Tòa B");
     }
 
     private void OnEnable()
@@ -162,6 +175,41 @@ public class UI_BHall_Controller : MonoBehaviour
     {
         ReceiveObject.gameObject.SetActive(state);
     }
+
+    public void ShowNotifyPlace(bool state, string txt)
+    {
+        notify.gameObject.SetActive(state);
+        notify.txt = txt;
+    }
+
+    public void ShowTransitionPanel(bool state)
+    {
+        TransitionPanel.gameObject.SetActive(state);
+    }
+
+    public void SetTriggerShowTransitionPanel()
+    {
+        TransitionPanel.ShowPanel();
+    }
+
+    public void ShowManual(bool state)
+    {
+        ManualPanel.gameObject.SetActive(state);
+    }
+
+    public void OpenManual()
+    {
+        StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo();
+        ShowManual(true);
+    }
+
+    public void CloseManual()
+    {
+        StateControl.instance.IsGamePause = false;
+        ShowManual(false);
+    }
+
 
 }
 

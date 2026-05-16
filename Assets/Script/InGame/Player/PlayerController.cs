@@ -121,22 +121,20 @@ public class PlayerController : MonoBehaviour
                 }
                 StateControl.instance.IsGamePause = true;
                 SoundManager.Instance.PlaySFX(SoundKey.OpenDoor);
-                SceneManager.LoadScene(NextScene);
+                ResetVelo();
+                SetPlayerIdle(movement.lastX, movement.lastY);
+                StartCoroutine(Transition(NextScene));
             }
         }
-        else if (collision.gameObject.CompareTag("GoBack"))
-        {
-            switch (collision.gameObject.name)
-            {
-                case "GoBackFromA":
-                    {
-                        SceneTransitionManager.TargetSpawn = KeyData.SpawnFromA;
-                        break;
-                    }
-            }
-            StateControl.instance.IsGamePause = true;
-            SceneManager.LoadScene("Outside");
-        }
+    }
+
+    IEnumerator Transition(string scene)
+    {
+        UI_Outside_Controller.instance.ShowTransitionPanel(true);
+        yield return new WaitForSeconds(0.8f);
+
+        SceneManager.LoadSceneAsync(scene);
+
     }
 
     public void SetPlayerIdle(float x, float y)
@@ -150,4 +148,9 @@ public class PlayerController : MonoBehaviour
         movement.ResetVelocity();
         animator.SetBool("IsMoving", false);
     }    
+
+    public void SetIdleBaseOnMovement()
+    {
+        SetPlayerIdle(movement.lastX, movement.lastY);  
+    }
 }

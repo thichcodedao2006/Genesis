@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Vector2 Direction;
     private float PlayerSpeed;
-    private float lastX, lastY;
+    public float lastX, lastY;
     #endregion
     private bool playingFootStep = false;
     public float footStepSpeed = 1f;

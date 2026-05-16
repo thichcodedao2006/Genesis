@@ -30,6 +30,7 @@ public class UI_AHall_Controller : MonoBehaviour
     public TextMeshProUGUI ObjectDescription;
     public TextMeshProUGUI ReceiveObjectContent;
     public TextMeshProUGUI LockerText;
+    public NotifyPlace notify;
 
     [Header("Panel")]
     public GameObject InGamePanel;
@@ -38,6 +39,9 @@ public class UI_AHall_Controller : MonoBehaviour
     public GameObject DetailPanel;
     public GameObject InputPanel;
     public GameObject NotifyPlacePanel;
+    public TransPanel TransitionPanel;
+    public GameObject ManualPanel;
+    public GameObject LockerObject;
 
     [Header("Image")]
     public Image DialogAvatar;
@@ -49,6 +53,7 @@ public class UI_AHall_Controller : MonoBehaviour
     public Button NextButton;
     public Button ExitButton;
     public Button DetailButton;
+    public Button LockerExit;
 
     [Header("Sprite")]
     public Sprite ComputerOff;
@@ -59,14 +64,26 @@ public class UI_AHall_Controller : MonoBehaviour
     private Object currentObj;
     #endregion
 
-    private void Start()
-    {
-        NotifyPlacePanel.gameObject.SetActive(true);
-    }
+    
     private void Awake()
     {
         MakeSingleTon();
     }
+    private void Start()
+    {
+        StartCoroutine(TransitionEnter());
+    }
+
+    IEnumerator TransitionEnter()
+    {
+        ShowTransitionPanel(true);
+        SetTriggerShowTransitionPanel();
+        yield return new WaitForSeconds(0.5f);
+
+        ShowTransitionPanel(false);
+        ShowNotifyPlace(true, "Tòa A");
+    }
+
 
     #region Function
     private void OnEnable()
@@ -78,6 +95,8 @@ public class UI_AHall_Controller : MonoBehaviour
     {
         ChooseObject.ClickButton -= ShowDataObject;
     }
+
+    
     public void SetDialogText(string txt)
     {
         DialogText.text = txt;
@@ -122,7 +141,13 @@ public class UI_AHall_Controller : MonoBehaviour
     {
         ResetObjectPanel();
         InventoryPanel.SetActive(state);
-        StateControl.instance.IsGamePause = state;
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        } else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
     }
 
     public void ShowDataObject(Object obj)
@@ -179,6 +204,16 @@ public class UI_AHall_Controller : MonoBehaviour
     public void ShowInputPanel(bool state)
     {
         InputPanel.SetActive(state);
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+            LockerObject.GetComponent<Collider2D>().enabled = false;
+        }
+        else
+        {
+            StateControl.instance.DecreaseActivity();
+            LockerObject.GetComponent<Collider2D>().enabled = true;
+        }
     }
 
     public string GetInputText()
@@ -194,5 +229,46 @@ public class UI_AHall_Controller : MonoBehaviour
     {
         LockerText.color = color;
     }
+
+    public void ShowNotifyPlace(bool state, string txt)
+    {
+        notify.gameObject.SetActive(state);
+        notify.txt = txt;
+    }
+
+    public void ShowTransitionPanel(bool state)
+    {
+        TransitionPanel.gameObject.SetActive(state);
+    }
+
+    public void SetTriggerShowTransitionPanel()
+    {
+        TransitionPanel.ShowPanel();
+    }
+
+    public void ShowManual(bool state)
+    {
+        ManualPanel.gameObject.SetActive(state);
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        }
+        else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
+    }
+
+    public void OpenManual()
+    {
+        PlayerController.instance.ResetVelo();
+        ShowManual(true);
+    }
+
+    public void CloseManual()
+    {
+        ShowManual(false);
+    }
+
     #endregion
 }

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Text;
 using TMPro;
 using UnityEngine;
@@ -82,7 +80,6 @@ public class InputZone : MonoBehaviour
 
         // THÊM: Đánh dấu là đang mở
         isZoneOpen = true;
-        E_Hall_Controller.Instance.StopPlayer(); 
         this.gameObject.SetActive(true);
         onCorrectAnswer = null;
         onCorrectAnswer = correctCallback;
@@ -114,7 +111,6 @@ public class InputZone : MonoBehaviour
         enterButton.SetActive(false);
         exitButton.SetActive(false);
         inputField.gameObject.SetActive(false);
-        E_Hall_Controller .Instance.ContinuePlayer();
         this.gameObject.SetActive(false);
     }
 

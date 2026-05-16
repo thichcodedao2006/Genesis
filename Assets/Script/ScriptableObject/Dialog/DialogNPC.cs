@@ -1,7 +1,6 @@
-using JetBrains.Annotations;
+
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [System.Serializable]
@@ -29,7 +28,7 @@ public class DialogNPC : ScriptableObject
     public float autoProgressDelay = 1.5f;
     public Dictionary<int , DialogContent> DictionaryDialog;
 
-    private void Awake()
+    private void OnEnable()
     {
         DictionaryDialog = new Dictionary<int , DialogContent>();
         if (ListDialog != null)

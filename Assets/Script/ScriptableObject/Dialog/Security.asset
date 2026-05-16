@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Security
   m_EditorClassIdentifier: 
   NPCid: 0
-  NPCname: "B\u1EA3o v\u1EC7 c\xE1c em"
+  NPCname: "B\xE1c b\u1EA3o v\u1EC7 th\xE2n thi\u1EC7n"
   NPCAva: {fileID: 1419943441, guid: 94acd9a74d00c3844a28eb70ad25c1de, type: 3}
   ListDialog:
   - DialogID: 0
@@ -29,11 +29,14 @@ MonoBehaviour:
       c\xF3 t\xE0i n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Server
       \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
       \u0111\u1EE1 nh\xE9."
-    - "\xC0 c\xF2n 1 vi\u1EC7c n\u1EEFa, do s\u01A1 su\u1EA5t n\xEAn ch\xECa kh\xF3a
-      c\u1EE7a c\xE1c t\xF2a t\u1EEB B \u0111\u1EBFn E \u0111\xE3 b\u1ECB m\u1EA5t
-      n\xEAn ch\xE1u h\xE3y b\u1EAFt \u0111\u1EA7u t\u1EEB t\xF2a A nh\xE9. Ch\xFA
-      c\u1EA3m \u01A1n."
-    autoProgress: 01010000
+    - "\xC0 c\xF2n 1 v\u1EA5n \u0111\u1EC1 n\u1EEFa, do m\u1EA3i m\xEA l\xE0m c\xE1c
+      c\xF4ng chuy\u1EC7n n\xEAn ch\xFA \u0111\xE3 \u0111\xE1nh r\u01A1i ch\xECa
+      kh\xF3a c\u1EE7a 3 t\xF2a B, C, E, ch\u1EC9 c\xF2n l\u1EA1i ch\xECa kh\xF3a
+      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9."
+    - "V\xE0 th\xEAm n\u1EEFa m\u1ED9t s\u1ED1 ng\u01B0\u1EDDi \u1EDF \u0111\xE2y
+      kh\xE1 ng\u1EA1i ng\u01B0\u1EDDi l\u1EA1 n\xEAn ch\xE1u h\xE3y c\u1ED1 g\u1EAFng
+      b\u1EAFt chuy\u1EC7n nhi\u1EC1u l\u1EA7n v\u1EDBi h\u1ECD nh\xE9."
+    autoProgress: 0101000000
   - DialogID: 1
     SentenceList:
     - "Ch\xE0o c\xF4 b\xE9 xinh \u0111\u1EB9p, v\u1EDBi v\u1EBB \u0111\u1EB9p n\xE0y
@@ -47,11 +50,14 @@ MonoBehaviour:
       c\xF3 t\xE0i n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Server
       \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
       \u0111\u1EE1 nh\xE9."
-    - "\xC0 c\xF2n 1 vi\u1EC7c n\u1EEFa, do s\u01A1 su\u1EA5t n\xEAn ch\xECa kh\xF3a
-      c\u1EE7a c\xE1c t\xF2a t\u1EEB B \u0111\u1EBFn E \u0111\xE3 b\u1ECB m\u1EA5t
-      n\xEAn ch\xE1u h\xE3y b\u1EAFt \u0111\u1EA7u t\u1EEB t\xF2a A nh\xE9. Ch\xFA
-      c\u1EA3m \u01A1n."
-    autoProgress: 01010000
+    - "\xC0 c\xF2n 1 v\u1EA5n \u0111\u1EC1 n\u1EEFa, do m\u1EA3i m\xEA l\xE0m c\xE1c
+      c\xF4ng chuy\u1EC7n n\xEAn ch\xFA \u0111\xE3 \u0111\xE1nh r\u01A1i ch\xECa
+      kh\xF3a c\u1EE7a 3 t\xF2a B, C, E, ch\u1EC9 c\xF2n l\u1EA1i ch\xECa kh\xF3a
+      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9."
+    - "V\xE0 th\xEAm n\u1EEFa m\u1ED9t s\u1ED1 ng\u01B0\u1EDDi \u1EDF \u0111\xE2y
+      kh\xE1 ng\u1EA1i ng\u01B0\u1EDDi l\u1EA1 n\xEAn ch\xE1u h\xE3y c\u1ED1 g\u1EAFng
+      b\u1EAFt chuy\u1EC7n nhi\u1EC1u l\u1EA7n v\u1EDBi h\u1ECD nh\xE9."
+    autoProgress: 0101000000
   - DialogID: 2
     SentenceList:
     - "\u0110\u1EEBng n\xF3i chuy\u1EC7n v\u1EDBi ch\xFA n\u1EEFa. Gi\xFAp ch\xFA

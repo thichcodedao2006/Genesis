@@ -31,7 +31,11 @@ public class OpenIFBtn : MonoBehaviour
         {
             typeWriter = textObj.AddComponent<TypeWriterTMP>();
         }
-
+        var tmpText = textObj.GetComponent<TMP_Text>();
+        if (tmpText != null)
+        {
+            tmpText.raycastTarget = false;
+        }
         textObj.SetActive(false);
     }
 
@@ -48,7 +52,7 @@ public class OpenIFBtn : MonoBehaviour
         SoundManager.Instance.PlaySFX(SoundKey.Typing);
         typeWriter.ShowText(key);
         //gameObject.SetActive(false);
-       GetComponent<UnityEngine.UI.Button>().interactable = false;
+        GetComponent<UnityEngine.UI.Button>().interactable = false;
 
     }
 }

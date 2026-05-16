@@ -21,7 +21,7 @@ public class ChoosePlace : MonoBehaviour
             EventSystem.ClickChoosePlaceFirstTime?.Invoke();
             LogicController.instance.HaveStartGame = true;
         }
-        StateControl.instance.IsGamePause = false;
+        else StateControl.instance.DecreaseActivity();
         SoundManager.Instance.PlaySFX(SoundKey.ChoosePos);
         PlayerController.instance.transform.position = this.transform.position;
         LogicController.instance.lastPlaceID = ID;

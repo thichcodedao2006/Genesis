@@ -52,14 +52,12 @@ public class Game_CHall_Controller : MonoBehaviour
         SoundManager.PlayOpenBackPack(); 
         PlayerController.instance.ResetVelo();
         UI_CHall_Controller.instance.ShowInventoryPanel(true);
-        StateControl.instance.IsGamePause = true;
     }
 
     public void CloseBack()
     {
         SoundManager.PlayCloseBackPack();
         UI_CHall_Controller.instance.ShowInventoryPanel(false);
-        StateControl.instance.IsGamePause = false;
     }
 
     public void CloseDetail()

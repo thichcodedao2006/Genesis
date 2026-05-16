@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -64,6 +62,9 @@ public class Computer_CHall : MonoBehaviour
         image.sprite = UI_CHall_Controller.instance.ComputerOn;
 
         LogicQueueController.instance.ShowGame(true);
+
+        LogicQueueController.instance.currentChooseDataC = new DataCButton();
+
     }
 }
 

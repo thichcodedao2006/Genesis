@@ -1,6 +1,4 @@
 ﻿using Cinemachine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Game_BHall_Controller : MonoBehaviour
@@ -61,6 +59,7 @@ public class Game_BHall_Controller : MonoBehaviour
     #region Function
     public void OpenBackPack()
     {
+        SoundManager.PlayOpenBackPack();
         PlayerController.instance.ResetVelo();
         UI_BHall_Controller.instance.ShowInventoryPanel(true);
         StateControl.instance.IsGamePause = true;
@@ -68,6 +67,7 @@ public class Game_BHall_Controller : MonoBehaviour
 
     public void CloseBack()
     {
+        SoundManager.PlayCloseBackPack();
         UI_BHall_Controller.instance.ShowInventoryPanel(false);
         StateControl.instance.IsGamePause = false;
     }

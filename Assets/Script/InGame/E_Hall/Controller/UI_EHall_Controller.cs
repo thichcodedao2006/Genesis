@@ -52,7 +52,7 @@ public class UI_EHall_Controller : MonoBehaviour
     #endregion
     private void Start()
     {
-        NotifyPlacePanel.gameObject.SetActive(true);
+        
     }
     private void Awake()
     {
@@ -112,7 +112,14 @@ public class UI_EHall_Controller : MonoBehaviour
     {
         ResetObjectPanel();
         InventoryPanel.SetActive(state);
-        StateControl.instance.IsGamePause = state;
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        }
+        else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
     }
 
     public void ShowDataObject(Object obj)

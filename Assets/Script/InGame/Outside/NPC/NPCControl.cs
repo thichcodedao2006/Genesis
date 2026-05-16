@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class NPCControl : MonoBehaviour, IInteractable
@@ -16,13 +15,35 @@ public class NPCControl : MonoBehaviour, IInteractable
     private List<string> InsideCurrentDialog = new List<string>();
     private List<bool> SentenceCanBeAutoPass = new List<bool>();
 
-    public Action considerateDialog; 
+    public float mouseClickFuzziness = 0.1f;
+    public LayerMask layerMask;
+
+    private void Start()
+    {
+        layerMask = LayerMask.GetMask("NPC");
+    }
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            // Thay vì Raycast bắn 1 tia, mình OverlapCircle quét 1 vùng hình tròn
+            Collider2D hitCollider = Physics2D.OverlapCircle(mousePosition, mouseClickFuzziness, layerMask);
+
+            if (hitCollider != null && hitCollider.gameObject == this.gameObject)
+            {
+                Click();
+            }
+        }
+    }
     public void Interact() // work as a click function
     {
         if (DialogContent == null || (StateControl.instance.IsGamePause && !isDialogActive) || isDialogActive)
         {
             return;
         }
+        
         StartDialog();
 
     }
@@ -55,7 +76,7 @@ public class NPCControl : MonoBehaviour, IInteractable
             Debug.Log(InsideCurrentDialog[CurrentDialogIndex]);
             SentenceCanBeAutoPass = DialogContent.DictionaryDialog[CurrentDialog].autoProgress;
             Debug.Log(SentenceCanBeAutoPass[CurrentDialogIndex]);
-            StateControl.instance.IsGamePause = true;
+            StateControl.instance.IncreaseActivity();
             UI_Outside_Controller.instance.AddClickForButton(0, NextLine);
             UI_Outside_Controller.instance.AddClickForButton(1, ExitDialog);
             StartCoroutine(TypingContent());
@@ -106,7 +127,6 @@ public class NPCControl : MonoBehaviour, IInteractable
         } else
         {
             CurrentDialogIndex++; 
-            considerateDialog?.Invoke(); 
 
             if (CurrentDialogIndex < InsideCurrentDialog.Count)
             {
@@ -135,11 +155,11 @@ public class NPCControl : MonoBehaviour, IInteractable
     {
         StopAllCoroutines();
         isDialogActive = false;
-        StateControl.instance.IsGamePause = false;
+        StateControl.instance.DecreaseActivity();
         UI_Outside_Controller.instance.SetDialogText("");
         UI_Outside_Controller.instance.ShowDialogPanel(false);
     }
-    public void OnMouseDown()
+    public void Click()
     {
         if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1f)
         {

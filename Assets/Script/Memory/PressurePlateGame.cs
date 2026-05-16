@@ -1,8 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using Unity.Collections.LowLevel.Unsafe;
-using Unity.VisualScripting;
 using UnityEngine;
 
 using System.Collections.Generic;
@@ -116,7 +113,11 @@ public class PressurePlateGame : MonoBehaviour
             plate.ResetPlate();
         }
     }
-    private void WhenPickedCap() => E_Hall_Controller.Instance.PassCondition(ConditionType.HavingCap, true); 
+    private void WhenPickedCap()
+    {
+        E_Hall_Controller.Instance.PassCondition(ConditionType.HavingCap, true);
+        UI_EHall_Controller.instance.ShowReceiveObjectPanel(true, "Bạn đã nhận được CapE");
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;

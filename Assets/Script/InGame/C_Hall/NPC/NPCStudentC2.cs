@@ -6,23 +6,33 @@ public class NPCStudentC2 : NPCControl_CHall
 {
     private void OnEnable()
     {
-        EventSystem.SuccessCChallenge += AdvanceDialog;
+        EventSystem.SuccessCChallenge += Success;
     }
 
     private void OnDisable()
     {
-        EventSystem.SuccessCChallenge -= AdvanceDialog;
+        EventSystem.SuccessCChallenge -= Success;
+    }
+
+    private void Success()
+    {
+        CurrentDialog = 2;
+        SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
     }
     public override void EndDialog()
     {
         Common();
         if (CurrentDialog == 0)
         {
-            AdvanceDialog();
+            Advance1Dialog();
+        }else if (InventorySystem.instance.CheckInventory(KeyData.KeyE))
+        {
+            CurrentDialog = 2;
+            SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
         }
     }
 
-    private void AdvanceDialog()
+    private void Advance1Dialog()
     {
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);

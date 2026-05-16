@@ -61,14 +61,12 @@ public class Game_AHall_Controller : MonoBehaviour
         SoundManager.PlayOpenBackPack(); 
         PlayerController.instance.ResetVelo();
         UI_AHall_Controller.instance.ShowInventoryPanel(true);
-        StateControl.instance.IsGamePause = true;
     }
 
     public void CloseBack()
     {
         SoundManager.PlayCloseBackPack();
         UI_AHall_Controller.instance.ShowInventoryPanel(false);
-        StateControl.instance.IsGamePause = false;
     }
 
     public void CloseDetail()
@@ -85,7 +83,6 @@ public class Game_AHall_Controller : MonoBehaviour
     {
         if (!StateControl.instance.CanClickUI) return;
         UI_AHall_Controller.instance.ShowInputPanel(false);
-        StateControl.instance.IsGamePause = false;
     }    
 
     public void DeleteChar()
@@ -112,6 +109,8 @@ public class Game_AHall_Controller : MonoBehaviour
 
     IEnumerator Losing(string txt)
     {
+
+        UI_AHall_Controller.instance.LockerExit.interactable = false;
         yield return StartCoroutine(TypingBack(txt));
 
         UI_AHall_Controller.instance.SetInputTextColor(Color.red);
@@ -123,10 +122,14 @@ public class Game_AHall_Controller : MonoBehaviour
         UI_AHall_Controller.instance.SetInputTextColor(Color.white);
 
         StateControl.instance.CanClickUI = true;
+
+        UI_AHall_Controller.instance.LockerExit.interactable = true;
     }
 
     IEnumerator Winning(string txt)
     {
+        UI_AHall_Controller.instance.LockerExit.interactable = false;
+
         yield return StartCoroutine(TypingBack(txt));
 
         UI_AHall_Controller.instance.SetInputTextColor(Color.green);
@@ -141,9 +144,10 @@ public class Game_AHall_Controller : MonoBehaviour
 
         StateControl.instance.CanClickUI = true;
 
-        StateControl.instance.IsGamePause = false;
 
         EventSystem.SuccessAChallenge?.Invoke();
+
+        UI_AHall_Controller.instance.LockerExit.interactable = true;
 
 
     }

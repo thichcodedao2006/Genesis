@@ -56,14 +56,12 @@ public class GameOutsideController : MonoBehaviour
         SoundManager.PlayOpenBackPack();
         PlayerController.instance.ResetVelo();
         UI_Outside_Controller.instance.ShowInventoryPanel(true);
-        StateControl.instance.IsGamePause = true;
     }
 
     public void InventoryClose()
     {
         SoundManager.PlayCloseBackPack();
         UI_Outside_Controller.instance.ShowInventoryPanel(false);
-        StateControl.instance.IsGamePause = false;
     }
 
     public void CloseDetail()

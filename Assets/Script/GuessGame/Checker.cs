@@ -35,13 +35,23 @@ public class Checker : MonoBehaviour
 
         SoundManager.PlayClickUI();
         WriteOnCheckerPanel();
-        E_Hall_Controller.Instance.StopPlayer();
+        PlayerController.instance.ResetVelo();
+        StateControl.instance.IncreaseActivity();
 
         Condition? failed = conditions.Find(c => !c.isPass);
         if (failed == null)
         {
             E_Hall_Controller.Instance.IsWinGame = true;
+
+            StartCoroutine(Win());
+            
         }
+    }
+
+    IEnumerator Win()
+    {
+        yield return new WaitForSeconds(1.5f);
+        checkPanel.SetActive(false);
     }
 
     public void setPassCondition(ConditionType conditionType, bool isPass)
@@ -71,7 +81,7 @@ public class Checker : MonoBehaviour
     public void ClosePanel()
     {
         checkPanel.SetActive(false);
-        E_Hall_Controller.Instance.ContinuePlayer();
+        StateControl.instance.DecreaseActivity();
     }
 
     public string getSaveKey(ConditionType conditionType)

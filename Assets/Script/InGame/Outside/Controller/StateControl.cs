@@ -28,5 +28,26 @@ public class StateControl : MonoBehaviour
     [Header("Control variance")]
     public bool IsGamePause = false;
     public bool CanClickUI = true;
+    private int NumberOfEvent = 0;
+
+    public void IncreaseActivity()
+    {
+        NumberOfEvent++;
+        if (NumberOfEvent > 0) IsGamePause = true;
+    }
+
+    public void DecreaseActivity()
+    {
+        NumberOfEvent--;
+        if (NumberOfEvent <= 0) IsGamePause = false;
+    }
+
+    public void ResetActivity()
+    {
+        NumberOfEvent = 0;
+        IsGamePause = false;
+    }
+
+    
 
 }

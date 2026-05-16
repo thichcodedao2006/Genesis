@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1465496412552856285}
   - component: {fileID: 6312699534587272517}
   - component: {fileID: 8340962634573589917}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: the_nho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,6 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 7ddf60e98600e294b9c2f072c6a35153, type: 2}
+  mouseClickFuzziness: 0.1
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!61 &8340962634573589917
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +13,29 @@ public class NPCControl_BHall : MonoBehaviour
     protected int CurrentDialogIndex = 0;
     private List<string> InsideCurrentDialog = new List<string>();
     private List<bool> SentenceCanBeAutoPass = new List<bool>();
+
+    public float mouseClickFuzziness = 0.1f;
+    public LayerMask layerMask;
+
+    private void Start()
+    {
+        layerMask = LayerMask.GetMask("NPC");
+    }
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            // Thay vÃ¬ Raycast báº¯n 1 tia, mÃ¬nh OverlapCircle quÃ©t 1 vÃ¹ng hÃ¬nh trÃ²n
+            Collider2D hitCollider = Physics2D.OverlapCircle(mousePosition, mouseClickFuzziness, layerMask);
+
+            if (hitCollider != null && hitCollider.gameObject == this.gameObject)
+            {
+                Click();
+            }
+        }
+    }
     public void Interact() // work as a click function
     {
         if (DialogContent == null || (StateControl.instance.IsGamePause && !isDialogActive) || isDialogActive)
@@ -45,13 +68,13 @@ public class NPCControl_BHall : MonoBehaviour
 
         UI_BHall_Controller.instance.ShowDialogPanel(true);
 
-        if (DialogContent.DictionaryDialog.ContainsKey(CurrentDialog)) // có t?n t?i ?o?n h?i tho?i mong mu?n 
+        if (DialogContent.DictionaryDialog.ContainsKey(CurrentDialog)) // cÃ³ t?n t?i ?o?n h?i tho?i mong mu?n 
         {
             InsideCurrentDialog = DialogContent.DictionaryDialog[CurrentDialog].SentenceList;
             Debug.Log(InsideCurrentDialog[CurrentDialogIndex]);
             SentenceCanBeAutoPass = DialogContent.DictionaryDialog[CurrentDialog].autoProgress;
             Debug.Log(SentenceCanBeAutoPass[CurrentDialogIndex]);
-            StateControl.instance.IsGamePause = true;
+            StateControl.instance.IncreaseActivity();
             UI_BHall_Controller.instance.AddClickForButton(0, NextLine);
             UI_BHall_Controller.instance.AddClickForButton(1, ExitDialog);
             StartCoroutine(TypingContent());
@@ -94,7 +117,7 @@ public class NPCControl_BHall : MonoBehaviour
 
     private void NextLine()
     {
-        if (istyping) // ?ang gõ thì nh?n vào nó s? h?t gõ 
+        if (istyping) // ?ang gÃµ thÃ¬ nh?n vÃ o nÃ³ s? h?t gÃµ 
         {
             StopAllCoroutines();
             istyping = false;
@@ -129,11 +152,11 @@ public class NPCControl_BHall : MonoBehaviour
     {
         StopAllCoroutines();
         isDialogActive = false;
-        StateControl.instance.IsGamePause = false;
+        StateControl.instance.DecreaseActivity();
         UI_BHall_Controller.instance.SetDialogText("");
         UI_BHall_Controller.instance.ShowDialogPanel(false);
     }
-    public void OnMouseDown()
+    public void Click()
     {
         if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1f)
         {
@@ -160,7 +183,7 @@ public class NPCControl_BHall : MonoBehaviour
             // Store in inventory system
             InventorySystem.instance.AddInventory(obj.IDobject);
 
-            // Truy?n th?ng ID m?i vào UI ?? v? lên ô tr?ng ??u tiên
+            // Truy?n th?ng ID m?i vÃ o UI ?? v? lÃªn Ã´ tr?ng ??u tiÃªn
             LoadingData.instance.AddNewItemToUI(obj.IDobject);
         }
     }

@@ -11,8 +11,22 @@ public class FromEToOutside : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             SoundManager.Instance.PlaySFX(SoundKey.CloseDoor);
-            SceneTransitionManager.TargetSpawn = KeyData.SpawnFromE;
-            SceneManager.LoadScene("Outside");
+            StateControl.instance.IsGamePause = true;
+            PlayerController.instance.ResetVelo();
+            PlayerController.instance.SetIdleBaseOnMovement();
+
+            StartCoroutine(Transition());
         }
     }
+
+    IEnumerator Transition()
+    {
+        yield return null;
+        E_Hall_Controller.Instance.ShowTransitionPanel(true);
+
+        yield return new WaitForSeconds(0.5f);
+        SceneTransitionManager.TargetSpawn = KeyData.SpawnFromE;
+        SceneManager.LoadSceneAsync("Outside");
+    }
+
 }

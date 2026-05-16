@@ -34,6 +34,7 @@ public class GuessGame_Logic : MonoBehaviour
     private int Secret;
     private int min, max;
     private bool CanClick = true;
+    private Coroutine enter;
     #region Function
     //private void OnEnable()
     //{
@@ -44,6 +45,14 @@ public class GuessGame_Logic : MonoBehaviour
     private void Start()
     {
         GuessAnswer.contentType = TMP_InputField.ContentType.IntegerNumber;
+    }
+
+    private void OnDisable()
+    {
+        if (enter != null)
+        {
+            StopCoroutine(enter);
+        }
     }
     public void Reset()
     {
@@ -156,8 +165,7 @@ public class GuessGame_Logic : MonoBehaviour
             Reset();
             CloseGuessPanel();
             SoundManager.PlayCloseDoor();
-            PlayerController.instance.transform.position = Game_BHall_Controller.instance.InB316.transform.position;
-            PlayerController.instance.SetPlayerIdle(0, -1);
+            enter = StartCoroutine(Enter());
         }
         else
         {
@@ -165,7 +173,24 @@ public class GuessGame_Logic : MonoBehaviour
             GetCurrentPhaseData();
             ShowDataBaseOnPhase();
         }
-    }    
+    }
+
+    IEnumerator Enter()
+    {
+        yield return null;
+        StateControl.instance.IsGamePause = true;
+        PlayerController.instance.ResetVelo();
+        PlayerController.instance.SetIdleBaseOnMovement();
+        UI_BHall_Controller.instance.ShowTransitionPanel(true);
+        yield return new WaitForSeconds(1f);
+        PlayerController.instance.transform.position = Game_BHall_Controller.instance.InB316.transform.position;
+        PlayerController.instance.SetPlayerIdle(0, -1);
+        UI_BHall_Controller.instance.SetTriggerShowTransitionPanel();
+        yield return new WaitForSeconds(0.8f);
+        UI_BHall_Controller.instance.ShowTransitionPanel(false);
+        UI_BHall_Controller.instance.ShowNotifyPlace(true, "B3.16");
+        StateControl.instance.IsGamePause = false;
+    }
 
     private bool ValidateInput(out int ans)
     {

@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -57,7 +56,6 @@ public class Computer_AHall : MonoBehaviour
     public void CLick()
     {
         if (!CanClick) return;
-        SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
         if (!StateControl.instance.CanClickUI) return;
         if (!LogicController.instance.HaveStartGame)
         {
@@ -65,8 +63,9 @@ public class Computer_AHall : MonoBehaviour
         }
         if (HaveClick)
         {
+            SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
             PlayerController.instance.ResetVelo();
-            StateControl.instance.IsGamePause = true;
+            StateControl.instance.IncreaseActivity();
             List<int> list = new List<int>();
             foreach (int i in IDChoosePlaces)
             {
@@ -82,9 +81,10 @@ public class Computer_AHall : MonoBehaviour
             Debug.Log("Too far");
             return;
         }
+        SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
         PlayerController.instance.ResetVelo();
         PlayerPrefs.SetInt(data, 1);
-        StateControl.instance.IsGamePause = true;
+        StateControl.instance.IncreaseActivity();
         LogicController.instance.CalculateDistance(ID);
         HaveClick = true;
         animator.SetTrigger("On");
@@ -103,7 +103,7 @@ public class Computer_AHall : MonoBehaviour
         if (totalCom ==11) // nếu đủ máy rồi thì kết thúc thử thách 
         {
             ComputerStore.instance.DisableComputer();
-            StateControl.instance.IsGamePause = false;
+            StateControl.instance.ResetActivity(); 
             EventSystem.FinishChallengeA?.Invoke();
         } else // còn không show lựa chọn di chuyển
         {

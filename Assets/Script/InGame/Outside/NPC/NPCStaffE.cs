@@ -7,35 +7,28 @@ public class NPCStaffE : NPCControl
     public override void EndDialog()
     {
         Common();
-        increaseDialogSafely();
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
 
     }
     public void OnEnable()
     {
-        considerateDialog += () =>
-        {
-            if (CurrentDialog == 1 && InventorySystem.instance.CheckInventory(KeyData.KeyE))
-            {
-                CurrentDialogIndex = 1; 
-            }
-        };
+        EventSystem.HaveReceiveKeyE += AdvancehaveKey;
+        EventSystem.HaveCollectKeyE();
     }
-    public int numberOfMemoryCard()
+
+    private void OnDisable()
     {
-        int count = 0;
-        for (int i = KeyData.MemoryCard1; i <= KeyData.MemoryCard4; i++)
-        {
-            if (InventorySystem.instance.CheckInventory(i))
-            {
-                count++;
-            }
-        }
-        return count;
+        EventSystem.HaveReceiveKeyE -= AdvancehaveKey;
     }
     public void increaseDialogSafely()
     {
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
+    }
+
+    public void AdvancehaveKey()
+    {
+        CurrentDialog = 1;
+        SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
     }
 }

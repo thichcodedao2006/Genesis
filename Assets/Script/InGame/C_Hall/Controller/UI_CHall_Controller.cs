@@ -35,11 +35,14 @@ public class UI_CHall_Controller : MonoBehaviour
     public TextMeshProUGUI ObjectName;
     public TextMeshProUGUI ObjectDescription;
     public TextMeshProUGUI ReceiveObjectContent;
+    public NotifyPlace notify;
 
     [Header("Panel")]
     public GameObject DialogPanel;
     public GameObject InventoryPanel;
     public GameObject DetailPanel;
+    public TransPanel TransitionPanel;
+    public GameObject ManualPanel;
 
     [Header("Image")]
     public Image DialogAvatar;
@@ -60,7 +63,20 @@ public class UI_CHall_Controller : MonoBehaviour
     #endregion
 
 
+    private void Start()
+    {
+        StartCoroutine(TransitionEnter());
+    }
 
+    IEnumerator TransitionEnter()
+    {
+        ShowTransitionPanel(true);
+        SetTriggerShowTransitionPanel();
+        yield return new WaitForSeconds(0.5f);
+
+        ShowTransitionPanel(false);
+        ShowNotifyPlace(true, "Tòa C");
+    }
     private void OnEnable()
     {
         ChooseObject.ClickButton += ShowDataObject;
@@ -114,7 +130,13 @@ public class UI_CHall_Controller : MonoBehaviour
     {
         ResetObjectPanel();
         InventoryPanel.SetActive(state);
-        StateControl.instance.IsGamePause = state;
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        } else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
     }
 
     public void ShowDataObject(Object obj)
@@ -160,4 +182,44 @@ public class UI_CHall_Controller : MonoBehaviour
     {
         ReceiveObject.gameObject.SetActive(state);
     }
+    public void ShowNotifyPlace(bool state, string txt)
+    {
+        notify.gameObject.SetActive(state);
+        notify.txt = txt;
+    }
+
+    public void ShowTransitionPanel(bool state)
+    {
+        TransitionPanel.gameObject.SetActive(state);
+    }
+
+    public void SetTriggerShowTransitionPanel()
+    {
+        TransitionPanel.ShowPanel();
+    }
+
+    public void ShowManual(bool state)
+    {
+        ManualPanel.gameObject.SetActive(state);
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        }
+        else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
+    }
+
+    public void OpenManual()
+    {
+        PlayerController.instance.ResetVelo();
+        ShowManual(true);
+    }
+
+    public void CloseManual()
+    {
+        ShowManual(false);
+    }
+
 }

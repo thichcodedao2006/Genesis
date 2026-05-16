@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -55,7 +54,7 @@ public class LogicQueueController : MonoBehaviour
     public Button Exit;
     private Queue<Button> storeChooseplace;
     private List<Button> CurrentChoosePlaceInuse = new List<Button> ();
-    private DataCButton currentChooseDataC;
+    public DataCButton currentChooseDataC;
     #endregion
 
 
@@ -425,7 +424,7 @@ public class LogicQueueController : MonoBehaviour
         }
     }
 
-    private void InsertInStack(int index)
+    public void InsertInStack(int index)
     {
         switch (index)
         {
@@ -457,6 +456,7 @@ public class LogicQueueController : MonoBehaviour
         SoundManager.PlayCompleteLevel(); 
         yield return StartCoroutine(typing("Successful"));
 
+        StateControl.instance.IsGamePause = false;
         EventSystem.SuccessCChallenge?.Invoke();
         GamePanel.SetActive(false);
 

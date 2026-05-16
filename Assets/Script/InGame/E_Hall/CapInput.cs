@@ -22,6 +22,7 @@ public class CapInput : MonoBehaviour
         {
             PhoneController.fullBattery = true;
             SoundManager.Instance.PlaySFX(SoundKey.OpenPhone);
+            UI_EHall_Controller.instance.ShowReceiveObjectPanel(true, "Đã kết nối điện thoại thành công!");
             E_Hall_Controller.Instance.OpenPhonePanel();
         }
     }

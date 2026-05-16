@@ -18,6 +18,12 @@ public class E_Hall_Controller : MonoBehaviour
     [SerializeField] PickableObj memoryCard;
     [SerializeField] GameObject phonePanel;
     [SerializeField] GameObject checkerContentPanel;
+    [SerializeField] NotifyPlace notify;
+
+    [Header("Panel")]
+    public TransPanel TransitionPanel;
+    public GameObject BigPhonePanel;
+    public GameObject ManualPanel;
 
     private bool isWinGame = false;
 
@@ -56,15 +62,15 @@ public class E_Hall_Controller : MonoBehaviour
     private void Start()
     {
         roomE101.SetActive(true);
-        tmp.gameObject.SetActive(false);
         StateControl.instance.IsGamePause = false;
 
-        StartCoroutine(Announce(welcomeText));
 
         PlayerSetUp();
 
         memoryCard.PickedCondition += ValidDistance;
         memoryCard.OnPicked += PickMemoryCard;
+
+        StartCoroutine(TransitionEnter());
     }
     public void OnEnable()
     {
@@ -74,13 +80,23 @@ public class E_Hall_Controller : MonoBehaviour
     {
         SoundManager.Instance.ResetLocalLibraryAndPlayBM();
     }
+    
+
+    IEnumerator TransitionEnter()
+    {
+        ShowTransitionPanel(true);
+        SetTriggerShowTransitionPanel();
+        yield return new WaitForSeconds(0.5f);
+
+        ShowTransitionPanel(false);
+        ShowNotifyPlace(true, "Tòa E");
+    }
     // ───────────────────────────── Core ──────────────────────────────
 
     public void PlayerSetUp()
     {
         var player = PlayerController.instance.gameObject.transform;
         player.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        StateControl.instance.IsGamePause = false;
     }
 
     public void ChangeFollowCameraPriority(int pri)
@@ -101,16 +117,15 @@ public class E_Hall_Controller : MonoBehaviour
 
     public void OpenBackPack()
     {
-        StopPlayer();
-        SoundManager.PlayOpenBackPack(); 
+        PlayerController.instance.ResetVelo();
         UI_EHall_Controller.instance.ShowInventoryPanel(true);
+        SoundManager.PlayOpenBackPack(); 
     }
 
     public void CloseBackPack()
     {
         SoundManager.PlayCloseBackPack();
         UI_EHall_Controller.instance.ShowInventoryPanel(false);
-        StateControl.instance.IsGamePause = false;
     }
 
     public void OpenDetail()
@@ -123,22 +138,22 @@ public class E_Hall_Controller : MonoBehaviour
     {
         SoundManager.PlayClickUI(); 
         UI_EHall_Controller.instance.ShowDetailPanel(false);
-        StateControl.instance.IsGamePause = false;
     }
 
     // ─────────────────────────── Phone Panel ─────────────────────────
 
     public void OpenPhonePanel()
     {
-        StopPlayer();
+        BigPhonePanel.SetActive(true);
         phonePanel.SetActive(true);
-        StateControl.instance.IsGamePause = false;
+        StateControl.instance.IncreaseActivity();
     }
 
     public void ClosePhonePanel()
     {
+        BigPhonePanel.SetActive(false);
         phonePanel.SetActive(false);
-        StateControl.instance.IsGamePause = false;
+        StateControl.instance.DecreaseActivity();
     }
 
     // ─────────────────────────── Condition ───────────────────────────
@@ -196,6 +211,13 @@ public class E_Hall_Controller : MonoBehaviour
         StateControl.instance.IsGamePause = !StateControl.instance.IsGamePause;
     }
 
+    // ─────────────────────────── Other UI ───────────────────────────────
+    public void ShowNotifyPlace(bool state, string txt)
+    {
+        notify.gameObject.SetActive(state);
+        notify.txt = txt;
+    }
+
     // ──────────────────────────── Gizmos ─────────────────────────────
 
     private void OnDrawGizmos()
@@ -219,4 +241,39 @@ public class E_Hall_Controller : MonoBehaviour
     {
         StartCoroutine(WhenPassAll());
     }
+
+    public void ShowTransitionPanel(bool state)
+    {
+        TransitionPanel.gameObject.SetActive(state);
+    }
+
+    public void SetTriggerShowTransitionPanel()
+    {
+        TransitionPanel.ShowPanel();
+    }
+
+    public void ShowManual(bool state)
+    {
+        ManualPanel.gameObject.SetActive(state);
+        if (state)
+        {
+            StateControl.instance.IncreaseActivity();
+        }
+        else
+        {
+            StateControl.instance.DecreaseActivity();
+        }
+    }
+
+    public void OpenManual()
+    {
+        PlayerController.instance.ResetVelo();
+        ShowManual(true);
+    }
+
+    public void CloseManual()
+    {
+        ShowManual(false);
+    }
+
 }

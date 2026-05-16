@@ -26,7 +26,6 @@ public class NPCLibrarian : NPCControl_AHall
         {
             // cho vào sự kiện 
             Game_AHall_Controller.instance.ChangeFollowCameraPriority(8);
-            StateControl.instance.IsGamePause = true;
             ChoosePlaceStore.instance.ShowALlChoosePlace();
             UI_AHall_Controller.instance.ShowInGamePanel(false);
         }

@@ -38,15 +38,35 @@ public class Locker : MonoBehaviour
         {
             PlayerPrefs.SetInt(data, 0);
         }
+        layerMask = LayerMask.GetMask("PickObject");
     }
-    private void OnMouseDown()
+
+    public float mouseClickFuzziness = 0.1f;
+    public LayerMask layerMask;
+
+    
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            // Thay vì Raycast bắn 1 tia, mình OverlapCircle quét 1 vùng hình tròn
+            Collider2D hitCollider = Physics2D.OverlapCircle(mousePosition, mouseClickFuzziness, layerMask);
+
+            if (hitCollider != null && hitCollider.gameObject == this.gameObject)
+            {
+                Interact();
+            }
+        }
+    }
+    private void Interact()
     {
         if (!CanClick) return;
         if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1.5f) return;
         Debug.Log("Locker");
         PlayerController.instance.ResetVelo();
         UI_AHall_Controller.instance.ShowInputPanel(true);
-        StateControl.instance.IsGamePause = true;
     }
 
     private void Finish()

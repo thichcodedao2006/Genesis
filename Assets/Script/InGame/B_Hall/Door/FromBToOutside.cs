@@ -10,8 +10,24 @@ public class FromBToOutside : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             SoundManager.Instance.PlaySFX(SoundKey.CloseDoor);
-            SceneTransitionManager.TargetSpawn = KeyData.SpawnFromB;
-            SceneManager.LoadScene("Outside");
+            StateControl.instance.IsGamePause = true;
+            PlayerController.instance.ResetVelo();
+            PlayerController.instance.SetIdleBaseOnMovement();
+
+            StartCoroutine(Transition());
         }
     }
+
+    IEnumerator Transition()
+    {
+        yield return null;
+        UI_BHall_Controller.instance.ShowTransitionPanel(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        SceneTransitionManager.TargetSpawn = KeyData.SpawnFromB;
+        SceneManager.LoadSceneAsync("Outside");
+    }
+
+
 }
