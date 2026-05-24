@@ -10,7 +10,6 @@ public class NPCControl : MonoBehaviour, IInteractable
 
     [Header("Self Defined")]
     private bool istyping = false, isDialogActive = false;
-    protected int CurrentDialog = 0;
     protected int CurrentDialogIndex = 0;
     private List<string> InsideCurrentDialog = new List<string>();
     private List<bool> SentenceCanBeAutoPass = new List<bool>();
@@ -19,6 +18,8 @@ public class NPCControl : MonoBehaviour, IInteractable
     public LayerMask layerMask;
 
     protected ThinkingBubble thinkingBubble;
+
+    public int CurrentDialog = 0;
 
     private void Start()
     {
@@ -46,6 +47,7 @@ public class NPCControl : MonoBehaviour, IInteractable
                 Click();
             }
         }
+        
     }
 
     public void Interact()
@@ -75,6 +77,7 @@ public class NPCControl : MonoBehaviour, IInteractable
 
         CurrentDialogIndex = 0;
         CurrentDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+
 
         if (CurrentDialog == -1 || CurrentDialog >= DialogContent.ListDialog.Count)
         {
@@ -174,6 +177,9 @@ public class NPCControl : MonoBehaviour, IInteractable
 
         // MỚI: Tắt thoại xong thì check xem có cần bật lại bóng nói không
         UpdateThinkingBubbleState();
+
+        
+
     }
 
     public void Click()
@@ -203,30 +209,53 @@ public class NPCControl : MonoBehaviour, IInteractable
         }
     }
 
-    
+
     private void UpdateThinkingBubbleState()
     {
         if (thinkingBubble == null || DialogContent == null) return;
 
-        
+
         int savedDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
         int totalDialogs = DialogContent.ListDialog.Count;
 
         if (savedDialog == 0)
         {
 
-            thinkingBubble.Active = true; 
+            thinkingBubble.Active = true;
             thinkingBubble.IsThinking = false;
         }
         else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
         {
-            
+
             thinkingBubble.Active = true;
             thinkingBubble.IsThinking = true;
         }
         else
         {
-            thinkingBubble.canActive = false; 
+            thinkingBubble.canActive = false;
+            thinkingBubble.Active = false;
+        }
+    }
+
+    public void CheckBubbleState()
+    {
+        if (thinkingBubble == null) return;
+
+        int lastdialog = SavingSystem.instance.GetLastNPCDialog(DialogContent.NPCid);
+        if (lastdialog == -2) // Không có data
+        {
+            return;
+        }
+
+        // Nếu thoại hiện tại khác thoại lần cuối tương tác -> Có thoại mới -> Bật bong bóng
+        if (lastdialog != CurrentDialog)
+        {
+            thinkingBubble.IsThinking = true;
+            thinkingBubble.Active = true;
+        }
+        else // Bằng nhau -> Đã đọc rồi -> Tắt bong bóng
+        {
+            thinkingBubble.IsThinking = false;
             thinkingBubble.Active = false;
         }
     }

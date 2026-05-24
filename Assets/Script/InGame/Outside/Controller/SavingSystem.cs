@@ -32,6 +32,12 @@ public class SavingSystem : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void SaveLastDialog(int NPCid, int DialogID)
+    {
+        PlayerPrefs.SetInt(KeyData.NPCLastDialog + NPCid.ToString(), DialogID);
+        PlayerPrefs.Save();
+    }
+
     public int GetCurrentNPCDialog(int NPCid)
     {
         if (PlayerPrefs.HasKey(NPCid.ToString()))
@@ -39,6 +45,15 @@ public class SavingSystem : MonoBehaviour
             return PlayerPrefs.GetInt(NPCid.ToString());
         }
         return -1;
+    }
+
+    public int GetLastNPCDialog(int NPCid)
+    {
+        if (PlayerPrefs.HasKey(KeyData.NPCLastDialog +  NPCid.ToString()))
+        {
+            return PlayerPrefs.GetInt(KeyData.NPCLastDialog + NPCid.ToString());
+        }
+        return -2;
     }
 
     public void SaveCurrentState(string state, int val)

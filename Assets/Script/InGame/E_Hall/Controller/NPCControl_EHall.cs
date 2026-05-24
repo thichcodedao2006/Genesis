@@ -168,6 +168,7 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
     public virtual void EndDialog()
     {
         CurrentDialog++;
+        CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
         Common();
     }
@@ -211,7 +212,7 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
             thinkingBubble.Active = true;
             thinkingBubble.IsThinking = false;
         }
-        else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
+        else if (savedDialog > 0 && savedDialog < totalDialogs)
         {
             thinkingBubble.Active = true;
             thinkingBubble.IsThinking = true;

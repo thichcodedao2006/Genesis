@@ -15,15 +15,17 @@ public class Computer_AHall : MonoBehaviour
     private bool HaveClick = false;
     private string data;
     private bool CanClick = true;
-
+    private bool HaveClickChoosePlace = true;
     private void OnEnable()
     {
         EventSystem.FinishChallengeA += Finish;
+        EventSystem.HaveClickChoosePlace += ClickChoosePlace;
     }
 
     private void OnDisable()
     {
         EventSystem.FinishChallengeA -= Finish;
+        EventSystem.HaveClickChoosePlace -= ClickChoosePlace;
     }
     private void Awake()
     {
@@ -61,6 +63,13 @@ public class Computer_AHall : MonoBehaviour
         {
             return;
         }
+        if (Vector2.Distance((Vector2)PlayerController.instance.transform.position, (Vector2)this.transform.position) >= 2.5f)
+        {
+            Debug.Log("Too far");
+            return;
+        }
+        if (!HaveClickChoosePlace) return; // chưa bấm chọn chỗ 
+        HaveClickChoosePlace = false;
         if (HaveClick)
         {
             SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
@@ -74,11 +83,6 @@ public class Computer_AHall : MonoBehaviour
           
             ChoosePlaceStore.instance.ShowListPlace(list);
             LogicController.instance.lastComputerID = ID;
-            return;
-        }
-        if (Vector2.Distance((Vector2)PlayerController.instance.transform.position, (Vector2)this.transform.position) >=2.5f)
-        {
-            Debug.Log("Too far");
             return;
         }
         SoundManager.Instance.PlaySFX(SoundKey.ChooseComputer);
@@ -120,5 +124,10 @@ public class Computer_AHall : MonoBehaviour
     private void Finish()
     {
         CanClick = false;
+    }
+
+    private void ClickChoosePlace()
+    {
+        HaveClickChoosePlace = true;
     }
 }

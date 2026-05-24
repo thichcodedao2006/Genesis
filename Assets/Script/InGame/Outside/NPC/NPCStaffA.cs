@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class NPCStaffA : NPCControl
 {
-
     private void OnEnable()
     {
         EventSystem.HaveReceiveKeyA += ReceiveKeyA;
@@ -18,10 +17,10 @@ public class NPCStaffA : NPCControl
     public override void EndDialog()
     {
         Common();
-        if (InventorySystem.instance.CheckInventory(KeyData.KeyA)) // có chìa khóa tòa A
-        {
-            CurrentDialog++;
-        }
+        //if (InventorySystem.instance.CheckInventory(KeyData.KeyA)) // có chìa khóa tòa A
+        //{
+        //    CurrentDialog++;
+        //}
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
     }
@@ -31,5 +30,6 @@ public class NPCStaffA : NPCControl
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+
     }    
 }

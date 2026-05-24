@@ -44,4 +44,7 @@ public class KeyData
     public static string ComputerCHall = "Computer_C";
     public static string Locker = "Locker";
 
+    [Header("Tag")]
+    public static string NPCLastDialog = "Last";
+
 }
