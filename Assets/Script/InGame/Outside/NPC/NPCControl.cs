@@ -18,17 +18,27 @@ public class NPCControl : MonoBehaviour, IInteractable
     public float mouseClickFuzziness = 0.1f;
     public LayerMask layerMask;
 
+    protected ThinkingBubble thinkingBubble;
+
     private void Start()
     {
         layerMask = LayerMask.GetMask("NPC");
+
+        Transform thinkingChild = transform.Find("Thinking");
+        if (thinkingChild != null)
+        {
+            thinkingBubble = thinkingChild.GetComponent<ThinkingBubble>();
+        }
+
+        // MỚI: Load trạng thái bóng nói lúc mới mở game
+        UpdateThinkingBubbleState();
     }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            // Thay vì Raycast bắn 1 tia, mình OverlapCircle quét 1 vùng hình tròn
             Collider2D hitCollider = Physics2D.OverlapCircle(mousePosition, mouseClickFuzziness, layerMask);
 
             if (hitCollider != null && hitCollider.gameObject == this.gameObject)
@@ -37,27 +47,35 @@ public class NPCControl : MonoBehaviour, IInteractable
             }
         }
     }
-    public void Interact() // work as a click function
+
+    public void Interact()
     {
         if (DialogContent == null || (StateControl.instance.IsGamePause && !isDialogActive) || isDialogActive)
         {
             return;
         }
-        
-        StartDialog();
 
+        StartDialog();
     }
 
     public bool CanInteract()
     {
-        return !isDialogActive; // đang mở Dialog 
+        return !isDialogActive;
     }
 
     private void StartDialog()
     {
         isDialogActive = true;
+
+        // MỚI: Vừa mở khung chat lên là ẨN bóng nói đi ngay lập tức
+        if (thinkingBubble != null)
+        {
+            thinkingBubble.gameObject.SetActive(false);
+        }
+
         CurrentDialogIndex = 0;
         CurrentDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+
         if (CurrentDialog == -1 || CurrentDialog >= DialogContent.ListDialog.Count)
         {
             Debug.Log("No Dialog");
@@ -65,17 +83,13 @@ public class NPCControl : MonoBehaviour, IInteractable
         }
 
         UI_Outside_Controller.instance.SetInfoDialog(DialogContent.NPCAva, DialogContent.NPCname);
-
         UI_Outside_Controller.instance.ShowNextButton(false);
-
         UI_Outside_Controller.instance.ShowDialogPanel(true);
 
-        if (DialogContent.DictionaryDialog.ContainsKey(CurrentDialog)) // có tồn tại đoạn hội thoại mong muốn 
+        if (DialogContent.DictionaryDialog.ContainsKey(CurrentDialog))
         {
             InsideCurrentDialog = DialogContent.DictionaryDialog[CurrentDialog].SentenceList;
-            Debug.Log(InsideCurrentDialog[CurrentDialogIndex]);
             SentenceCanBeAutoPass = DialogContent.DictionaryDialog[CurrentDialog].autoProgress;
-            Debug.Log(SentenceCanBeAutoPass[CurrentDialogIndex]);
             StateControl.instance.IncreaseActivity();
             UI_Outside_Controller.instance.AddClickForButton(0, NextLine);
             UI_Outside_Controller.instance.AddClickForButton(1, ExitDialog);
@@ -85,7 +99,6 @@ public class NPCControl : MonoBehaviour, IInteractable
         {
             return;
         }
-
     }
 
     IEnumerator TypingContent()
@@ -109,24 +122,22 @@ public class NPCControl : MonoBehaviour, IInteractable
 
         if (CurrentDialogIndex < SentenceCanBeAutoPass.Count && SentenceCanBeAutoPass[CurrentDialogIndex])
         {
-            // bỏ qua 
             yield return new WaitForSeconds(DialogContent.autoProgressDelay);
-
             NextLine();
         }
-
     }
 
     private void NextLine()
     {
-        if (istyping) // đang gõ thì nhấn vào nó sẽ hết gõ 
+        if (istyping)
         {
             StopAllCoroutines();
             istyping = false;
             UI_Outside_Controller.instance.SetDialogText(InsideCurrentDialog[CurrentDialogIndex]);
-        } else
+        }
+        else
         {
-            CurrentDialogIndex++; 
+            CurrentDialogIndex++;
 
             if (CurrentDialogIndex < InsideCurrentDialog.Count)
             {
@@ -142,13 +153,15 @@ public class NPCControl : MonoBehaviour, IInteractable
     public void ExitDialog()
     {
         Common();
-    }    
+    }
+
     public virtual void EndDialog()
     {
-        Common();
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+
+        Common();
     }
 
     public void Common()
@@ -158,7 +171,11 @@ public class NPCControl : MonoBehaviour, IInteractable
         StateControl.instance.DecreaseActivity();
         UI_Outside_Controller.instance.SetDialogText("");
         UI_Outside_Controller.instance.ShowDialogPanel(false);
+
+        // MỚI: Tắt thoại xong thì check xem có cần bật lại bóng nói không
+        UpdateThinkingBubbleState();
     }
+
     public void Click()
     {
         if (Vector2.Distance((Vector2)transform.position, (Vector2)PlayerController.instance.transform.position) > 1f)
@@ -167,7 +184,7 @@ public class NPCControl : MonoBehaviour, IInteractable
             return;
         }
         PlayerController.instance.ResetVelo();
-        Debug.Log("Success");
+
         if (CanInteract())
         {
             Interact();
@@ -179,15 +196,38 @@ public class NPCControl : MonoBehaviour, IInteractable
         Object obj = ObjectDictionary.instance.GetObject(id);
         if (obj != null)
         {
-            // Show UI
             UI_Outside_Controller.instance.ShowReceiveObjectPanel(true);
             UI_Outside_Controller.instance.SetReceiveObject("Bạn nhận được " + obj.NameObject);
-
-            // Store in inventory system
             InventorySystem.instance.AddInventory(obj.IDobject);
-
-            // Truyền thẳng ID mới vào UI để vẽ lên ô trống đầu tiên
             LoadingData.instance.AddNewItemToUI(obj.IDobject);
+        }
+    }
+
+    
+    private void UpdateThinkingBubbleState()
+    {
+        if (thinkingBubble == null || DialogContent == null) return;
+
+        
+        int savedDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+        int totalDialogs = DialogContent.ListDialog.Count;
+
+        if (savedDialog == 0)
+        {
+
+            thinkingBubble.Active = true; 
+            thinkingBubble.IsThinking = false;
+        }
+        else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
+        {
+            
+            thinkingBubble.Active = true;
+            thinkingBubble.IsThinking = true;
+        }
+        else
+        {
+            thinkingBubble.canActive = false; 
+            thinkingBubble.Active = false;
         }
     }
 }

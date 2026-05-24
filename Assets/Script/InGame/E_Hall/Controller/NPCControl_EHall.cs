@@ -18,17 +18,25 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
     public float mouseClickFuzziness = 0.1f;
     public LayerMask layerMask;
 
+    protected ThinkingBubble thinkingBubble;
+
     private void Start()
     {
         layerMask = LayerMask.GetMask("NPC");
+
+        Transform thinkingChild = transform.Find("Thinking");
+        if (thinkingChild != null)
+        {
+            thinkingBubble = thinkingChild.GetComponent<ThinkingBubble>();
+        }
+        UpdateThinkingBubbleState();
     }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            // Thay vì Raycast bắn 1 tia, mình OverlapCircle quét 1 vùng hình tròn
             Collider2D hitCollider = Physics2D.OverlapCircle(mousePosition, mouseClickFuzziness, layerMask);
 
             if (hitCollider != null && hitCollider.gameObject == this.gameObject)
@@ -38,13 +46,10 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
         }
     }
 
-    // ─────────────────────────── IInteractable ───────────────────────
-
     public bool CanInteract() => !isDialogActive;
 
     public void Interact()
     {
-       
         PlayerController.instance.ResetVelo();
         if (DialogContent == null
             || (StateControl.instance.IsGamePause && !isDialogActive)
@@ -53,14 +58,12 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
             return;
         }
         StartDialog();
-        E_Hall_Controller.Instance.StopPlayer(); 
+        E_Hall_Controller.Instance.StopPlayer();
     }
-
-    // ──────────────────────────── Mouse ──────────────────────────────
 
     public void Click()
     {
-        if (Vector2.Distance(transform.position,E_Hall_Controller.Instance.PlayerTransform.position) > 2f)
+        if (Vector2.Distance(transform.position, E_Hall_Controller.Instance.PlayerTransform.position) > 2f)
         {
             Debug.Log("Out of range");
             return;
@@ -68,11 +71,15 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
         if (CanInteract()) Interact();
     }
 
-    // ──────────────────────────── Dialog ─────────────────────────────
-
     private void StartDialog()
     {
         isDialogActive = true;
+
+        if (thinkingBubble != null)
+        {
+            thinkingBubble.gameObject.SetActive(false);
+        }
+
         CurrentDialogIndex = 0;
         CurrentDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
 
@@ -132,12 +139,10 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
     {
         if (istyping)
         {
-            // Bấm khi đang gõ → hiện ngay toàn bộ câu
             StopAllCoroutines();
             istyping = false;
             UI_EHall_Controller.instance.SetDialogText(InsideCurrentDialog[CurrentDialogIndex]);
 
-            // Nếu câu này autoPass thì vẫn cần show nút Next để user tự next
             bool autoPass = CurrentDialogIndex < SentenceCanBeAutoPass.Count
                             && SentenceCanBeAutoPass[CurrentDialogIndex];
             UI_EHall_Controller.instance.ShowNextButton(!autoPass);
@@ -162,10 +167,9 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
 
     public virtual void EndDialog()
     {
-        Common();
         CurrentDialog++;
-        CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+        Common();
     }
 
     private void Common()
@@ -175,9 +179,9 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
         StateControl.instance.DecreaseActivity();
         UI_EHall_Controller.instance.SetDialogText("");
         UI_EHall_Controller.instance.ShowDialogPanel(false);
-    }
 
-    // ─────────────────────────── Reward ──────────────────────────────
+        UpdateThinkingBubbleState();
+    }
 
     public void GiveReward(int id)
     {
@@ -189,8 +193,33 @@ public class NPCControl_EHall : MonoBehaviour, IInteractable
         InventorySystem.instance.AddInventory(obj.IDobject);
         LoadingData.instance.AddNewItemToUI(obj.IDobject);
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(this.transform.position, 2f);
+    }
+
+    private void UpdateThinkingBubbleState()
+    {
+        if (thinkingBubble == null || DialogContent == null) return;
+
+        int savedDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+        int totalDialogs = DialogContent.ListDialog.Count;
+
+        if (savedDialog == 0)
+        {
+            thinkingBubble.Active = true;
+            thinkingBubble.IsThinking = false;
+        }
+        else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
+        {
+            thinkingBubble.Active = true;
+            thinkingBubble.IsThinking = true;
+        }
+        else
+        {
+            thinkingBubble.canActive = false;
+            thinkingBubble.Active = false;
+        }
     }
 }
