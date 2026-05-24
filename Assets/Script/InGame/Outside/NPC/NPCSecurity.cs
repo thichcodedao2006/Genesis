@@ -5,6 +5,7 @@ public class NPCSecurity : NPCControl
 {
     public override void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         Common();
         if (CurrentDialog == 0 || CurrentDialog == 1)
         {

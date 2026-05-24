@@ -16,6 +16,7 @@ public class NPCStaffB : NPCControl
     }
     public override void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         Common();
         if (InventorySystem.instance.CheckInventory(KeyData.KeyB)) // có chìa khóa tòa A
         {
@@ -30,5 +31,6 @@ public class NPCStaffB : NPCControl
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+        UpdateThinkingBubbleState();
     }
 }

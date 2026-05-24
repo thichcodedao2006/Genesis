@@ -21,6 +21,7 @@ public class NPCStudentC2 : NPCControl_CHall
     }
     public override void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         Common();
         if (CurrentDialog == 0)
         {
@@ -37,5 +38,6 @@ public class NPCStudentC2 : NPCControl_CHall
         CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+        UpdateThinkingBubbleState();
     }
 }

@@ -6,6 +6,7 @@ public class NPCStaffE : NPCControl
 {
     public override void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         Common();
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
 
@@ -30,5 +31,6 @@ public class NPCStaffE : NPCControl
     {
         CurrentDialog = 1;
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+        UpdateThinkingBubbleState(); 
     }
 }

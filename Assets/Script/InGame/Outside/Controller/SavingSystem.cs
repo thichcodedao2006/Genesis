@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -67,6 +67,19 @@ public class SavingSystem : MonoBehaviour
         if (PlayerPrefs.HasKey(state))
         {
             return PlayerPrefs.GetInt(state);
+        }
+        return -1;
+    }
+    public void SaveLastReadDialog(int NPCid, int DialogID)
+    {
+        PlayerPrefs.SetInt(NPCid.ToString() + "_Read", DialogID);
+        PlayerPrefs.Save();
+    }
+    public int GetLastReadDialog(int NPCid)
+    {
+        if (PlayerPrefs.HasKey(NPCid.ToString() + "_Read"))
+        {
+            return PlayerPrefs.GetInt(NPCid.ToString() + "_Read");
         }
         return -1;
     }

@@ -17,6 +17,7 @@ public class NPCLibrarian : NPCControl_AHall
     }
     public override void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         Common();
         if (CurrentDialog == 0)
         {
@@ -36,9 +37,9 @@ public class NPCLibrarian : NPCControl_AHall
 
     private void AdvanceDialog()
     {
-        CurrentDialog++;
         CurrentDialog = Mathf.Clamp(CurrentDialog, 0, DialogContent.ListDialog.Count - 1);
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
+        UpdateThinkingBubbleState();
     }
 
     private void ClickFirstTime()

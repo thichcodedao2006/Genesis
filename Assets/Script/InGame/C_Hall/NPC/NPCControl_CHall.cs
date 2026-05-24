@@ -150,6 +150,7 @@ public class NPCControl_CHall : MonoBehaviour
 
     public virtual void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         CurrentDialog++;
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
         Common();
@@ -193,27 +194,37 @@ public class NPCControl_CHall : MonoBehaviour
         }
     }
 
-    private void UpdateThinkingBubbleState()
+    protected virtual void UpdateThinkingBubbleState()
     {
         if (thinkingBubble == null || DialogContent == null) return;
 
         int savedDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+        int lastReadDialog = SavingSystem.instance.GetLastReadDialog(DialogContent.NPCid);
         int totalDialogs = DialogContent.ListDialog.Count;
 
-        if (savedDialog == 0)
-        {
-            thinkingBubble.Active = true;
-            thinkingBubble.IsThinking = false;
-        }
-        else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
-        {
-            thinkingBubble.Active = true;
-            thinkingBubble.IsThinking = true;
-        }
-        else
+        // Trường hợp 1: NPC đã nói hết sạch kịch bản của đời nó
+        if (savedDialog >= totalDialogs - 1 && savedDialog == lastReadDialog)
         {
             thinkingBubble.canActive = false;
             thinkingBubble.Active = false;
+            return;
+        }
+
+        // Trường hợp 2: Đang kẹt (Chờ người chơi làm nhiệm vụ/sự kiện)
+        // Vì CurrentDialog không tăng, nên nó bằng y chang cái LastRead
+        if (savedDialog == lastReadDialog)
+        {
+            thinkingBubble.canActive = false;
+            thinkingBubble.Active = false;
+        }
+        // Trường hợp 3: CÓ THOẠI MỚI! (Người chơi chưa đọc câu này bao giờ)
+        else
+        {
+            thinkingBubble.canActive = true;
+            thinkingBubble.Active = true;
+
+            // Nếu là câu đầu tiên (0) -> Hiện dấu "!" | Nếu từ câu 1 trở đi -> Hiện "..."
+            thinkingBubble.IsThinking = (savedDialog > 0);
         }
     }
 }

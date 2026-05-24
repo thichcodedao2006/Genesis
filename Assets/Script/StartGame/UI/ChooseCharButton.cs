@@ -53,8 +53,8 @@ public class ChooseCharButton : MonoBehaviour
 
 
         InventorySystem.instance.AddInventory(info.CharacterID);    
-        InventorySystem.instance.AddInventory(KeyData.KeyE);
-        InventorySystem.instance.AddInventory(KeyData.KeyB); 
+        //InventorySystem.instance.AddInventory(KeyData.KeyE);
+        //InventorySystem.instance.AddInventory(KeyData.KeyB); 
         InventorySystem.instance.AddInventory(KeyData.KeyC); 
     }
         

@@ -150,6 +150,7 @@ public class NPCControl_AHall : MonoBehaviour, IInteractable
 
     public virtual void EndDialog()
     {
+        SavingSystem.instance.SaveLastReadDialog(DialogContent.NPCid, CurrentDialog);
         CurrentDialog++;
         SavingSystem.instance.SaveCurrentDialog(DialogContent.NPCid, CurrentDialog);
         Common();
@@ -193,27 +194,30 @@ public class NPCControl_AHall : MonoBehaviour, IInteractable
         }
     }
 
-    private void UpdateThinkingBubbleState()
+    protected virtual void UpdateThinkingBubbleState()
     {
         if (thinkingBubble == null || DialogContent == null) return;
 
         int savedDialog = SavingSystem.instance.GetCurrentNPCDialog(DialogContent.NPCid);
+        int lastReadDialog = SavingSystem.instance.GetLastReadDialog(DialogContent.NPCid);
         int totalDialogs = DialogContent.ListDialog.Count;
 
-        if (savedDialog == 0)
-        {
-            thinkingBubble.Active = true;
-            thinkingBubble.IsThinking = false;
-        }
-        else if (savedDialog > 0 && savedDialog < totalDialogs - 1)
-        {
-            thinkingBubble.Active = true;
-            thinkingBubble.IsThinking = true;
-        }
-        else
+        if (savedDialog >= totalDialogs - 1 && savedDialog == lastReadDialog)
         {
             thinkingBubble.canActive = false;
             thinkingBubble.Active = false;
+            return;
+        }
+        if (savedDialog == lastReadDialog)
+        {
+            thinkingBubble.canActive = false;
+            thinkingBubble.Active = false;
+        }
+        else
+        {
+            thinkingBubble.canActive = true;
+            thinkingBubble.Active = true;
+            thinkingBubble.IsThinking = (savedDialog > 0);
         }
     }
 }
