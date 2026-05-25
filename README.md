@@ -14,7 +14,8 @@
 ## Contributors
 ### Double2T team
 - Leader: Phạm Đan Trường - [Github](https://github.com/thichcodedao2006)
-- Member: Nguyễn Tấn Đạt [Github](https://github.com/Dat-se40/)
+- Member: Nguyễn Tấn Đạt - [Github](https://github.com/Dat-se40/)
+- Co-Artist: @miyxotkem
 
 ---
 
