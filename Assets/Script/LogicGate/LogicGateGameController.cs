@@ -65,6 +65,7 @@ public class LogicGateGameController : MonoBehaviour
                     PlayerPrefs.SetInt("Win_LogicGateGame", 1);
                     PlayerPrefs.Save();
                 }
+                EventSystem.SuccessBChanllenge?.Invoke();
             };
 
         }

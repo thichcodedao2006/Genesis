@@ -26,6 +26,7 @@ public class LogicController : MonoBehaviour
     private int[][] value = new int[11][];
     public int TotalComputerOn = 0;
     public int WinningValue;
+    private int Value;
     #endregion
     private void Awake()
     {
@@ -94,12 +95,39 @@ public class LogicController : MonoBehaviour
 
     public bool CheckWinningCondition()
     {
-        int value = Convert.ToInt32(UI_AHall_Controller.instance.GetInputText());
-        if (value == WinningValue && total == WinningValue)
+        Value = Convert.ToInt32(UI_AHall_Controller.instance.GetInputText());
+        if (Value == WinningValue && total == WinningValue)
         {
             return true;
         }
         return false;
+    }
+
+    public bool CheckValueDifferentWin()
+    {
+        return Value != WinningValue;
+    }
+
+    public bool CheckTotalWin()
+    {
+        return total != WinningValue;
+    }
+
+    public void Restart()
+    {
+        
+        HaveStartGame = false;
+        lastPlaceID = 0;
+        lastComputerID = -1;
+        total = 0;
+        TotalComputerOn = 0;
+        StateControl.instance.ResetActivity();
+        ChoosePlaceStore.instance.HideAllChoosePlace();
+        ComputerStore.instance.ResetComputer();
+        PlayerController.instance.transform.position = Game_AHall_Controller.instance.InFrontNPC.transform.position;
+        PlayerPrefs.SetInt(KeyData.NPCLibrarian, 1);
+        PlayerPrefs.Save();
+        UI_AHall_Controller.instance.ShowRestartButton(false);
     }
 
 }

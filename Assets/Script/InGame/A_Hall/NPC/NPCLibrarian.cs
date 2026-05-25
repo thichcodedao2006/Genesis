@@ -46,7 +46,8 @@ public class NPCLibrarian : NPCControl_AHall
     {
         Game_AHall_Controller.instance.ChangeFollowCameraPriority(10);
         UI_AHall_Controller.instance.ShowInGamePanel(true);
-        EventSystem.ClickChoosePlaceFirstTime -= ClickFirstTime;
+        UI_AHall_Controller.instance.ShowRestartButton(true);
+
        
     }
 }

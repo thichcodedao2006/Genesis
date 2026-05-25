@@ -71,6 +71,8 @@ public class Locker : MonoBehaviour
 
     private void Finish()
     {
+        UI_AHall_Controller.instance.ShowRestartButton(false);
+
         PlayerPrefs.SetInt(KeyData.Locker, 1);
 
         sp.sprite = UI_AHall_Controller.instance.LockerOpen;

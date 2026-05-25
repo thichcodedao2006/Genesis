@@ -19,24 +19,30 @@ MonoBehaviour:
   - DialogID: 0
     SentenceList:
     - "\u1EE6a V\u0169 \xE0 V\u0169... M\xE0 th\xF4i ch\xE1u ch\u1ED1i l\xE0m sao
-      \u0111\u01B0\u1EE3c V\u0169, ch\xFA bi\u1EBFt h\u1EBFt \u0111\u1EA5y. \xC0
-      nh\u01B0ng ch\xFA c\xF3 vi\u1EC7c nh\u1EDD ch\xE1u n\xE0y."
+      \u0111\u01B0\u1EE3c V\u0169, ch\xFA bi\u1EBFt h\u1EBFt \u0111\u1EA5y. M\u1EDBi
+      g\u1EB7p t\u1EEB tu\u1EA7n tr\u01B0\u1EDBc m\xE0. \xC0 nh\u01B0ng ch\xFA c\xF3
+      vi\u1EC7c nh\u1EDD ch\xE1u n\xE0y."
     - "Ng\xE0y mai l\xE0 ng\xE0y khai gi\u1EA3ng ng\xF4i tr\u01B0\u1EDDng n\xE0y.
       Kh\u1ED5 n\u1ED7i hi\u1EC7n t\u1EA1i c\xE1c t\xF2a \u0111ang kh\xF4ng th\u1EC3
       ho\u1EA1t \u0111\u1ED9ng m\u1ED9t c\xE1ch b\xECnh th\u01B0\u1EDDng do Server
       t\u1EA1i t\xF2a E \u0111\xE3 s\u1EADp."
-    - "B\u1EA3n th\xE2n ch\xFA ch\u1EC9 c\xF3 s\u1EAFc th\xF4i ch\u1EE9 kh\xF4ng
-      c\xF3 t\xE0i n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Server
-      \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
+    - "B\u1EA3n th\xE2n ch\xFA ch\u1EC9 c\xF3 s\u1EAFc th\xF4i ch\u1EE9 t\xE0i n\u0103ng
+      th\xEC c\xF3 h\u1EA1n n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i
+      Server \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
       \u0111\u1EE1 nh\xE9."
+    - "N\u1EBFu ch\xE1u th\u1EAFc m\u1EAFc t\u1EA1i sao kh\xF4ng nh\u1EDD ng\u01B0\u1EDDi
+      c\xF3 chuy\xEAn m\xF4n h\u01A1n th\xEC c\u1EA3 tr\u01B0\u1EDDng \u0111i Team
+      Building h\u1EBFt r\u1ED3i. Xui ch\u01B0a!"
     - "\xC0 c\xF2n 1 v\u1EA5n \u0111\u1EC1 n\u1EEFa, do m\u1EA3i m\xEA l\xE0m c\xE1c
       c\xF4ng chuy\u1EC7n n\xEAn ch\xFA \u0111\xE3 \u0111\xE1nh r\u01A1i ch\xECa
       kh\xF3a c\u1EE7a 3 t\xF2a B, C, E, ch\u1EC9 c\xF2n l\u1EA1i ch\xECa kh\xF3a
-      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9."
+      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9. N\u1EBFu kh\xF4ng bi\u1EBFt \u0111\u01B0\u1EDDng
+      v\xE0o t\xF2a th\xEC h\xE3y nh\xECn t\u1EA5m b\u1EA3ng v\xE0 ph\u1EA7n g\u1EA1ch
+      v\xE0ng."
     - "V\xE0 th\xEAm n\u1EEFa m\u1ED9t s\u1ED1 ng\u01B0\u1EDDi \u1EDF \u0111\xE2y
       kh\xE1 ng\u1EA1i ng\u01B0\u1EDDi l\u1EA1 n\xEAn ch\xE1u h\xE3y c\u1ED1 g\u1EAFng
       b\u1EAFt chuy\u1EC7n nhi\u1EC1u l\u1EA7n v\u1EDBi h\u1ECD nh\xE9."
-    autoProgress: 0101000000
+    autoProgress: 010100000000
   - DialogID: 1
     SentenceList:
     - "Ch\xE0o c\xF4 b\xE9 xinh \u0111\u1EB9p, v\u1EDBi v\u1EBB \u0111\u1EB9p n\xE0y
@@ -46,18 +52,23 @@ MonoBehaviour:
       Kh\u1ED5 n\u1ED7i hi\u1EC7n t\u1EA1i c\xE1c t\xF2a \u0111ang kh\xF4ng th\u1EC3
       ho\u1EA1t \u0111\u1ED9ng m\u1ED9t c\xE1ch b\xECnh th\u01B0\u1EDDng do Server
       t\u1EA1i t\xF2a E \u0111\xE3 s\u1EADp."
-    - "B\u1EA3n th\xE2n ch\xFA ch\u1EC9 c\xF3 s\u1EAFc th\xF4i ch\u1EE9 kh\xF4ng
-      c\xF3 t\xE0i n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i Server
-      \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
+    - "B\u1EA3n th\xE2n ch\xFA ch\u1EC9 c\xF3 s\u1EAFc th\xF4i ch\u1EE9 t\xE0i n\u0103ng
+      th\xEC c\xF3 h\u1EA1n n\xEAn kh\xF4ng bi\u1EBFt kh\u1EDFi \u0111\u1ED9ng l\u1EA1i
+      Server \u1EDF \u0111\xF3 nh\u01B0 th\u1EBF n\xE0o n\xEAn nh\u1EDD ch\xE1u gi\xFAp
       \u0111\u1EE1 nh\xE9."
+    - "N\u1EBFu ch\xE1u th\u1EAFc m\u1EAFc t\u1EA1i sao kh\xF4ng nh\u1EDD ng\u01B0\u1EDDi
+      c\xF3 chuy\xEAn m\xF4n h\u01A1n th\xEC c\u1EA3 tr\u01B0\u1EDDng \u0111i Team
+      Building h\u1EBFt r\u1ED3i. Xui ch\u01B0a!"
     - "\xC0 c\xF2n 1 v\u1EA5n \u0111\u1EC1 n\u1EEFa, do m\u1EA3i m\xEA l\xE0m c\xE1c
       c\xF4ng chuy\u1EC7n n\xEAn ch\xFA \u0111\xE3 \u0111\xE1nh r\u01A1i ch\xECa
       kh\xF3a c\u1EE7a 3 t\xF2a B, C, E, ch\u1EC9 c\xF2n l\u1EA1i ch\xECa kh\xF3a
-      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9."
+      t\xF2a A n\xEAn ch\xE1u l\u1EA5y nh\xE9. N\u1EBFu kh\xF4ng bi\u1EBFt \u0111\u01B0\u1EDDng
+      v\xE0o t\xF2a th\xEC h\xE3y nh\xECn t\u1EA5m b\u1EA3ng v\xE0 ph\u1EA7n g\u1EA1ch
+      v\xE0ng."
     - "V\xE0 th\xEAm n\u1EEFa m\u1ED9t s\u1ED1 ng\u01B0\u1EDDi \u1EDF \u0111\xE2y
       kh\xE1 ng\u1EA1i ng\u01B0\u1EDDi l\u1EA1 n\xEAn ch\xE1u h\xE3y c\u1ED1 g\u1EAFng
       b\u1EAFt chuy\u1EC7n nhi\u1EC1u l\u1EA7n v\u1EDBi h\u1ECD nh\xE9."
-    autoProgress: 0101000000
+    autoProgress: 010100000000
   - DialogID: 2
     SentenceList:
     - "\u0110\u1EEBng n\xF3i chuy\u1EC7n v\u1EDBi ch\xFA n\u1EEFa. Gi\xFAp ch\xFA

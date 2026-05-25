@@ -49,13 +49,12 @@ public class ChooseCharButton : MonoBehaviour
         PlayerPrefs.SetInt(KeyData.NPCLibrarian, 0);
         PlayerPrefs.SetInt(KeyData.NPCStudentC1, 0);
         PlayerPrefs.SetInt(KeyData.NPCStudentC2, 0);
+        PlayerPrefs.SetInt(KeyData.NPCLastYearStudent, 0);
+        PlayerPrefs.SetInt(KeyData.NPCInsideB, 0);
         PlayerPrefs.Save();
 
 
-        InventorySystem.instance.AddInventory(info.CharacterID);    
-        //InventorySystem.instance.AddInventory(KeyData.KeyE);
-        //InventorySystem.instance.AddInventory(KeyData.KeyB); 
-        InventorySystem.instance.AddInventory(KeyData.KeyC); 
+        InventorySystem.instance.AddInventory(info.CharacterID);
     }
         
 

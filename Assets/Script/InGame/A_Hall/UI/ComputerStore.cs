@@ -48,5 +48,13 @@ public class ComputerStore : MonoBehaviour
             image.raycastTarget = false;
         }
     }
+
+    public void ResetComputer()
+    {
+        foreach (Image image in images)
+        {
+            image.GetComponent<Computer_AHall>().Reset();
+        }
+    }
     
 }

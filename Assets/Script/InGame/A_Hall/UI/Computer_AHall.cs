@@ -12,6 +12,7 @@ public class Computer_AHall : MonoBehaviour
     private Image image;
     private Button btn;
 
+    private bool isOn = false;
     private bool HaveClick = false;
     private string data;
     private bool CanClick = true;
@@ -44,7 +45,6 @@ public class Computer_AHall : MonoBehaviour
                 image.sprite = UI_AHall_Controller.instance.ComputerOff;
             } else
             {
-                image.raycastTarget = false; // tat di
                 image.sprite = UI_AHall_Controller.instance.ComputerOn;
             }
         }   else
@@ -69,6 +69,7 @@ public class Computer_AHall : MonoBehaviour
             return;
         }
         if (!HaveClickChoosePlace) return; // chưa bấm chọn chỗ 
+        isOn = true;
         HaveClickChoosePlace = false;
         if (HaveClick)
         {
@@ -129,5 +130,22 @@ public class Computer_AHall : MonoBehaviour
     private void ClickChoosePlace()
     {
         HaveClickChoosePlace = true;
+    }
+
+    public void Reset()
+    {
+        StopAllCoroutines();
+        CanClick = true;
+        HaveClick = false;
+        HaveClickChoosePlace = true;
+        PlayerPrefs.SetInt(data, 0);
+        PlayerPrefs.Save();
+        image.sprite = UI_AHall_Controller.instance.ComputerOff;
+        if (isOn)
+        {
+            animator.SetTrigger("Off");
+            isOn = false;
+        }
+        
     }
 }

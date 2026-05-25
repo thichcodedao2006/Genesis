@@ -103,11 +103,18 @@ public class Game_AHall_Controller : MonoBehaviour
             StartCoroutine(Winning(txt));
         }else
         {
-            StartCoroutine(Losing(txt));
+            if (LogicController.instance.CheckValueDifferentWin())
+            {
+                StartCoroutine(Losing(txt, "Wrong Value"));
+            } else if (LogicController.instance.CheckTotalWin())
+            {
+                StartCoroutine(Losing(txt, "Wrong Path"));
+            }
+            
         }
     }
 
-    IEnumerator Losing(string txt)
+    IEnumerator Losing(string txt, string content)
     {
 
         UI_AHall_Controller.instance.LockerExit.interactable = false;
@@ -115,9 +122,9 @@ public class Game_AHall_Controller : MonoBehaviour
 
         UI_AHall_Controller.instance.SetInputTextColor(Color.red);
 
-        yield return StartCoroutine(TypingFront("Incorrect"));
+        yield return StartCoroutine(TypingFront(content));
 
-        yield return StartCoroutine(TypingBack("Incorrect"));
+        yield return StartCoroutine(TypingBack(content));
 
         UI_AHall_Controller.instance.SetInputTextColor(Color.white);
 

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6963998228035b74b8adfcaa69bf3c46, type: 3}
+  m_Name: LastYearStudent
+  m_EditorClassIdentifier: 
+  NPCid: 9
+  NPCname: "Ch\u1EC9 m\u1ED9t n\u0103m n\u1EEFa th\xF4i"
+  NPCAva: {fileID: -912827631, guid: e60c6c19b7d375340a116211c1dfe7f7, type: 3}
+  ListDialog:
+  - DialogID: 0
+    SentenceList:
+    - "Ch\xE0o em. Anh l\xE0 Long, sinh vi\xEAn n\u0103m cu\u1ED1i (ch\u1EAFc v\u1EADy)
+      chu\u1EA9n b\u1ECB ra tr\u01B0\u1EDDng. Nghe n\xF3i em l\xE0 t\xE2n sinh vi\xEAn
+      chu\u1EA9n b\u1ECB nh\u1EADp h\u1ECDc."
+    - "\"Ch\u1ECDn UIT - Ch\u1ECDn \u0111\u1EC3 d\u1EABn \u0111\u1EA7u\". C\xE2u
+      n\xE0y anh l\xFAc m\u1EDBi d\xF4 c\u0169ng nghe v\xE0 qua 1 kho\u1EA3ng th\u1EDDi
+      gian th\xEC anh th\u1EA5y n\xF3 kh\xE1 \u0111\xFAng."
+    - "UIT l\xE0 m\u1ED9t ng\xF4i tr\u01B0\u1EDDng hi\u1EC7n \u0111\u1EA1i v\xE0
+      chu\u1EA9n b\u1ECB k\u1EC9 ni\u1EC7m 20 n\u0103m ng\xE0y th\xE0nh l\u1EADp.
+      Ng\xF4i tr\u01B0\u1EDDng n\xE0y kh\xF4ng ch\u1EC9 n\u1ED5i ti\u1EBFng b\u1EDFi
+      s\u1EF1 \u0111\xE0o t\u1EA1o ch\u1EA5t l\u01B0\u1EE3ng m\xE0 c\xF2n \u1EDF
+      n\xE9t v\u0103n h\xF3a v\xE0 \u0111\u1EDDi s\u1ED1ng c\u1EE7a sinh vi\xEAn
+      \u1EDF tr\u01B0\u1EDDng."
+    - "4 t\xF2a c\u1EE7a UIT \u0111\u1EC1u ch\u1EA5t ch\u1EE9a nh\u1EEFng \u0111\u1EB7c
+      \u0111i\u1EC3m m\xE0 ch\u1EC9 khi em tr\u1EA3i nghi\u1EC7m em m\u1EDBi c\u1EA3m
+      th\u1EA5y s\u1EF1 h\xF2a nh\u1EADp v\u1EDBi t\u1EEBng c\u01A1 s\u1EDF v\u1EADt
+      ch\u1EA5t n\u01A1i \u0111\xE2y."
+    - "Sinh vi\xEAn UIT v\xF4 c\xF9ng s\xE1ng t\u1EA1o nh\u01B0ng \u0111\xF4i khi
+      l\u1EA1i g\xE2y r\u1EAFc r\u1ED1i cho tr\u01B0\u1EDDng. M\u1ED9t v\xE0i sinh
+      vi\xEAn trong l\xFAc th\u1EF1c h\xE0nh c\xE1c m\xF4n h\u1ECDc \u0111\xE3 v\xF4
+      t\xECnh l\xE0m h\u01B0 h\u1EA1i \u0111\u1EBFn Server tr\u01B0\u1EDDng t\u1EA1i
+      t\xF2a E."
+    - "Ch\xEDnh v\xEC th\u1EBF, \u0111i\u1EC7n tho\u1EA1i c\u1EE7a em c\xF3 l\u1EBD
+      s\u1EBD kh\xF4ng s\u1EED d\u1EE5ng \u0111\u01B0\u1EE3c cho \u0111\u1EBFn khi
+      em kh\xF4i ph\u1EE5c l\u1EA1i Server \u1EDF \u0111\xF3."
+    - "Th\xF4i sinh vi\xEAn IT n\xF3i \xEDt hi\u1EC3u nhi\u1EC1u, ch\xFAc em may
+      m\u1EAFn v\xE0 t\u1EF1 tr\u1EA3i nghi\u1EC7m con \u0111\u01B0\u1EDDng s\u1EAFp
+      t\u1EDBi nh\xE9."
+    autoProgress: 00000000000000
+  TypingSpeed: 0.02
+  Voice: {fileID: 0}
+  voicePitch: 1
+  autoProgressDelay: 1.5

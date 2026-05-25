@@ -20,6 +20,7 @@ public static class EventSystem
     public static Action HaveReceiveKeyE;
     public static Action<DataCButton> ClickDataCButton;
     public static Action SuccessCChallenge;
+    public static Action SuccessBChanllenge; 
 
     public static void HaveCollectKeyB()
     {

@@ -52,7 +52,7 @@ public class ChoosePlaceStore : MonoBehaviour
         }
     }
 
-    private void HideAllChoosePlace()
+    public void HideAllChoosePlace()
     {
         foreach (ChoosePlace place in choosePlaces)
         {

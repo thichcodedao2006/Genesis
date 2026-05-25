@@ -54,6 +54,7 @@ public class UI_AHall_Controller : MonoBehaviour
     public Button ExitButton;
     public Button DetailButton;
     public Button LockerExit;
+    public Button RestartButton;
 
     [Header("Sprite")]
     public Sprite ComputerOff;
@@ -270,5 +271,9 @@ public class UI_AHall_Controller : MonoBehaviour
         ShowManual(false);
     }
 
+    public void ShowRestartButton(bool state)
+    {
+        RestartButton.gameObject.SetActive(state);
+    }    
     #endregion
 }
